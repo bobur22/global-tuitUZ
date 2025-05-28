@@ -1,0 +1,439 @@
+{% extends 'layouts/base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block body %}
+
+    <main class="main">
+
+        <!-- Hero Section -->
+        <section id="hero" class="hero section dark-background">
+
+            <div class="hero-container">
+                <picture>
+                    <source srcset="{% static 'main/img/tatu/tatu_bino_main_1.webp' %}" type="image/webp">
+                    <img src="{% static 'main/img/tatu/tatu_bino_main_1.jpg' %}" alt="" class="video-background">
+                </picture>
+
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7" data-aos="zoom-out" data-aos-delay="100">
+                            <div class="hero-content">
+                                <h1>{% trans "Shaping ICT Innovators Through Education" %}</h1>
+                                <p>{% trans "TUIT, founded in 1955, offers cutting-edge ICT education with 23 programs, 14,632 students, and partnerships with 26 countries." %}</p>
+                                <div class="cta-buttons">
+                                    <a href="{% url 'admissions' %}" class="btn-primary">{% trans "Start Your Journey" %}</a>
+                                    <a href="{% url 'academics' %}" class="btn-secondary">{% trans "Discover Programs" %}</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5" data-aos="zoom-out" data-aos-delay="200">
+                            <div class="stats-card">
+                                <div class="stats-header">
+                                    <h3>{% trans "Why Choose Us" %}</h3>
+                                    <div class="decoration-line"></div>
+                                </div>
+                                <div class="stats-grid">
+                                    <div class="stat-item">
+                                        <div class="stat-icon">
+                                            <i class="bi bi-trophy-fill"></i>
+                                        </div>
+                                        <div class="stat-content">
+                                            {#                                            <h4>98%</h4>#}
+                                            <p>{% trans "High ICT Employment Success" %}</p>
+                                        </div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-icon">
+                                            <i class="bi bi-globe"></i>
+                                        </div>
+                                        <div class="stat-content">
+                                            <h4>42</h4>
+                                            <p>{% trans "International Partners" %}</p>
+                                        </div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-icon">
+                                            <i class="bi bi-mortarboard"></i>
+                                        </div>
+                                        <div class="stat-content">
+                                            <h4>13:1</h4>
+                                            <p>{% trans "Student-Faculty Ratio" %}</p>
+                                        </div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-icon">
+                                            <i class="bi bi-building"></i>
+                                        </div>
+                                        <div class="stat-content">
+                                            <h4>23</h4>
+                                            <p>{% trans "Degree Directions" %}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="event-ticker">
+                <div class="container">
+                </div>
+            </div>
+
+        </section><!-- /Hero Section -->
+
+        <!-- About Section -->
+        <section id="about" class="about section">
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="row mb-5">
+                    <div class="col-lg-6 pe-lg-5" data-aos="fade-right" data-aos-delay="200">
+                        <h2 class="display-6 fw-bold mb-4">{% blocktrans %}Innovating ICT, <span>Building Global Leaders</span>{% endblocktrans %}</h2>
+                        <p class="lead mb-4">{% trans "Founded in 1955, TUIT leads in ICT education with 10,242 students across 23 programs and 42 partnerships with universities in 26 countries, driving technological  excellence." %}</p>
+                        <div class="d-flex flex-wrap gap-4 mb-4">
+                            <div class="stat-box">
+                            <span class="stat-number"><span data-purecounter-start="0" data-purecounter-end="70"
+                                                            data-purecounter-duration="1"
+                                                            class="purecounter"></span>+</span>
+                                <span class="stat-label">{% trans "Years" %}</span>
+                            </div>
+                            <div class="stat-box">
+                            <span class="stat-number"><span data-purecounter-start="0" data-purecounter-end="14000"
+                                                            data-purecounter-duration="1"
+                                                            class="purecounter"></span>+</span>
+                                <span class="stat-label">{% trans "Students" %}</span>
+                            </div>
+                            <div class="stat-box">
+                            <span class="stat-number"><span data-purecounter-start="0" data-purecounter-end="800"
+                                                            data-purecounter-duration="1"
+                                                            class="purecounter"></span>+</span>
+                                <span class="stat-label">{% trans "Teachers" %}</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+                        <div class="image-stack">
+                            <div class="image-stack-item image-stack-item-top" data-aos="zoom-in" data-aos-delay="400">
+                                <img src="{% static 'main/img/tatu/img12.jpg' %}" alt="Campus Life"
+                                     class="img-fluid rounded-4 shadow-lg">
+                            </div>
+                            <div class="image-stack-item image-stack-item-bottom" data-aos="zoom-in"
+                                 data-aos-delay="500">
+                                <img src="{% static 'main/img/tatu/tatu_graduation.jpg' %}" alt="Students"
+                                     class="img-fluid rounded-4 shadow-lg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mission-vision-row g-4">
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="value-card h-100">
+                            <div class="card-icon">
+                                <i class="bi bi-rocket-takeoff"></i>
+                            </div>
+                            <h3>{% trans "Our Mission" %}</h3>
+                            <p>{% trans "To educate and prepare highly skilled specialists in information and communication technologies, fostering scientific innovation, ethical leadership, and community-driven development in Uzbekistan and the global IT landscape." %}</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="value-card h-100">
+                            <div class="card-icon">
+                                <i class="bi bi-eye"></i>
+                            </div>
+                            <h3>{% trans "Our Vision" %}</h3>
+                            <p>{% trans "To become a regional leader in digital transformation and a global center for excellence in IT education, research, and innovation, shaping the future of information technology across borders." %}</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                        <div class="value-card h-100">
+                            <div class="card-icon">
+                                <i class="bi bi-star"></i>
+                            </div>
+                            <h3>{% trans "Our Values" %}</h3>
+                            <p>{% trans "Update to Excellence in academic pursuit, innovation in technology, integrity in research, and collaboration with 42 international partners to empower students and faculty." %}</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- /About Section -->
+
+        <!-- Recent News Section -->
+        <section id="recent-news" class="recent-news section">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>{% trans "Recent News" %}</h2>
+            </div><!-- End Section Title -->
+
+            <div class="container">
+
+                <div class="row gy-4">
+
+                    <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                        {% for i in newses|slice:":1" %}
+                            <article>
+
+                                <div class="post-img">
+                                    <img src="{{ i.n_news_img.url }}" alt="" class="img-fluid">
+                                </div>
+
+                                <h2 class="title mb-0">
+                                    <a href="{% url 'news_detail' slug=i.slug %}">{{ i.n_header }}</a>
+                                </h2>
+
+                            </article>
+                        {% endfor %}
+                    </div>
+                    <!-- End post list item -->
+
+                    <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                        {% for i in newses|slice:"1:2" %}
+                            <article>
+
+                                <div class="post-img">
+                                    <img src="{{ i.n_news_img.url }}" alt="" class="img-fluid">
+                                </div>
+
+                                <h2 class="title mb-0">
+                                    <a href="{% url 'news_detail' slug=i.slug %}">{{ i.n_header }}</a>
+                                </h2>
+
+                            </article>
+                        {% endfor %}
+                    </div>
+                    <!-- End post list item -->
+
+                    <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        {% for i in newses|slice:"2:3" %}
+                            <article>
+
+                                <div class="post-img">
+                                    <img src="{{ i.n_news_img.url }}" alt="" class="img-fluid">
+                                </div>
+
+                                <h2 class="title  mb-0">
+                                    <a href="{% url 'news_detail' slug=i.slug %}">{{ i.n_header }}</a>
+                                </h2>
+
+                            </article>
+                        {% endfor %}
+                    </div>
+                    <!-- End post list item -->
+
+                </div>
+                <!-- End recent posts list -->
+
+            </div>
+
+        </section>
+        <!-- /Recent News Section -->
+
+        <!-- Stats Section -->
+        <section id="stats" class="stats section">
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="stats-overview" data-aos="fade-right" data-aos-delay="200">
+                            <h2 class="stats-title">{% trans "Excellence in Education for Over 70 Years" %}</h2>
+                            <p class="stats-description">Since 1955, TUIT has been at the forefront of technological
+                                education in Central Asia. Named after the legendary scholar Al-Khwarizmi, our
+                                university blends tradition with innovation to train future leaders in IT,
+                                cybersecurity, and telecommunications. With branches across Uzbekistan and a global
+                                vision, TUIT continues to lead in digital transformation.</p>
+                            <div class="stats-cta">
+                                <a href="{% url 'about' %}" class="btn btn-primary">{% trans "Learn More" %}</a>
+                                <a href="http://360.tuit.uz/" class="btn btn-outline">{% trans "Virtual Tour" %}</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="stats-card" data-aos="zoom-in" data-aos-delay="300">
+                                    <div class="stats-icon">
+                                        <i class="bi bi-people-fill"></i>
+                                    </div>
+                                    <div class="stats-number">
+                                    <span data-purecounter-start="0" data-purecounter-end="95"
+                                          data-purecounter-duration="1" class="purecounter"></span>%
+                                    </div>
+                                    <div class="stats-label">{% trans "Graduation Rate" %}</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="stats-card" data-aos="zoom-in" data-aos-delay="400">
+                                    <div class="stats-icon">
+                                        <i class="bi bi-person-workspace"></i>
+                                    </div>
+                                    <div class="stats-number">
+                                    <span data-purecounter-start="0" data-purecounter-end="13"
+                                          data-purecounter-duration="1" class="purecounter"></span>:1
+                                    </div>
+                                    <div class="stats-label">{% trans "Student-Faculty Ratio" %}</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="stats-card" data-aos="zoom-in" data-aos-delay="500">
+                                    <div class="stats-icon">
+                                        <i class="bi bi-award"></i>
+                                    </div>
+                                    <div class="stats-number">
+                                    <span data-purecounter-start="0" data-purecounter-end="23"
+                                          data-purecounter-duration="1" class="purecounter"></span>+
+                                    </div>
+                                    <div class="stats-label">{% trans "Degree Programs" %}</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="stats-card" data-aos="zoom-in" data-aos-delay="600">
+                                    <div class="stats-icon">
+                                        <i class="bi bi-cash-stack"></i>
+                                    </div>
+                                    <div class="stats-number">$<span data-purecounter-start="0"
+                                                                     data-purecounter-end="1"
+                                                                     data-purecounter-duration="1"
+                                                                     class="purecounter"></span>M
+                                    </div>
+                                    <div class="stats-label">{% trans "Research Funding" %}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-lg-12">
+                        <div class="achievements-gallery" data-aos="fade-up" data-aos-delay="700">
+                            <div class="row g-4">
+                                <div class="col-md-4">
+                                    <div class="achievement-item">
+                                        <img src="{% static 'main/img/tatu/home/topRanking.webp' %}" alt="Achievement"
+                                             class="img-fluid">
+                                        <div class="achievement-content">
+                                            <h4>{% trans "Top-Ranked Programs" %}</h4>
+                                            <p>{% trans "Award-winning programs built for innovation, leadership, and global impact." %}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="achievement-item">
+                                        <img src="{% static 'main/img/tatu/home/stateOfArt.webp' %}" alt="Achievement"
+                                             class="img-fluid">
+                                        <div class="achievement-content">
+                                            <h4>{% trans "State-of-the-Art Facilities" %}</h4>
+                                            <p>{% trans "Modern labs and smart classrooms empower future-ready student learning." %}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="achievement-item">
+                                        <img src="{% static 'main/img/tatu/home/globalAlumni.webp' %}" alt="Achievement"
+                                             class="img-fluid">
+                                        <div class="achievement-content">
+                                            <h4>{% trans "Global Alumni Network" %}</h4>
+                                            <p>{% trans "Worldwide alumni connections offering mentorship, opportunity, and lifelong support." %}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- /Stats Section -->
+
+        <!-- Students Life Block Section -->
+        <section id="students-life-block" class="students-life-block section">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>{% trans "Students Life" %}</h2>
+            </div><!-- End Section Title -->
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="row align-items-center gy-4">
+                    <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+                        <div class="students-life-img position-relative">
+                            <img src="{% static 'main/img/tatu/home/studentGallery.webp' %}"
+                                 class="img-fluid rounded-4 shadow-sm"
+                                 alt="Students Life">
+                            <div class="img-overlay">
+                                <h3>{% trans "Discover Campus Life" %}</h3>
+                                <a href="{% url 'campus' %}" class="explore-btn">{% trans "Explore More" %}<i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+                        <div class="students-life-content">
+
+                            <div class="row g-4 mb-4">
+                                <div class="col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                                    <div class="student-activity-item">
+                                        <div class="icon-box">
+                                            <i class="bi bi-people"></i>
+                                        </div>
+                                        <h4>{% trans "Student Clubs" %}</h4>
+                                        <p>{% trans "Connect, lead, and grow through diverse interest-based student communities." %}</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6" data-aos="zoom-in" data-aos-delay="300">
+                                    <div class="student-activity-item">
+                                        <div class="icon-box">
+                                            <i class="bi bi-trophy"></i>
+                                        </div>
+                                        <h4>{% trans "Sports Events" %}</h4>
+                                        <p>{% trans "Exciting competitions promote teamwork, fitness, and school spirit." %}</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6" data-aos="zoom-in" data-aos-delay="400">
+                                    <div class="student-activity-item">
+                                        <div class="icon-box">
+                                            <i class="bi bi-music-note-beamed"></i>
+                                        </div>
+                                        <h4>{% trans "Arts &amp; Culture" %}</h4>
+                                        <p>{% trans "Celebrate creativity and diversity through music, theater, and expression." %}</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6" data-aos="zoom-in" data-aos-delay="500">
+                                    <div class="student-activity-item">
+                                        <div class="icon-box">
+                                            <i class="bi bi-globe-americas"></i>
+                                        </div>
+                                        <h4>{% trans "Global Experiences" %}</h4>
+                                        <p>{% trans "Explore new cultures with international exchanges, programs, and partnerships." %}</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="students-life-cta text-center" data-aos="fade-up" data-aos-delay="600">
+                                <a href="{% url 'student_life' %}" class="btn btn-primary">{% trans "View All Student Activities" %}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- /Students Life Block Section -->
+
+    </main>
+
+{% endblock body %}

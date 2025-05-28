@@ -1,0 +1,412 @@
+{% extends 'layouts/base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block body %}
+
+    <main class="main">
+
+        <!-- Page Title -->
+        <div class="page-title dark-background"
+             style="background-image: url({% static 'main/img/tatu/tatu_bino_1.jpg' %});">
+            <div class="container position-relative">
+                <h1>{% trans "Campus &amp; Facilities" %}</h1>
+                <nav class="breadcrumbs">
+                    <ol>
+                        <li><a href="{% url 'index' %}">{% trans "Home" %}</a></li>
+                        <li><a href="{% url 'student_life' %}">{% trans "Student Life" %}</a></li>
+                        <li><a href="{% url 'campus' %}" style="color: white!important;">{% trans "Campus Facilities" %}</a></li>
+                    </ol>
+                </nav>
+            </div>
+        </div><!-- End Page Title -->
+
+        <!-- Campus Facilities Section -->
+        <section id="campus-facilities" class="campus-facilities section">
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <!-- Introduction -->
+                <div class="intro-row">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+                            <div class="intro-content">
+                                <h2 class="fw-bold">{% trans "Experience Our Campus" %}</h2>
+                                <p class="lead">{% trans "Discover state-of-the-art facilities designed to inspire learning and growth" %}</p>
+                                <p>{% trans "Explore TUIT – Where Innovation Meets Opportunity!" %}</p>
+                                <div class="stats-container">
+                                    <div class="stat-item">
+                                        <span class="stat-number">16+</span>
+                                        <span class="stat-label">{% trans "Acres" %}</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-number">11+</span>
+                                        <span class="stat-label">{% trans "Buildings" %}</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-number">14k+</span>
+                                        <span class="stat-label">{% trans "Students" %}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+                            <div class="intro-image-container">
+                                <div class="intro-image main-image">
+                                    <img src="{% static 'main/img/tatu/studentLife/tatu_campus1.webp' %}"
+                                         alt="Main Campus"
+                                         class="img-fluid rounded">
+                                </div>
+                                <div class="intro-image accent-image">
+                                    <img src="{% static 'main/img/tatu/studentLife/tatu_campus2.webp' %}"
+                                         alt="Campus Feature"
+                                         class="img-fluid rounded">
+                                </div>
+                                <div class="tour-button">
+                                    <a href="http://360.tuit.uz/" class="btn-tour"><i
+                                            class="bi bi-play-circle-fill"></i>{% trans "Virtual Tour" %}</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Facilities Tabs -->
+                <div class="facilities-tabs" data-aos="fade-up" data-aos-delay="200">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="academic-tab" data-bs-toggle="tab"
+                                    data-bs-target="#campus-facilities-academic" type="button" role="tab">
+                                <i class="bi bi-book"></i> {% trans "Academic" %}
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="athletic-tab" data-bs-toggle="tab"
+                                    data-bs-target="#campus-facilities-athletic" type="button" role="tab">
+                                <i class="bi bi-trophy"></i> {% trans "Athletic" %}
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="residential-tab" data-bs-toggle="tab"
+                                    data-bs-target="#campus-facilities-residential" type="button" role="tab">
+                                <i class="bi bi-house-door"></i> {% trans "Residential" %}
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="community-tab" data-bs-toggle="tab"
+                                    data-bs-target="#campus-facilities-community" type="button" role="tab">
+                                <i class="bi bi-people"></i> {% trans "Community" %}
+                            </button>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <!-- Academic Facilities Tab -->
+                        <div class="tab-pane fade show active" id="campus-facilities-academic" role="tabpanel">
+                            <div class="row gy-4">
+                                <div class="col-md-7" data-aos="fade-right" data-aos-delay="100">
+                                    <div class="facility-highlight">
+                                        <div class="facility-slider">
+                                            <div class="facility-slide">
+                                                <img src="{% static 'main/img/tatu/studentLife/campusFacilities/research.JPG' %}"
+                                                     alt="Library"
+                                                     class="img-fluid rounded">
+                                                <div class="slide-caption">{% trans "Class Room" %}</div>
+                                            </div>
+                                        </div>
+                                        <div class="facility-description">
+                                            <h3>{% trans "World-Class Learning Spaces" %}</h3>
+                                            <p>{% trans "TUIT stands at the forefront of technological education, offering state-of-the-art facilities that foster academic excellence and research innovation..." %}</p>
+                                            <ul class="feature-list">
+                                                <li><i class="bi bi-check-circle-fill"></i> {% trans "Modern classrooms with smart technology" %}
+                                                </li>
+                                                <li><i class="bi bi-check-circle-fill"></i> {% trans "Specialized research laboratories" %}
+                                                </li>
+                                                <li><i class="bi bi-check-circle-fill"></i> {% trans "Collaborative study spaces" %}
+                                                </li>
+                                                <li><i class="bi bi-check-circle-fill"></i> {% trans "Advanced technology centers" %}
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-5" data-aos="fade-left" data-aos-delay="200">
+                                    <div class="facility-cards">
+                                        <div class="facility-card">
+                                            <div class="icon-container">
+                                                <i class="bi bi-laptop"></i>
+                                            </div>
+                                            <h4>{% trans "Technology Labs" %}</h4>
+                                            <p>{% trans "Through international collaborations, TUIT has developed 16 educational laboratories and 9 computer classrooms. Notable centers include the Uzbek-Indian Center of Information Technologies and the Uzbek-Korean Center for Information Technologies, enhancing practical learning experiences." %}</p>
+                                            <span class="info-badge"><i class="bi bi-info-circle"></i>{% trans " 16 Labs" %}</span>
+                                        </div>
+
+                                        <div class="facility-card">
+                                            <div class="icon-container">
+                                                <i class="bi bi-flask"></i>
+                                            </div>
+                                            <h4>{% trans "Research Centers" %}</h4>
+                                            <p>{% trans "The TUIT Incubation Center, established in 2022, supports students in developing innovative startup projects, particularly in software development, robotics, and design. Additionally, the Center for Scientific Research and Technology Transfer facilitates advanced research initiatives." %}</p>
+                                            <span class="info-badge"><i
+                                                    class="bi bi-info-circle"></i>{% trans "Facilities" %}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Athletic Facilities Tab -->
+                        <div class="tab-pane fade" id="campus-facilities-athletic" role="tabpanel">
+                            <div class="row gy-4">
+                                <div class="col-md-7" data-aos="fade-right" data-aos-delay="100">
+                                    <div class="facility-highlight">
+                                        <div class="facility-slider">
+                                            <div class="facility-slide">
+                                                <img src="{% static 'main/img/tatu/studentLife/campusFacilities/sport.png' %}"
+                                                     alt="Athletic Center"
+                                                     class="img-fluid rounded">
+                                                <div class="slide-caption">{% trans "Sports Complex" %}</div>
+                                            </div>
+                                        </div>
+                                        <div class="facility-description">
+                                            <h3>{% trans "State-of-the-Art Athletic Facilities" %}</h3>
+                                            <p>{% trans "TUIT offers a dynamic and modern sports infrastructure designed to promote student wellness and athletic excellence. Whether you're a professional athlete or just keeping fit, our facilities support all your needs." %}</p>
+                                            <ul class="feature-list">
+                                                <li><i class="bi bi-check-circle-fill"></i> {% trans "Olympic-sized football grounds" %}
+                                                </li>
+                                                <li><i class="bi bi-check-circle-fill"></i> {% trans "Multi-purpose sports courts" %}
+                                                </li>
+                                                <li><i class="bi bi-check-circle-fill"></i> {% trans "Professional running track" %}
+                                                </li>
+                                                <li><i class="bi bi-check-circle-fill"></i> {% trans "Fitness and training centers" %}
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-5" data-aos="fade-left" data-aos-delay="200">
+                                    <div class="facility-cards">
+                                        <div class="facility-card">
+                                            <div class="icon-container">
+                                                <i class="bi bi-water"></i>
+                                            </div>
+                                            <h4>{% trans "Football Grounds" %}</h4>
+                                            <p>{% trans "TUIT features a newly renovated football field that meets international standards, enabling students to train and participate in university-level championships and tournaments." %}</p>
+                                            <span class="info-badge"><i class="bi bi-info-circle"></i> {% trans "Olympic Standard" %}</span>
+                                        </div>
+
+                                        <div class="facility-card">
+                                            <div class="icon-container">
+                                                <i class="bi bi-stopwatch"></i>
+                                            </div>
+                                            <h4>{% trans "Training Facilities" %}</h4>
+                                            <p>{% trans "Our indoor training halls are equipped with advanced fitness gear and conditioning tools, supporting students' physical education and team sports training programs." %}</p>
+                                            <span class="info-badge"><i
+                                                    class="bi bi-info-circle"></i> {% trans "Pro Equipment" %}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Residential Facilities Tab -->
+                        <div class="tab-pane fade" id="campus-facilities-residential" role="tabpanel">
+                            <div class="row gy-4">
+                                <div class="col-md-7" data-aos="fade-right" data-aos-delay="100">
+                                    <div class="facility-highlight">
+                                        <div class="facility-slider">
+                                            <div class="facility-slide">
+                                                <img src="{% static 'main/img/tatu/studentLife/campus/2025-05-27 19.53.32.jpg' %}"
+                                                     alt="Residence Hall"
+                                                     class="img-fluid rounded">
+                                                <div class="slide-caption">{% trans "Residence Halls" %}</div>
+                                            </div>
+                                        </div>
+                                        <div class="facility-description">
+                                            <h3>{% trans "Comfortable Living Environments" %}</h3>
+                                            <p>{% trans "Our campus housing offers students a perfect blend of comfort, convenience, and community. Whether you prefer quiet study spaces or lively common areas, our residence halls are designed to support your lifestyle. With fully furnished rooms, modern amenities, and a welcoming atmosphere, you’ll feel right at home from day one." %}</p>
+                                            <ul class="feature-list">
+                                                <li><i class="bi bi-check-circle-fill"></i> {% trans "Modern residence halls" %}</li>
+                                                <li><i class="bi bi-check-circle-fill"></i> {% trans "Suite-style accommodations" %}
+                                                </li>
+                                                <li><i class="bi bi-check-circle-fill"></i> {% trans "Community lounges and kitchens" %}
+                                                </li>
+                                                <li><i class="bi bi-check-circle-fill"></i> {% trans "24/7 security and support" %}
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-5" data-aos="fade-left" data-aos-delay="200">
+                                    <div class="facility-cards">
+                                        <div class="facility-card">
+                                            <div class="icon-container">
+                                                <i class="bi bi-cup-hot"></i>
+                                            </div>
+                                            <h4>{% trans "Dining Facilities" %}</h4>
+                                            <p>{% trans "Enjoy access to a variety of dining options across campus, catering to diverse tastes and dietary needs. Conveniently located and designed with student well-being in mind." %}</p>
+                                            <span class="info-badge"><i
+                                                    class="bi bi-info-circle"></i> {% trans "5 Locations" %}</span>
+                                        </div>
+
+                                        <div class="facility-card">
+                                            <div class="icon-container">
+                                                <i class="bi bi-shield-check"></i>
+                                            </div>
+                                            <h4>{% trans "Security Services" %}</h4>
+                                            <p>{% trans "Our campus is protected around the clock with professional security staff, surveillance systems, and rapid response protocols to ensure a safe living and learning environment." %}</p>
+                                            <span class="info-badge"><i
+                                                    class="bi bi-info-circle"></i> {% trans "24/7 Support" %}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Community Facilities Tab -->
+                        <div class="tab-pane fade" id="campus-facilities-community" role="tabpanel">
+                            <div class="row gy-4">
+                                <div class="col-md-7" data-aos="fade-right" data-aos-delay="100">
+                                    <div class="facility-highlight">
+                                        <div class="facility-slider">
+                                            <div class="facility-slide">
+                                                <img src="{% static 'main/img/tatu/tatu_people.jpg' %}"
+                                                     alt="Student Center"
+                                                     class="img-fluid rounded">
+                                                <div class="slide-caption">{% trans "Main Building" %}</div>
+                                            </div>
+                                        </div>
+                                        <div class="facility-description">
+                                            <h3>{% trans "Explore the TUIT Campus" %}</h3>
+                                            <p>{% trans "At TUIT University, campus life goes beyond the classroom. Our campus is designed to inspire innovation, collaboration, and a vibrant student experience. From quiet study areas to lively event spaces, you'll find everything you need to thrive." %}</p>
+                                            <ul class="feature-list">
+                                                <li><i class="bi bi-check-circle-fill"></i> {% trans "Student Life & Community Spaces" %}</li>
+                                                <li><i class="bi bi-check-circle-fill"></i> {% trans "Student Activity Center" %}
+                                                </li>
+                                                <li><i class="bi bi-check-circle-fill"></i> {% trans "Green spaces and gardens" %}
+                                                </li>
+                                                <li><i class="bi bi-check-circle-fill"></i> {% trans "Meeting and event venues" %}
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-5" data-aos="fade-left" data-aos-delay="200">
+                                    <div class="facility-cards">
+                                        <div class="facility-card">
+                                            <div class="icon-container">
+                                                <i class="bi bi-music-note-beamed"></i>
+                                            </div>
+                                            <h4>{% trans "Performance Spaces" %}</h4>
+                                            <p>{% trans "Enjoy a range of cultural and creative events at our state-of-the-art performance venues. From student concerts to theater productions, these spaces showcase talent and build community." %}</p>
+                                        </div>
+
+                                        <div class="facility-card">
+                                            <div class="icon-container">
+                                                <i class="bi bi-shop"></i>
+                                            </div>
+                                            <h4>{% trans "Campus Stores" %}</h4>
+                                            <p>{% trans "Find everything you need right on campus—from textbooks and school supplies to snacks, tech accessories, and university merchandise. Convenient locations to keep your day running smoothly." %}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Campus Gallery -->
+                <div class="campus-gallery-section" data-aos="fade-up" data-aos-delay="300">
+
+                    <div class="gallery-grid">
+                        <div class="gallery-item large" data-aos="zoom-in" data-aos-delay="100">
+                            <img src="{% static 'main/img/education/campus-3.webp' %}" alt="Library" class="img-fluid"
+                                 loading="lazy">
+                            <div class="gallery-overlay">
+                                <h4>{% trans "Central Library" %}</h4>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                            <img src="{% static 'main/img/education/campus-8.webp' %}" alt="Student Center"
+                                 class="img-fluid"
+                                 loading="lazy">
+                            <div class="gallery-overlay">
+                                <h4>{% trans "Student Center" %}</h4>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+                            <img src="{% static 'main/img/education/campus-9.webp' %}" alt="Dormitory" class="img-fluid"
+                                 loading="lazy">
+                            <div class="gallery-overlay">
+                                <h4>{% trans "Dormitories" %}</h4>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+                            <img src="{% static 'main/img/education/campus-10.webp' %}" alt="Study Areas"
+                                 class="img-fluid"
+                                 loading="lazy">
+                            <div class="gallery-overlay">
+                                <h4>{% trans "Study Areas" %}</h4>
+                            </div>
+                        </div>
+                        <div class="gallery-item" data-aos="zoom-in" data-aos-delay="500">
+                            <img src="{% static 'main/img/education/campus-5.webp' %}" alt="Sports Complex"
+                                 class="img-fluid"
+                                 loading="lazy">
+                            <div class="gallery-overlay">
+                                <h4>{% trans "Sports Complex" %}</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Campus Map -->
+                <div class="campus-map-section" data-aos="fade-up" data-aos-delay="200">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5" data-aos="fade-right" data-aos-delay="100">
+                            <div class="map-info">
+                                <h2>{% trans "Campus Map" %}</h2>
+                                <p>{% trans "Navigate our expansive campus with ease using our interactive map. Locate buildings, facilities, and services to find your way around." %}</p>
+                                <div class="map-legend">
+                                    <div class="legend-item">
+                                        <span class="marker academic"></span>
+                                        <span>{% trans "Academic Buildings" %}</span>
+                                    </div>
+                                    <div class="legend-item">
+                                        <span class="marker residential"></span>
+                                        <span>{% trans "Residence Halls" %}</span>
+                                    </div>
+                                    <div class="legend-item">
+                                        <span class="marker athletic"></span>
+                                        <span>{% trans "Athletic Facilities" %}</span>
+                                    </div>
+                                    <div class="legend-item">
+                                        <span class="marker dining"></span>
+                                        <span>{% trans "Dining Facilities" %}</span>
+                                    </div>
+                                    <div class="legend-item">
+                                        <span class="marker parking"></span>
+                                        <span>{% trans "Parking Areas" %}</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn-map"><i class="bi bi-download"></i> {% trans "Download PDF Map" %}</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-7" data-aos="fade-left" data-aos-delay="200">
+                            <div class="map-container">
+                                <div class="ratio ratio-16x9">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.5255074266593!2d69.2841541763383!3d41.34093017130588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b534175ed31%3A0x52a8f9d9414a2ad8!2sTashkent%20University%20of%20Information%20Technologies!5e0!3m2!1sen!2s!4v1747665249371!5m2!1sen!2s"
+                                            allowfullscreen="" loading="lazy"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section><!-- /Campus Facilities Section -->
+
+    </main>
+
+{% endblock body %}

@@ -1,0 +1,149 @@
+{% extends 'layouts/base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block body %}
+
+    <main class="main">
+
+        <!-- Page Title -->
+        <div class="page-title dark-background"
+             style="background-image: url({% static 'main/img/tatu/tatu_bino_1.jpg' %});">
+            <div class="container position-relative">
+                <h1>{% trans "About" %}</h1>
+                <nav class="breadcrumbs">
+                    <ol>
+                        <li><a href="{% url 'index' %}">{% trans "Home" %}</a></li>
+                        <li class="current"><a href="{% url 'about' %}" style="color: white!important;">{% trans "About" %}</a></li>
+                    </ol>
+                </nav>
+            </div>
+        </div><!-- End Page Title -->
+
+        <!-- History Section -->
+        <section id="history" class="history section">
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6">
+                        <div class="about-content" data-aos="fade-up" data-aos-delay="200">
+                            <h3>{% trans "Our Story" %}</h3>
+                            <h2>{% trans "Educating Minds, Inspiring Hearts" %}</h2>
+                            <p>
+                                {% trans "Founded in 1955, the Tashkent University of Information Technologies (TUIT) has evolved from a regional communication institute into Uzbekistan’s leading hub for IT education and research. With a strong focus on innovation, global cooperation, and academic excellence, TUIT empowers students to drive digital transformation across Central Asia and beyond." %}
+                            </p>
+
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <h4>1955</h4>
+                                        <p>{% trans "Tashkent Electrotechnical Institute of Communications (TEIC)." %}</p>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <h4>1978</h4>
+                                        <p>{% trans "Correspondence faculty base stations of TEIC were opened in Frunze (now Bishkek), in Dushanbe, Almaty and the cities of Fergana." %}</p>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <h4>1994</h4>
+                                        <p>{% trans "Formation of the Institute under the Central Asian Telecommunications Training Centre in order to train engineers and technical staff for networks in Central Asian Republics, Mongolia, India and Pakistan." %}</p>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <h4>2002</h4>
+                                        <p>{% trans "TEIC was renamed into Tashkent University of Information Technologies (TUIT) according to the Decree of the President of the Republic of Uzbekistan 2005 - Regional branches of TUIT were opened in Karshi, Nukus, Samarkand, Urgench and Fergana cities." %}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="about-image" data-aos="zoom-in" data-aos-delay="300">
+                            <img src="{% static 'main/img/tatu/img12.jpg' %}" alt="Campus" class="img-fluid rounded">
+
+                            <div class="mission-vision" data-aos="fade-up" data-aos-delay="400">
+                                <div class="mission">
+                                    <h3>{% trans "Our Mission" %}</h3>
+                                    <p>{% trans "To educate and prepare highly skilled specialists in information and communication technologies, fostering scientific innovation, ethical leadership, and community-driven development in Uzbekistan and the global IT landscape." %}</p>
+                                </div>
+
+                                <div class="vision">
+                                    <h3>{% trans "Our Vision" %}</h3>
+                                    <p>{% trans "To become a regional leader in digital transformation and a global center for excellence in IT education, research, and innovation, shaping the future of information technology across borders." %}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-lg-12">
+                        <div class="core-values" data-aos="fade-up" data-aos-delay="500">
+                            <h3 class="text-center mb-4">{% trans "Core Values" %}</h3>
+                            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                                <div class="col">
+                                    <div class="value-card">
+                                        <div class="value-icon">
+                                            <i class="bi bi-book"></i>
+                                        </div>
+                                        <h4>{% trans "Academic Excellence" %}</h4>
+                                        <p>{% trans "We uphold the highest standards of teaching and research, empowering students and faculty to reach their full intellectual and professional potential." %}</p>
+                                    </div>
+                                </div>
+
+                                <div class="col">
+                                    <div class="value-card">
+                                        <div class="value-icon">
+                                            <i class="bi bi-people"></i>
+                                        </div>
+                                        <h4>{% trans "Community Engagement" %}</h4>
+                                        <p>{% trans "We actively collaborate with local and international partners to address real-world challenges and foster inclusive development." %}</p>
+                                    </div>
+                                </div>
+
+                                <div class="col">
+                                    <div class="value-card">
+                                        <div class="value-icon">
+                                            <i class="bi bi-lightbulb"></i>
+                                        </div>
+                                        <h4>{% trans "Innovation" %}</h4>
+                                        <p>{% trans "We champion forward-thinking solutions through advanced research, cutting-edge technology, and a strong entrepreneurial spirit." %}</p>
+                                    </div>
+                                </div>
+
+                                <div class="col">
+                                    <div class="value-card">
+                                        <div class="value-icon">
+                                            <i class="bi bi-globe"></i>
+                                        </div>
+                                        <h4>{% trans "Global Perspective" %}</h4>
+                                        <p>{% trans "With partnerships in over 26 countries, we prepare students to thrive in an interconnected world and lead global digital initiatives." %}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- /History Section -->
+
+
+    </main>
+
+{% endblock body %}

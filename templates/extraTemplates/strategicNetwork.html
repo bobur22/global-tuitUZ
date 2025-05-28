@@ -1,0 +1,51 @@
+{% extends 'layouts/base.html' %}
+{% load static %}
+
+{% block body %}
+
+    <main class="main">
+
+        <!-- Page Title -->
+        <div class="page-title dark-background"
+             style="background-image: url({% static 'main/img/tatu/tatu_bino_1.jpg' %});">
+            <div class="container position-relative">
+                <h1>Strategic Networks and Programs</h1>
+                <nav class="breadcrumbs">
+                    <ol>
+                        <li><a href="{% url 'index' %}">Home</a></li>
+                        <li><a href="{% url 'about' %}">About</a></li>
+                        <li><a href="{% url 'starter_page' %}" style="color: white">Strategic Networks and Programs</a>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div><!-- End Page Title -->
+
+        <!-- Starter Section -->
+        <section id="starter-section" class="starter-section section">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Strategic Networks and Programs</h2>
+            </div>
+            <!-- End Section Title -->
+
+            <div class="container" data-aos="fade-up">
+
+                <div class="">
+                    <object data="{% static 'main/img/tatu/tatu_bino_main_1.jpg' %}" type="application/pdf"
+                            width="100%" height="800px">
+                        PDF formatini ko‘rsatib bo‘lmadi.
+                        <a href="">Buning o‘rniga yuklab oling.</a></p>
+                    </object>
+                </div>
+
+
+            </div>
+
+        </section>
+        <!-- /Starter Section -->
+
+    </main>
+
+{% endblock body %}

@@ -1,0 +1,2030 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-28 06:17+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+
+msgid "Russian"
+msgstr "Русский"
+
+#: gt_backend/models.py:11
+msgid "news header"
+msgstr "Заголовок новости"
+
+#: gt_backend/models.py:12
+msgid "Please enter the header of the news !"
+msgstr "Пожалуйста, введите заголовок новости!"
+
+#: gt_backend/models.py:13
+msgid "news paragraph"
+msgstr "Параграф новости"
+
+#: gt_backend/models.py:13
+msgid "Please enter the paragraph of the news !"
+msgstr "Пожалуйста, введите текст новости!"
+
+#: gt_backend/models.py:14
+msgid "news date"
+msgstr "Дата новости"
+
+#: gt_backend/models.py:15
+msgid "Please enter the date of the news !."
+msgstr "Пожалуйста, введите дату новости!"
+
+#: gt_backend/models.py:17
+msgid "news view counter"
+msgstr "Счетчик просмотров новости"
+
+#: gt_backend/models.py:17
+msgid "This is newses view counter don't change it!"
+msgstr "Это счетчик просмотров новостей, не изменяйте его!"
+
+#: gt_backend/models.py:18
+msgid "news image"
+msgstr "Изображение новости"
+
+#: gt_backend/models.py:19 gt_backend/models.py:60
+msgid "Please upload your image !"
+msgstr "Пожалуйста, загрузите ваше изображение!"
+
+#: gt_backend/models.py:32 gt_backend/models.py:33
+#: templates/layouts/footer.html:39 templates/layouts/navbar.html:53
+#: templates/news.html:17
+msgid "News"
+msgstr "Новости"
+
+#: gt_backend/models.py:38
+msgid "full name"
+msgstr "Полное имя"
+
+#: gt_backend/models.py:39
+msgid "Please, fill your full name."
+msgstr "Пожалуйста, укажите ваше полное имя."
+
+#: gt_backend/models.py:40
+msgid "email"
+msgstr "Электронная почта"
+
+#: gt_backend/models.py:41
+msgid "Please, fill your email."
+msgstr "Пожалуйста, укажите вашу электронную почту."
+
+#: gt_backend/models.py:42
+msgid "subject"
+msgstr "Тема"
+
+#: gt_backend/models.py:43
+msgid "Please, fill the subject."
+msgstr "Пожалуйста, укажите тему."
+
+#: gt_backend/models.py:44
+msgid "message"
+msgstr "Сообщение"
+
+#: gt_backend/models.py:45
+msgid "Please, fill the message."
+msgstr "Пожалуйста, напишите сообщение."
+
+#: gt_backend/models.py:53 templates/contact.html:13 templates/contact.html:17
+#: templates/layouts/navbar.html:66
+msgid "Contact"
+msgstr "Контакты"
+
+#: gt_backend/models.py:54
+msgid "Contacts"
+msgstr "Контакты"
+
+#: gt_backend/models.py:59
+msgid "infrostructure image"
+msgstr "Изображение инфраструктуры"
+
+#: gt_backend/models.py:61
+msgid "infrostructure header"
+msgstr "Заголовок инфраструктуры"
+
+#: gt_backend/models.py:62
+msgid "Please, enter the header."
+msgstr "Пожалуйста, введите заголовок."
+
+#: gt_backend/models.py:63
+msgid "infrostructure paragraph"
+msgstr "Параграф инфраструктуры"
+
+#: gt_backend/models.py:64
+msgid "Please, enter the paragraph."
+msgstr "Пожалуйста, введите текст."
+
+#: gt_backend/models.py:72
+msgid "Infrastructure"
+msgstr "Инфраструктура"
+
+#: gt_backend/models.py:73
+msgid "Infrastructures"
+msgstr "Инфраструктуры"
+
+#: gt_backend/models.py:78
+msgid "nation"
+msgstr "Страна"
+
+#: gt_backend/models.py:79
+msgid "Please enter the nation of the university."
+msgstr "Пожалуйста, укажите страну университета."
+
+#: gt_backend/models.py:80
+msgid "university name"
+msgstr "Название университета"
+
+#: gt_backend/models.py:80
+msgid "Please enter the name of the university."
+msgstr "Пожалуйста, укажите название университета."
+
+#: gt_backend/models.py:81
+msgid "university link"
+msgstr "Ссылка на университет"
+
+#: gt_backend/models.py:81
+msgid "Please enter the link of the university."
+msgstr "Пожалуйста, укажите ссылку на университет."
+
+#: gt_backend/models.py:82
+msgid "university date"
+msgstr "Дата сотрудничества"
+
+#: gt_backend/models.py:82
+msgid "Please enter the date of the university."
+msgstr "Пожалуйста, укажите дату сотрудничества с университетом."
+
+#: gt_backend/models.py:90
+msgid "Partner University"
+msgstr "Партнерский университет"
+
+#: gt_backend/models.py:91
+msgid "Partner Universities"
+msgstr "Партнерские университеты"
+
+#: gt_backend/models.py:96
+msgid "Telegram ID"
+msgstr "Идентификатор Telegram"
+
+#: gt_backend/models.py:96
+msgid "Please enter the Telegram ID."
+msgstr "Пожалуйста, укажите идентификатор Telegram."
+
+#: gt_backend/models.py:97
+msgid "Telegram Bot"
+msgstr "Telegram-бот"
+
+#: gt_backend/models.py:97
+msgid "Please enter the Telegram Bot token."
+msgstr "Пожалуйста, укажите токен Telegram-бота."
+
+#: gt_backend/models.py:103 gt_backend/models.py:104
+msgid "TelegramData"
+msgstr "Данные Telegram"
+
+#: gt_backend/models.py:109
+msgid "semester name"
+msgstr "Название семестра"
+
+#: gt_backend/models.py:110
+msgid "Please enter the semester name."
+msgstr "Пожалуйста, укажите название семестра."
+
+#: gt_backend/models.py:111
+msgid "semester date"
+msgstr "Дата семестра"
+
+#: gt_backend/models.py:112
+msgid "Please enter the semester date."
+msgstr "Пожалуйста, укажите дату семестра."
+
+#: gt_backend/models.py:120
+msgid "Admission Deadline"
+msgstr "Срок подачи заявлений"
+
+#: gt_backend/models.py:121
+msgid "Admission Deadlines"
+msgstr "Сроки подачи заявлений"
+
+#: gt_backend/models.py:128
+msgid "Doctoral"
+msgstr "Докторантура"
+
+#: gt_backend/models.py:129
+msgid "Undergraduate"
+msgstr "Бакалавриат"
+
+#: gt_backend/models.py:130
+msgid "Graduate"
+msgstr "Магистратура"
+
+#: gt_backend/models.py:131
+msgid "Program"
+msgstr "Программа"
+
+#: gt_backend/models.py:132 gt_backend/models.py:145
+msgid "Certification"
+msgstr "Сертификация"
+
+#: gt_backend/models.py:135
+msgid "doctoral"
+msgstr "докторантура"
+
+#: gt_backend/models.py:136
+msgid "undergraduate"
+msgstr "бакалавриат"
+
+#: gt_backend/models.py:137
+msgid "graduate"
+msgstr "магистратура"
+
+#: gt_backend/models.py:138
+msgid "program"
+msgstr "программа"
+
+#: gt_backend/models.py:139
+msgid "certification"
+msgstr "сертификация"
+
+#: gt_backend/models.py:141
+msgid "Type of Study"
+msgstr "Тип обучения"
+
+#: gt_backend/models.py:141
+msgid "Please choose the type of study."
+msgstr "Пожалуйста, выберите тип обучения."
+
+#: gt_backend/models.py:142
+msgid "Education Name"
+msgstr "Название образовательной программы"
+
+#: gt_backend/models.py:142
+msgid "Please enter the name of the education."
+msgstr "Пожалуйста, укажите название образовательной программы."
+
+#: gt_backend/models.py:143
+msgid "Education Detail"
+msgstr "Подробности образовательной программы"
+
+#: gt_backend/models.py:143
+msgid "Please enter the detail of the education."
+msgstr "Пожалуйста, укажите подробности образовательной программы."
+
+#: gt_backend/models.py:144
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1868
+msgid "Duration"
+msgstr "Продолжительность"
+
+#: gt_backend/models.py:144
+msgid "Please enter the duration of the education."
+msgstr "Пожалуйста, укажите продолжительность обучения."
+
+#: gt_backend/models.py:145
+msgid "Please enter the certification of the education."
+msgstr "Пожалуйста, укажите сертификацию образовательной программы."
+
+#: gt_backend/models.py:146
+msgid "Start of Period"
+msgstr "Начало периода"
+
+#: gt_backend/models.py:146
+msgid "Please enter the start period of the education."
+msgstr "Пожалуйста, укажите начало периода обучения."
+
+#: gt_backend/models.py:147
+msgid "Academic Program's file"
+msgstr "Файл академической программы"
+
+#: gt_backend/models.py:147
+msgid "Please enter the link of the academic program."
+msgstr "Пожалуйста, укажите ссылку на академическую программу."
+
+#: gt_backend/models.py:149
+msgid "icon bi"
+msgstr "Иконка bi"
+
+#: gt_backend/models.py:149
+msgid "Please choose the type of icon bi bi"
+msgstr "Пожалуйста, выберите тип иконки bi bi."
+
+#: gt_backend/models.py:150
+msgid "Color Type"
+msgstr "Тип цвета"
+
+#: gt_backend/models.py:150
+msgid "Please choose the type of color."
+msgstr "Пожалуйста, выберите тип цвета."
+
+#: gt_backend/models.py:159
+msgid "Academic Program"
+msgstr "Академическая программа"
+
+#: gt_backend/models.py:160
+msgid "Academic Programs"
+msgstr "Академические программы"
+
+#: gt_backend/validators.py:13
+msgid "Enter a valid full name.(without numbers)"
+msgstr "Введите корректное полное имя (без цифр)."
+
+#: gt_backend/validators.py:15
+msgid "Enter a valid full name that contains first name and last name"
+msgstr "Введите корректное полное имя, содержащее имя и фамилию."
+
+#: templates/404/404.html:14
+msgid "Not Found"
+msgstr "Не найдено"
+
+#: templates/404/404.html:17 templates/about/about.html:16
+#: templates/about/admissions.html:16
+#: templates/about/international_office.html:16
+#: templates/about/partnersCountry.html:16 templates/alumni.html:16
+#: templates/contact.html:16 templates/layouts/footer.html:37
+#: templates/news-details.html:16 templates/news.html:16
+#: templates/studentLife/academics.html:16
+#: templates/studentLife/campus-facilities.html:16
+#: templates/studentLife/students-life.html:16
+msgid "Home"
+msgstr "Главная"
+
+#: templates/404/404.html:43
+msgid "Error"
+msgstr "Ошибка"
+
+#: templates/404/404.html:44
+msgid "404"
+msgstr "404"
+
+#: templates/404/404.html:46
+msgid "Page Not Found"
+msgstr "Страница не найдена"
+
+#: templates/404/404.html:48
+msgid ""
+"The page you are looking for might have been removed, had its name changed, "
+"or is temporarily unavailable."
+msgstr "Страница, которую вы ищете, могла быть удалена, переименована или временно недоступна."
+
+#: templates/404/404.html:53
+msgid "Back to Home"
+msgstr "Вернуться на главную"
+
+#: templates/404/404.html:56
+msgid "Help Center"
+msgstr "Центр помощи"
+
+#: templates/404/404.html:61
+msgid "You might want to:"
+msgstr "Вы можете:"
+
+#: templates/404/404.html:64
+msgid "Check our sitemap"
+msgstr "Проверить карту сайта"
+
+#: templates/404/404.html:68
+msgid "Contact support"
+msgstr "Связаться с поддержкой"
+
+#: templates/404/404.html:71
+msgid "Return to previous page"
+msgstr "Вернуться на предыдущую страницу"
+
+#: templates/about/about.html:13 templates/about/about.html:17
+#: templates/about/admissions.html:17
+#: templates/about/international_office.html:17
+#: templates/about/partnersCountry.html:17 templates/layouts/footer.html:46
+#: templates/layouts/navbar.html:24
+msgid "About"
+msgstr "О нас"
+
+#: templates/about/about.html:31
+msgid "Our Story"
+msgstr "Наша история"
+
+#: templates/about/about.html:32
+msgid "Educating Minds, Inspiring Hearts"
+msgstr "Образование умов, вдохновение сердец"
+
+#: templates/about/about.html:34
+msgid ""
+"Founded in 1955, the Tashkent University of Information Technologies (TUIT) "
+"has evolved from a regional communication institute into Uzbekistan’s "
+"leading hub for IT education and research. With a strong focus on "
+"innovation, global cooperation, and academic excellence, TUIT empowers "
+"students to drive digital transformation across Central Asia and beyond."
+msgstr ""
+"Основанный в 1955 году, Ташкентский университет информационных технологий (ТУИТ) "
+"превратился из регионального института связи в ведущий центр Узбекистана по "
+"образованию и исследованиям в области ИТ. С акцентом на инновации, глобальное "
+"сотрудничество и академическое превосходство, ТУИТ дает студентам возможность "
+"руководить цифровой трансформацией в Центральной Азии и за ее пределами."
+
+#: templates/about/about.html:42
+msgid "Tashkent Electrotechnical Institute of Communications (TEIC)."
+msgstr "Ташкентский электротехнический институт связи (ТЭИС)."
+
+#: templates/about/about.html:50
+msgid ""
+"Correspondence faculty base stations of TEIC were opened in Frunze (now "
+"Bishkek), in Dushanbe, Almaty and the cities of Fergana."
+msgstr ""
+"Филиалы заочного факультета ТЭИС были открыты в Фрунзе (ныне Бишкек), Душанбе, "
+"Алматы и городах Ферганы."
+
+#: templates/about/about.html:58
+msgid ""
+"Formation of the Institute under the Central Asian Telecommunications "
+"Training Centre in order to train engineers and technical staff for networks "
+"in Central Asian Republics, Mongolia, India and Pakistan."
+msgstr ""
+"Создание института под эгидой Центральноазиатского учебного центра телекоммуникаций "
+"для подготовки инженеров и технического персонала для сетей в республиках Центральной Азии, "
+"Монголии, Индии и Пакистана."
+
+#: templates/about/about.html:66
+msgid ""
+"TEIC was renamed into Tashkent University of Information Technologies (TUIT) "
+"according to the Decree of the President of the Republic of Uzbekistan 2005 "
+"- Regional branches of TUIT were opened in Karshi, Nukus, Samarkand, Urgench "
+"and Fergana cities."
+msgstr ""
+"ТЭИС был переименован в Ташкентский университет информационных технологий (ТУИТ) "
+"в соответствии с Указом Президента Республики Узбекистан 2005 года. Региональные "
+"филиалы ТУИТ были открыты в городах Карши, Нукус, Самарканд, Ургенч и Фергана."
+
+#: templates/about/about.html:79 templates/index.html:139
+msgid "Our Mission"
+msgstr "Наша миссия"
+
+#: templates/about/about.html:80 templates/index.html:140
+msgid ""
+"To educate and prepare highly skilled specialists in information and "
+"communication technologies, fostering scientific innovation, ethical "
+"leadership, and community-driven development in Uzbekistan and the global IT "
+"landscape."
+msgstr ""
+"Обучать и готовить высококвалифицированных специалистов в области информационных "
+"и коммуникационных технологий, способствуя научным инновациям, этическому лидерству "
+"и развитию, ориентированному на сообщество, в Узбекистане и на глобальной ИТ-арене."
+
+#: templates/about/about.html:84 templates/index.html:148
+msgid "Our Vision"
+msgstr "Наше видение"
+
+#: templates/about/about.html:85 templates/index.html:149
+msgid ""
+"To become a regional leader in digital transformation and a global center "
+"for excellence in IT education, research, and innovation, shaping the future "
+"of information technology across borders."
+msgstr ""
+"Стать региональным лидером в области цифровой трансформации и глобальным центром "
+"превосходства в ИТ-образовании, исследованиях и инновациях, формируя будущее "
+"информационных технологий за пределами границ."
+
+#: templates/about/about.html:95
+msgid "Core Values"
+msgstr "Основные ценности"
+
+#: templates/about/about.html:102
+msgid "Academic Excellence"
+msgstr "Академическое превосходство"
+
+#: templates/about/about.html:103
+msgid ""
+"We uphold the highest standards of teaching and research, empowering "
+"students and faculty to reach their full intellectual and professional "
+"potential."
+msgstr ""
+"Мы придерживаемся высочайших стандартов преподавания и исследований, предоставляя "
+"студентам и преподавателям возможность полностью реализовать свой интеллектуальный "
+"и профессиональный потенциал."
+
+#: templates/about/about.html:112
+msgid "Community Engagement"
+msgstr "Вовлеченность сообщества"
+
+#: templates/about/about.html:113
+msgid ""
+"We actively collaborate with local and international partners to address "
+"real-world challenges and foster inclusive development."
+msgstr ""
+"Мы активно сотрудничаем с местными и международными партнерами для решения реальных "
+"проблем и содействия инклюзивному развитию."
+
+#: templates/about/about.html:122
+msgid "Innovation"
+msgstr "Инновации"
+
+#: templates/about/about.html:123
+msgid ""
+"We champion forward-thinking solutions through advanced research, cutting-"
+"edge technology, and a strong entrepreneurial spirit."
+msgstr ""
+"Мы поддерживаем передовые решения через передовые исследования, современные технологии "
+"и сильный предпринимательский дух."
+
+#: templates/about/about.html:132
+msgid "Global Perspective"
+msgstr "Глобальная перспектива"
+
+#: templates/about/about.html:133
+msgid ""
+"With partnerships in over 26 countries, we prepare students to thrive in an "
+"interconnected world and lead global digital initiatives."
+msgstr ""
+"С партнерствами в более чем 26 странах мы готовим студентов к процветанию в "
+"взаимосвязанном мире и лидерству в глобальных цифровых инициативах."
+
+#: templates/about/admissions.html:13 templates/about/admissions.html:19
+#: templates/layouts/navbar.html:31
+msgid "Admissions"
+msgstr "Поступление"
+
+#: templates/about/admissions.html:31
+msgid "Begin Your Academic Journey Today"
+msgstr "Начните свое академическое путешествие сегодня"
+
+#: templates/about/admissions.html:32
+msgid ""
+"Ready to embark on a transformative path? Begin your academic journey today "
+"with us and discover a world of knowledge, growth, and endless opportunities "
+"awaiting you."
+msgstr ""
+"Готовы отправиться в трансформационное путешествие? Начните свое академическое "
+"путешествие с нами сегодня и откройте мир знаний, роста и бесконечных возможностей."
+
+#: templates/about/admissions.html:35
+msgid "How to Apply"
+msgstr "Как подать заявку"
+
+#: templates/about/admissions.html:40
+msgid "Submit Application"
+msgstr "Подать заявку"
+
+#: templates/about/admissions.html:41
+msgid ""
+"Effortlessly submit your application online, beginning your journey with us "
+"with ease and convenience."
+msgstr ""
+"Легко подайте заявку онлайн, начав свое путешествие с нами с легкостью и удобством."
+
+#: templates/about/admissions.html:48
+msgid "Send Documents"
+msgstr "Отправить документы"
+
+#: templates/about/admissions.html:49
+msgid ""
+"Carefully prepare and send all required supporting documents to complete "
+"your comprehensive application file."
+msgstr ""
+"Тщательно подготовьте и отправьте все необходимые подтверждающие документы, чтобы "
+"завершить ваше полное досье."
+
+#: templates/about/admissions.html:56
+msgid "Interview Process"
+msgstr "Процесс собеседования"
+
+#: templates/about/admissions.html:57
+msgid ""
+"Participate in our interview process, a valuable opportunity for us to learn "
+"more about your aspirations."
+msgstr ""
+"Участвуйте в нашем процессе собеседования — это ценная возможность для нас узнать больше о ваших стремлениях."
+
+#: templates/about/admissions.html:64
+msgid "Receive Decision"
+msgstr "Получить решение"
+
+#: templates/about/admissions.html:65
+msgid ""
+"Anticipate receiving your admission decision, marking an exciting milestone "
+"in your academic pursuit."
+msgstr ""
+"Ожидайте получения решения о зачислении, что станет захватывающим этапом в вашем академическом пути."
+
+#: templates/about/admissions.html:72
+msgid "Key Admission Deadlines"
+msgstr "Ключевые сроки подачи заявлений"
+
+#: templates/about/admissions.html:89
+msgid "Admission Requirements"
+msgstr "Требования для поступления"
+
+#: templates/about/admissions.html:96
+msgid "Academic Records"
+msgstr "Академические записи"
+
+#: templates/about/admissions.html:97
+msgid ""
+"Scan your certificate or diploma with subjects and grades. Master’s "
+"applicants should include their bachelor’s diploma."
+msgstr ""
+"Отсканируйте ваш аттестат или диплом с указанием предметов и оценок. Кандидаты на магистратуру должны включить диплом бакалавра."
+
+#: templates/about/admissions.html:106
+msgid "Passport"
+msgstr "Паспорт"
+
+#: templates/about/admissions.html:107
+msgid "Scan the main page of your passport (PDF format)."
+msgstr "Отсканируйте основную страницу вашего паспорта (в формате PDF)."
+
+#: templates/about/admissions.html:116
+msgid "Photo"
+msgstr "Фотография"
+
+#: templates/about/admissions.html:117
+msgid "An electronic photo (3.5 cm x 4.5 cm) taken within the last 3 months."
+msgstr "Электронная фотография (3,5 см x 4,5 см), сделанная в последние 3 месяца."
+
+#: templates/about/admissions.html:126
+msgid "English Proficiency"
+msgstr "Владение английским языком"
+
+#: templates/about/admissions.html:127
+msgid ""
+"Submit your IELTS (5.5 or higher) or TOEFL iBT (71 or higher) certificate."
+msgstr ""
+"Предоставьте сертификат IELTS (5.5 или выше) или TOEFL iBT (71 или выше)."
+
+#: templates/about/admissions.html:136
+msgid "Request Information"
+msgstr "Запросить информацию"
+
+#: templates/about/admissions.html:137
+msgid ""
+"To request detailed information and apply, please visit our dedicated "
+"contact section. For a quicker response and immediate action, simply press "
+"the 'Submit Request' button below."
+msgstr ""
+"Чтобы запросить подробную информацию и подать заявку, посетите наш специальный раздел контактов. Для более быстрого ответа и немедленных действий просто нажмите кнопку «Отправить запрос» ниже."
+
+#: templates/about/admissions.html:142
+msgid "Submit Request"
+msgstr "Отправить запрос"
+
+#: templates/about/admissions.html:156
+msgid "Visit Our Campus"
+msgstr "Посетите наш кампус"
+
+#: templates/about/admissions.html:157
+msgid "Visit our campus to discover your future and see where you'll thrive."
+msgstr "Посетите наш кампус, чтобы узнать о своем будущем и увидеть, где вы будете процветать."
+
+#: templates/about/admissions.html:158
+msgid "View Campus"
+msgstr "Посмотреть кампус"
+
+#: templates/about/admissions.html:164
+msgid "Ready to Apply?"
+msgstr "Готовы подать заявку?"
+
+#: templates/about/admissions.html:165
+msgid "Ready to apply? Start your application now and take the next step."
+msgstr "Готовы подать заявку? Начните оформление сейчас и сделайте следующий шаг."
+
+#: templates/about/admissions.html:167
+msgid "Start Application"
+msgstr "Начать подачу заявки"
+
+#: templates/about/international_office.html:13
+msgid "International Affairs Office"
+msgstr "Офис международных связей"
+
+#: templates/about/international_office.html:18
+#: templates/layouts/footer.html:49 templates/layouts/navbar.html:29
+msgid "International Affairs"
+msgstr "Международные связи"
+
+#: templates/about/partnersCountry.html:13
+#: templates/about/partnersCountry.html:18 templates/layouts/footer.html:51
+#: templates/layouts/navbar.html:33
+msgid "Partners"
+msgstr "Партнеры"
+
+#: templates/about/partnersCountry.html:39
+msgid "Nation"
+msgstr "Страна"
+
+#: templates/about/partnersCountry.html:40
+msgid "Name"
+msgstr "Название"
+
+#: templates/about/partnersCountry.html:41
+msgid "Connection Date"
+msgstr "Дата установления связи"
+
+#: templates/alumni.html:13 templates/alumni.html:19 templates/alumni.html:36
+#: templates/layouts/navbar.html:60
+msgid "Falco Community"
+msgstr "Сообщество Falco"
+
+#: templates/alumni.html:17 templates/layouts/navbar.html:57
+#: templates/studentLife/campus-facilities.html:98
+msgid "Community"
+msgstr "Сообщество"
+
+#: templates/alumni.html:37
+msgid "About Falco"
+msgstr "О Falco"
+
+#: templates/alumni.html:38
+msgid ""
+"Falco — where Uzbekistan’s future leaders unite Real opportunities. Big "
+"impact. Serious work, Cool team, Endless growth."
+msgstr ""
+"Falco — место, где объединяются будущие лидеры Узбекистана. Реальные возможности. "
+"Большое влияние. Серьезная работа, крутая команда, бесконечный рост."
+
+#: templates/alumni.html:40
+msgid "Want in? Apply here."
+msgstr "Хотите присоединиться? Подайте заявку здесь."
+
+#: templates/alumni.html:56
+msgid "Notable Spotlights"
+msgstr "Значимые достижения"
+
+#: templates/alumni.html:57
+msgid "Members of FALCO making an impact in their fields."
+msgstr "Члены FALCO, оказывающие влияние в своих областях."
+
+#: templates/alumni.html:68
+msgid "May 16, 2025"
+msgstr "16 мая 2025"
+
+#: templates/alumni.html:71
+msgid "Game Festival 2025"
+msgstr "Игровой фестиваль 2025"
+
+#: templates/alumni.html:76 templates/alumni.html:95 templates/alumni.html:114
+msgid "View Profile"
+msgstr "Посмотреть профиль"
+
+#: templates/alumni.html:89
+msgid "April 30, 2025"
+msgstr "30 апреля 2025"
+
+#: templates/alumni.html:92
+msgid "Rektor Cup"
+msgstr "Кубок ректора"
+
+#: templates/alumni.html:93
+msgid ""
+"🏆 1st Place — Automated Drone Racing | Rector’s Cup From concept to "
+"execution — we soared. Falco claimed 1st place in the automated drone racing "
+"category at the Rector’s Cup, outpacing ... "
+msgstr ""
+"🏆 1-е место — Гонки дронов с автоматизацией | Кубок ректора. От концепции до "
+"реализации — мы взлетели. Falco занял 1-е место в категории гонок дронов с "
+"автоматизацией на Кубке ректора, обойдя ..."
+
+#: templates/alumni.html:108
+msgid "May 5, 2025"
+msgstr "5 мая 2025"
+
+#: templates/alumni.html:111
+msgid "CanSat Uzbekistan–2025"
+msgstr "CanSat Узбекистан–2025"
+
+#: templates/alumni.html:112
+msgid ""
+"Yusufov Otabek proudly receives his 2nd place certificate for the CanSat "
+"Uzbekistan 2025 competition. His dedication and skill in microsatellite "
+"development are a testament ..."
+msgstr ""
+"Юсуфов Отабек с гордостью получает сертификат за 2-е место в соревновании CanSat "
+"Узбекистан 2025. Его преданность и мастерство в разработке микроспутников являются свидетельством ..."
+
+#: templates/alumni.html:123
+msgid "Explore More Falco Stories"
+msgstr "Узнайте больше историй Falco"
+
+#: templates/alumni.html:129
+msgid "Lead, Connect, Impact"
+msgstr "Лидируйте, объединяйтесь, воздействуйте"
+
+#: templates/alumni.html:130
+msgid ""
+"Explore how you can stay engaged with the Falco community and contribute to "
+"a global mission."
+msgstr ""
+"Узнайте, как вы можете оставаться вовлеченными в сообщество Falco и вносить вклад в глобальную миссию."
+
+#: templates/alumni.html:140
+msgid "Mentor the Next Wave"
+msgstr "Наставляйте новое поколение"
+
+#: templates/alumni.html:141
+msgid ""
+"Share your knowledge, guide rising talent, and shape future leaders from "
+"TUIT and beyond."
+msgstr ""
+"Делитесь своими знаниями, направляйте молодые таланты и формируйте будущих лидеров из ТУИТ и за его пределами."
+
+#: templates/alumni.html:143
+msgid "Become a Mentor"
+msgstr "Станьте наставником"
+
+#: templates/alumni.html:152
+msgid "Global Gatherings"
+msgstr "Глобальные встречи"
+
+#: templates/alumni.html:153
+msgid ""
+"Reconnect, network, and collaborate with fellow changemakers through "
+"exclusive Falco and TUIT events."
+msgstr ""
+"Воссоединяйтесь, налаживайте связи и сотрудничайте с единомышленниками на эксклюзивных мероприятиях Falco и ТУИТ."
+
+#: templates/alumni.html:155
+msgid "Upcoming Events"
+msgstr "Предстоящие мероприятия"
+
+#: templates/alumni.html:164
+msgid "Fuel the Mission"
+msgstr "Поддержите миссию"
+
+#: templates/alumni.html:165
+msgid ""
+"Contribute time, resources, or expertise to accelerate high-impact projects "
+"and student-led initiatives."
+msgstr ""
+"Внесите свой вклад временем, ресурсами или экспертизой, чтобы ускорить проекты с высоким влиянием и инициативы, возглавляемые студентами."
+
+#: templates/alumni.html:167
+msgid "Support Our Mission"
+msgstr "Поддержите нашу миссию"
+
+#: templates/alumni.html:176
+msgid "Career & Opportunity Hub"
+msgstr "Центр карьеры и возможностей"
+
+#: templates/alumni.html:177
+msgid ""
+"Access a global network of innovators, employers, and mission-driven "
+"professionals through Falco."
+msgstr ""
+"Получите доступ к глобальной сети новаторов, работодателей и профессионалов, ориентированных на миссию, через Falco."
+
+#: templates/alumni.html:179
+msgid "Join Network"
+msgstr "Присоединиться к сети"
+
+#: templates/contact.html:36
+msgid "Our Address"
+msgstr "Наш адрес"
+
+#: templates/contact.html:37
+msgid "Tashkent 100084, Amir Temur avenue 108, Uzbekistan"
+msgstr "Ташкент 100084, проспект Амира Темура 108, Узбекистан"
+
+#: templates/contact.html:48
+msgid "Email Address"
+msgstr "Адрес электронной почты"
+
+#: templates/contact.html:60
+msgid "Hours of Operation"
+msgstr "Часы работы"
+
+#: templates/contact.html:130
+msgid "SEND MESSAGE"
+msgstr "ОТПРАВИТЬ СООБЩЕНИЕ"
+
+#: templates/index.html:23
+msgid "Shaping ICT Innovators Through Education"
+msgstr "Формирование ИКТ-новаторов через образование"
+
+#: templates/index.html:24
+msgid ""
+"TUIT, founded in 1955, offers cutting-edge ICT education with 23 programs, "
+"14,632 students, and partnerships with 26 countries."
+msgstr ""
+"ТУИТ, основанный в 1955 году, предлагает передовое образование в области ИКТ с 23 программами, "
+"14 632 студентами и партнерствами с 26 странами."
+
+#: templates/index.html:26
+msgid "Start Your Journey"
+msgstr "Начните свое путешествие"
+
+#: templates/index.html:27
+msgid "Discover Programs"
+msgstr "Ознакомьтесь с программами"
+
+#: templates/index.html:34
+msgid "Why Choose Us"
+msgstr "Почему выбирают нас"
+
+#: templates/index.html:44
+msgid "High ICT Employment Success"
+msgstr "Высокий успех трудоустройства в ИКТ"
+
+#: templates/index.html:53
+msgid "International Partners"
+msgstr "Международные партнеры"
+
+#: templates/index.html:62 templates/index.html:281
+msgid "Student-Faculty Ratio"
+msgstr "Соотношение студентов и преподавателей"
+
+#: templates/index.html:71
+msgid "Degree Directions"
+msgstr "Направления обучения"
+
+#: templates/index.html:95
+msgid "Innovating ICT, <span>Building Global Leaders</span>"
+msgstr "Инновации в ИКТ, <span>Создание глобальных лидеров</span>"
+
+#: templates/index.html:96
+msgid ""
+"Founded in 1955, TUIT leads in ICT education with 10,242 students across 23 "
+"programs and 42 partnerships with universities in 26 countries, driving "
+"technological  excellence."
+msgstr ""
+"Основанный в 1955 году, ТУИТ лидирует в образовании в области ИКТ с 10 242 студентами "
+"по 23 программам и 42 партнерствами с университетами в 26 странах, обеспечивая "
+"технологическое превосходство."
+
+#: templates/index.html:102
+msgid "Years"
+msgstr "Годы"
+
+#: templates/index.html:108 templates/studentLife/campus-facilities.html:48
+msgid "Students"
+msgstr "Студенты"
+
+#: templates/index.html:114
+msgid "Teachers"
+msgstr "Преподаватели"
+
+#: templates/index.html:157
+msgid "Our Values"
+msgstr "Наши ценности"
+
+#: templates/index.html:158
+msgid ""
+"Update to Excellence in academic pursuit, innovation in technology, "
+"integrity in research, and collaboration with 42 international partners to "
+"empower students and faculty."
+msgstr ""
+"Стремление к совершенству в академической деятельности, инновации в технологиях, "
+"честность в исследованиях и сотрудничество с 42 международными партнерами для "
+"расширения возможностей студентов и преподавателей."
+
+#: templates/index.html:173
+msgid "Recent News"
+msgstr "Последние новости"
+
+#: templates/index.html:246
+msgid "Excellence in Education for Over 70 Years"
+msgstr "Превосходство в образовании более 70 лет"
+
+#: templates/index.html:253
+msgid "Learn More"
+msgstr "Узнать больше"
+
+#: templates/index.html:254 templates/studentLife/campus-facilities.html:67
+msgid "Virtual Tour"
+msgstr "Виртуальный тур"
+
+#: templates/index.html:269
+msgid "Graduation Rate"
+msgstr "Процент выпуска"
+
+#: templates/index.html:293
+msgid "Degree Programs"
+msgstr "Образовательные программы"
+
+#: templates/index.html:306
+msgid "Research Funding"
+msgstr "Финансирование исследований"
+
+#: templates/index.html:322
+msgid "Top-Ranked Programs"
+msgstr "Программы с высоким рейтингом"
+
+#: templates/index.html:323
+msgid ""
+"Award-winning programs built for innovation, leadership, and global impact."
+msgstr ""
+"Программы, отмеченные наградами, созданные для инноваций, лидерства и глобального влияния."
+
+#: templates/index.html:332
+msgid "State-of-the-Art Facilities"
+msgstr "Современные объекты"
+
+#: templates/index.html:333
+msgid "Modern labs and smart classrooms empower future-ready student learning."
+msgstr "Современные лаборатории и умные классы способствуют обучению студентов, готовых к будущему."
+
+#: templates/index.html:342
+msgid "Global Alumni Network"
+msgstr "Глобальная сеть выпускников"
+
+#: templates/index.html:343
+msgid ""
+"Worldwide alumni connections offering mentorship, opportunity, and lifelong "
+"support."
+msgstr ""
+"Глобальные связи выпускников, предлагающие наставничество, возможности и пожизненную поддержку."
+
+#: templates/index.html:362 templates/layouts/navbar.html:44
+msgid "Students Life"
+msgstr "Студенческая жизнь"
+
+#: templates/index.html:374
+msgid "Discover Campus Life"
+msgstr "Откройте для себя жизнь в кампусе"
+
+#: templates/index.html:375
+msgid "Explore More"
+msgstr "Узнать больше"
+
+#: templates/index.html:389
+msgid "Student Clubs"
+msgstr "Студенческие клубы"
+
+#: templates/index.html:390
+msgid ""
+"Connect, lead, and grow through diverse interest-based student communities."
+msgstr ""
+"Общайтесь, лидируйте и развивайтесь через разнообразные студенческие сообщества по интересам."
+
+#: templates/index.html:399
+msgid "Sports Events"
+msgstr "Спортивные мероприятия"
+
+#: templates/index.html:400
+msgid "Exciting competitions promote teamwork, fitness, and school spirit."
+msgstr "Захватывающие соревнования способствуют командной работе, физической форме и школьному духу."
+
+#: templates/index.html:409
+msgid "Arts &amp; Culture"
+msgstr "Искусство и культура"
+
+#: templates/index.html:410
+msgid ""
+"Celebrate creativity and diversity through music, theater, and expression."
+msgstr ""
+"Празднуйте творчество и разнообразие через музыку, театр и самовыражение."
+
+#: templates/index.html:419
+msgid "Global Experiences"
+msgstr "Глобальный опыт"
+
+#: templates/index.html:420
+msgid ""
+"Explore new cultures with international exchanges, programs, and "
+"partnerships."
+msgstr ""
+"Исследуйте новые культуры через международные обмены, программы и партнерства."
+
+#: templates/index.html:426
+msgid "View All Student Activities"
+msgstr "Посмотреть все студенческие мероприятия"
+
+#: templates/layouts/base.html:9 templates/layouts/footer.html:10
+msgid "TUIT International Affairs"
+msgstr "Международные связи ТУИТ"
+
+#: templates/layouts/footer.html:14
+msgid ""
+"\n"
+"                            <p>Amir Temur avenue 108</p>\n"
+"                            <p>Uzbekistan, Tashkent 100084</p>\n"
+"                        "
+msgstr ""
+"\n"
+"                            <p>Проспект Амира Темура 108</p>\n"
+"                            <p>Узбекистан, Ташкент 100084</p>\n"
+"                        "
+
+#: templates/layouts/footer.html:35
+msgid "Pages"
+msgstr "Страницы"
+
+#: templates/layouts/footer.html:38 templates/layouts/footer.html:48
+#: templates/layouts/navbar.html:27
+msgid "About Us"
+msgstr "О нас"
+
+#: templates/layouts/footer.html:40 templates/layouts/footer.html:62
+#: templates/studentLife/students-life.html:452
+msgid "Contact Us"
+msgstr "Связаться с нами"
+
+#: templates/layouts/footer.html:41
+msgid "Privacy policy"
+msgstr "Политика конфиденциальности"
+
+#: templates/layouts/footer.html:50
+msgid "Admission"
+msgstr "Поступление"
+
+#: templates/layouts/footer.html:52
+msgid "Terms of Service"
+msgstr "Условия обслуживания"
+
+#: templates/layouts/footer.html:57 templates/layouts/footer.html:59
+#: templates/layouts/navbar.html:41 templates/studentLife/academics.html:17
+#: templates/studentLife/campus-facilities.html:17
+#: templates/studentLife/students-life.html:13
+#: templates/studentLife/students-life.html:17
+msgid "Student Life"
+msgstr "Студенческая жизнь"
+
+#: templates/layouts/footer.html:60 templates/layouts/navbar.html:46
+#: templates/studentLife/academics.html:13
+#: templates/studentLife/academics.html:19
+msgid "Academics"
+msgstr "Академические программы"
+
+#: templates/layouts/footer.html:61
+msgid "Campus & Facilities"
+msgstr "Кампус и инфраструктура"
+
+#: templates/layouts/footer.html:63 templates/layouts/navbar.html:65
+msgid "Log In"
+msgstr "Войти"
+
+#: templates/layouts/footer.html:70
+msgid "TUIT official website"
+msgstr "Официальный сайт ТУИТ"
+
+#: templates/layouts/footer.html:71
+msgid "Admission TUIT"
+msgstr "Поступление в ТУИТ"
+
+#: templates/layouts/footer.html:72
+msgid "Community / Falco"
+msgstr "Сообщество / Falco"
+
+#: templates/layouts/footer.html:73
+msgid "Linked In TUIT"
+msgstr "LinkedIn ТУИТ"
+
+#: templates/layouts/footer.html:74
+msgid "useful link"
+msgstr "Полезная ссылка"
+
+#: templates/layouts/footer.html:82
+msgid ""
+"\n"
+"        <p>© <span>Copyright</span> <strong class=\"px-1 sitename\">TUIT "
+"International Affairs</strong> <span>All Rights Reserved</span>\n"
+"        </p>\n"
+"        "
+msgstr ""
+"\n"
+"        <p>© <span>Авторское право</span> <strong class=\"px-1 sitename\">Международные связи ТУИТ</strong> <span>Все права защищены</span>\n"
+"        </p>\n"
+"        "
+
+#: templates/layouts/navbar.html:48
+msgid "Campus &amp;Facilities"
+msgstr "Кампус и инфраструктура"
+
+#: templates/news-details.html:13
+msgid "News Details"
+msgstr "Подробности новости"
+
+#: templates/news-details.html:18
+msgid "News detail"
+msgstr "Подробности новости"
+
+#: templates/studentLife/academics.html:42
+msgid "Excellence in IT Education"
+msgstr "Превосходство в ИТ-образовании"
+
+#: templates/studentLife/academics.html:43
+msgid "Shape Your Future with TUIT’s Premier Programs"
+msgstr "Формируйте свое будущее с ведущими программами ТУИТ"
+
+#: templates/studentLife/academics.html:44
+msgid ""
+"At Tashkent University of Information Technologies, we blend theory with "
+"real-world practice to prepare leaders in tech. Our programs are designed to "
+"meet global standards, with a focus on innovation and industry relevance."
+msgstr ""
+"В Ташкентском университете информационных технологий мы сочетаем теорию с "
+"реальной практикой, чтобы подготовить лидеров в области технологий. Наши программы "
+"разработаны в соответствии с мировыми стандартами, с акцентом на инновации и актуальность для индустрии."
+
+#: templates/studentLife/academics.html:48
+msgid "Hands-on tech labs & internships"
+msgstr "Практические технологические лаборатории и стажировки"
+
+#: templates/studentLife/academics.html:52
+msgid "Award-winning professors & industry experts"
+msgstr "Отмеченные наградами профессора и эксперты индустрии"
+
+#: templates/studentLife/academics.html:56
+msgid "Advanced research in AI, cybersecurity & more"
+msgstr "Передовые исследования в области ИИ, кибербезопасности и других направлениях"
+
+#: templates/studentLife/academics.html:103
+msgid "TUIT in Numbers"
+msgstr "ТУИТ в цифрах"
+
+#: templates/studentLife/academics.html:104
+msgid "Driving Innovation Through Education"
+msgstr "Движение инноваций через образование"
+
+#: templates/studentLife/academics.html:105
+msgid ""
+"At TUIT, we measure success by the impact of our graduates and the "
+"breakthroughs in our labs. Here’s what sets us apart:"
+msgstr ""
+"В ТУИТ мы измеряем успех влиянием наших выпускников и прорывами в наших лабораториях. Вот что отличает нас:"
+
+#: templates/studentLife/academics.html:106
+msgid "About Our Institution"
+msgstr "О нашем учреждении"
+
+#: templates/studentLife/academics.html:119
+msgid "Student Satisfaction"
+msgstr "Удовлетворенность студентов"
+
+#: templates/studentLife/academics.html:130
+msgid "Cutting-Edge Programs"
+msgstr "Передовые программы"
+
+#: templates/studentLife/academics.html:141
+msgid "Specialized Research Centers"
+msgstr "Специализированные исследовательские центры"
+
+#: templates/studentLife/academics.html:152
+msgid "Graduate Employability"
+msgstr "Трудоустройство выпускников"
+
+#: templates/studentLife/campus-facilities.html:13
+msgid "Campus &amp; Facilities"
+msgstr "Кампус и инфраструктура"
+
+#: templates/studentLife/campus-facilities.html:18
+#: templates/studentLife/students-life.html:107
+#: templates/studentLife/students-life.html:435
+msgid "Campus Facilities"
+msgstr "Инфраструктура кампуса"
+
+#: templates/studentLife/campus-facilities.html:34
+msgid "Experience Our Campus"
+msgstr "Ознакомьтесь с нашим кампусом"
+
+#: templates/studentLife/campus-facilities.html:35
+msgid ""
+"Discover state-of-the-art facilities designed to inspire learning and growth"
+msgstr ""
+"Откройте для себя современные объекты, созданные для вдохновения на обучение и развитие"
+
+#: templates/studentLife/campus-facilities.html:36
+msgid "Explore TUIT – Where Innovation Meets Opportunity!"
+msgstr "Исследуйте ТУИТ – место, где инновации встречаются с возможностями!"
+
+#: templates/studentLife/campus-facilities.html:40
+msgid "Acres"
+msgstr "Гектары"
+
+#: templates/studentLife/campus-facilities.html:44
+msgid "Buildings"
+msgstr "Здания"
+
+#: templates/studentLife/campus-facilities.html:80
+msgid "Academic"
+msgstr "Академические"
+
+#: templates/studentLife/campus-facilities.html:86
+msgid "Athletic"
+msgstr "Спортивные"
+
+#: templates/studentLife/campus-facilities.html:92
+msgid "Residential"
+msgstr "Жилые"
+
+#: templates/studentLife/campus-facilities.html:114
+msgid "Class Room"
+msgstr "Учебный класс"
+
+#: templates/studentLife/campus-facilities.html:118
+msgid "World-Class Learning Spaces"
+msgstr "Учебные пространства мирового класса"
+
+#: templates/studentLife/campus-facilities.html:119
+msgid ""
+"TUIT stands at the forefront of technological education, offering state-of-"
+"the-art facilities that foster academic excellence and research innovation..."
+msgstr ""
+"ТУИТ находится на передовой технологического образования, предлагая современные объекты, "
+"способствующие академическому превосходству и инновациям в исследованиях..."
+
+#: templates/studentLife/campus-facilities.html:121
+msgid "Modern classrooms with smart technology"
+msgstr "Современные классы с умными технологиями"
+
+#: templates/studentLife/campus-facilities.html:123
+msgid "Specialized research laboratories"
+msgstr "Специализированные исследовательские лаборатории"
+
+#: templates/studentLife/campus-facilities.html:125
+msgid "Collaborative study spaces"
+msgstr "Пространства для совместного обучения"
+
+#: templates/studentLife/campus-facilities.html:127
+msgid "Advanced technology centers"
+msgstr "Передовые технологические центры"
+
+#: templates/studentLife/campus-facilities.html:139
+msgid "Technology Labs"
+msgstr "Технологические лаборатории"
+
+#: templates/studentLife/campus-facilities.html:140
+msgid ""
+"Through international collaborations, TUIT has developed 16 educational "
+"laboratories and 9 computer classrooms. Notable centers include the Uzbek-"
+"Indian Center of Information Technologies and the Uzbek-Korean Center for "
+"Information Technologies, enhancing practical learning experiences."
+msgstr ""
+"Благодаря международному сотрудничеству ТУИТ создал 16 учебных лабораторий и 9 компьютерных классов. "
+"Примечательные центры включают Узбекско-Индийский центр информационных технологий и Узбекско-Корейский центр "
+"информационных технологий, улучшающие практический опыт обучения."
+
+#: templates/studentLife/campus-facilities.html:141
+msgid " 16 Labs"
+msgstr "16 лабораторий"
+
+#: templates/studentLife/campus-facilities.html:148
+msgid "Research Centers"
+msgstr "Исследовательские центры"
+
+#: templates/studentLife/campus-facilities.html:149
+msgid ""
+"The TUIT Incubation Center, established in 2022, supports students in "
+"developing innovative startup projects, particularly in software "
+"development, robotics, and design. Additionally, the Center for Scientific "
+"Research and Technology Transfer facilitates advanced research initiatives."
+msgstr ""
+"Инкубационный центр ТУИТ, созданный в 2022 году, поддерживает студентов в разработке инновационных стартап-проектов, "
+"особенно в области разработки программного обеспечения, робототехники и дизайна. Кроме того, Центр научных исследований и "
+"передачи технологий способствует передовым исследовательским инициативам."
+
+#: templates/studentLife/campus-facilities.html:151
+msgid "Facilities"
+msgstr "Инфраструктура"
+
+#: templates/studentLife/campus-facilities.html:168
+#: templates/studentLife/campus-facilities.html:357
+msgid "Sports Complex"
+msgstr "Спортивный комплекс"
+
+#: templates/studentLife/campus-facilities.html:172
+msgid "State-of-the-Art Athletic Facilities"
+msgstr "Современные спортивные сооружения"
+
+#: templates/studentLife/campus-facilities.html:173
+msgid ""
+"TUIT offers a dynamic and modern sports infrastructure designed to promote "
+"student wellness and athletic excellence. Whether you're a professional "
+"athlete or just keeping fit, our facilities support all your needs."
+msgstr ""
+"ТУИТ предлагает динамичную и современную спортивную инфраструктуру, созданную для поддержания здоровья студентов и спортивного совершенства. "
+"Будь вы профессиональным спортсменом или просто поддерживаете форму, наши сооружения удовлетворят все ваши потребности."
+
+#: templates/studentLife/campus-facilities.html:175
+msgid "Olympic-sized football grounds"
+msgstr "Футбольные поля олимпийского размера"
+
+#: templates/studentLife/campus-facilities.html:177
+msgid "Multi-purpose sports courts"
+msgstr "Многофункциональные спортивные площадки"
+
+#: templates/studentLife/campus-facilities.html:179
+msgid "Professional running track"
+msgstr "Профессиональная беговая дорожка"
+
+#: templates/studentLife/campus-facilities.html:181
+msgid "Fitness and training centers"
+msgstr "Фитнес- и тренировочные центры"
+
+#: templates/studentLife/campus-facilities.html:193
+msgid "Football Grounds"
+msgstr "Футбольные поля"
+
+#: templates/studentLife/campus-facilities.html:194
+msgid ""
+"TUIT features a newly renovated football field that meets international "
+"standards, enabling students to train and participate in university-level "
+"championships and tournaments."
+msgstr ""
+"ТУИТ располагает недавно отремонтированным футбольным полем, соответствующим международным стандартам, что позволяет студентам тренироваться и участвовать в университетских чемпионатах и турнирах."
+
+#: templates/studentLife/campus-facilities.html:195
+msgid "Olympic Standard"
+msgstr "Олимпийский стандарт"
+
+#: templates/studentLife/campus-facilities.html:202
+msgid "Training Facilities"
+msgstr "Тренировочные сооружения"
+
+#: templates/studentLife/campus-facilities.html:203
+msgid ""
+"Our indoor training halls are equipped with advanced fitness gear and "
+"conditioning tools, supporting students' physical education and team sports "
+"training programs."
+msgstr ""
+"Наши крытые тренировочные залы оснащены современным фитнес-оборудованием и инструментами для кондиционирования, поддерживая программы физического воспитания студентов и тренировки командных видов спорта."
+
+#: templates/studentLife/campus-facilities.html:205
+msgid "Pro Equipment"
+msgstr "Профессиональное оборудование"
+
+#: templates/studentLife/campus-facilities.html:222
+#: templates/studentLife/campus-facilities.html:377
+msgid "Residence Halls"
+msgstr "Общежития"
+
+#: templates/studentLife/campus-facilities.html:226
+msgid "Comfortable Living Environments"
+msgstr "Комфортные условия проживания"
+
+#: templates/studentLife/campus-facilities.html:227
+msgid ""
+"Our campus housing offers students a perfect blend of comfort, convenience, "
+"and community. Whether you prefer quiet study spaces or lively common areas, "
+"our residence halls are designed to support your lifestyle. With fully "
+"furnished rooms, modern amenities, and a welcoming atmosphere, you’ll feel "
+"right at home from day one."
+msgstr ""
+"Наше жилье на кампусе предлагает студентам идеальное сочетание комфорта, удобства и сообщества. Предпочитаете ли вы тихие учебные пространства или оживленные общие зоны, наши общежития созданы для поддержки вашего образа жизни. С полностью меблированными комнатами, современными удобствами и гостеприимной атмосферой вы почувствуете себя как дома с первого дня."
+
+#: templates/studentLife/campus-facilities.html:229
+msgid "Modern residence halls"
+msgstr "Современные общежития"
+
+#: templates/studentLife/campus-facilities.html:230
+msgid "Suite-style accommodations"
+msgstr "Проживание в стиле апартаментов"
+
+#: templates/studentLife/campus-facilities.html:232
+msgid "Community lounges and kitchens"
+msgstr "Общие гостиные и кухни"
+
+#: templates/studentLife/campus-facilities.html:234
+msgid "24/7 security and support"
+msgstr "Круглосуточная охрана и поддержка"
+
+#: templates/studentLife/campus-facilities.html:246
+#: templates/studentLife/campus-facilities.html:385
+msgid "Dining Facilities"
+msgstr "Столовые"
+
+#: templates/studentLife/campus-facilities.html:247
+msgid ""
+"Enjoy access to a variety of dining options across campus, catering to "
+"diverse tastes and dietary needs. Conveniently located and designed with "
+"student well-being in mind."
+msgstr ""
+"Наслаждайтесь доступом к разнообразным вариантам питания на кампусе, учитывающим различные вкусы и диетические потребности. Удобно расположенные и разработанные с учетом благополучия студентов."
+
+#: templates/studentLife/campus-facilities.html:249
+msgid "5 Locations"
+msgstr "5 мест"
+
+#: templates/studentLife/campus-facilities.html:256
+msgid "Security Services"
+msgstr "Службы безопасности"
+
+#: templates/studentLife/campus-facilities.html:257
+msgid ""
+"Our campus is protected around the clock with professional security staff, "
+"surveillance systems, and rapid response protocols to ensure a safe living "
+"and learning environment."
+msgstr ""
+"Наш кампус защищен круглосуточно профессиональным персоналом охраны, системами видеонаблюдения и протоколами быстрого реагирования, чтобы обеспечить безопасную среду для жизни и обучения."
+
+#: templates/studentLife/campus-facilities.html:259
+msgid "24/7 Support"
+msgstr "Круглосуточная поддержка"
+
+#: templates/studentLife/campus-facilities.html:276
+msgid "Main Building"
+msgstr "Главное здание"
+
+#: templates/studentLife/campus-facilities.html:280
+msgid "Explore the TUIT Campus"
+msgstr "Исследуйте кампус ТУИТ"
+
+#: templates/studentLife/campus-facilities.html:281
+msgid ""
+"At TUIT University, campus life goes beyond the classroom. Our campus is "
+"designed to inspire innovation, collaboration, and a vibrant student "
+"experience. From quiet study areas to lively event spaces, you'll find "
+"everything you need to thrive."
+msgstr ""
+"В университете ТУИТ жизнь в кампусе выходит за рамки аудиторий. Наш кампус спроектирован так, чтобы вдохновлять на инновации, сотрудничество и яркий студенческий опыт. От тихих учебных зон до оживленных пространств для мероприятий — вы найдете все, что нужно для процветания."
+
+#: templates/studentLife/campus-facilities.html:283
+msgid "Student Life & Community Spaces"
+msgstr "Студенческая жизнь и общественные пространства"
+
+#: templates/studentLife/campus-facilities.html:284
+msgid "Student Activity Center"
+msgstr "Центр студенческой активности"
+
+#: templates/studentLife/campus-facilities.html:286
+msgid "Green spaces and gardens"
+msgstr "Зеленые зоны и сады"
+
+#: templates/studentLife/campus-facilities.html:288
+msgid "Meeting and event venues"
+msgstr "Места для встреч и мероприятий"
+
+#: templates/studentLife/campus-facilities.html:300
+msgid "Performance Spaces"
+msgstr "Пространства для выступлений"
+
+#: templates/studentLife/campus-facilities.html:301
+msgid ""
+"Enjoy a range of cultural and creative events at our state-of-the-art "
+"performance venues. From student concerts to theater productions, these "
+"spaces showcase talent and build community."
+msgstr ""
+"Наслаждайтесь разнообразными культурными и творческими мероприятиями в наших современных пространствах для выступлений. От студенческих концертов до театральных постановок — эти пространства демонстрируют таланты и укрепляют сообщество."
+
+#: templates/studentLife/campus-facilities.html:308
+msgid "Campus Stores"
+msgstr "Кампусные магазины"
+
+#: templates/studentLife/campus-facilities.html:309
+msgid ""
+"Find everything you need right on campus—from textbooks and school supplies "
+"to snacks, tech accessories, and university merchandise. Convenient "
+"locations to keep your day running smoothly."
+msgstr ""
+"Найдите все необходимое прямо на кампусе — от учебников и школьных принадлежностей до закусок, технических аксессуаров и сувениров университета. Удобные места, чтобы ваш день проходил гладко."
+
+#: templates/studentLife/campus-facilities.html:326
+msgid "Central Library"
+msgstr "Центральная библиотека"
+
+#: templates/studentLife/campus-facilities.html:334
+msgid "Student Center"
+msgstr "Студенческий центр"
+
+#: templates/studentLife/campus-facilities.html:341
+msgid "Dormitories"
+msgstr "Общежития"
+
+#: templates/studentLife/campus-facilities.html:349
+msgid "Study Areas"
+msgstr "Учебные зоны"
+
+#: templates/studentLife/campus-facilities.html:368
+msgid "Campus Map"
+msgstr "Карта кампуса"
+
+#: templates/studentLife/campus-facilities.html:369
+msgid ""
+"Navigate our expansive campus with ease using our interactive map. Locate "
+"buildings, facilities, and services to find your way around."
+msgstr ""
+"Легко ориентируйтесь на нашем обширном кампусе с помощью интерактивной карты. Найдите здания, сооружения и сервисы, чтобы легко передвигаться."
+
+#: templates/studentLife/campus-facilities.html:373
+msgid "Academic Buildings"
+msgstr "Академические здания"
+
+#: templates/studentLife/campus-facilities.html:381
+msgid "Athletic Facilities"
+msgstr "Спортивные сооружения"
+
+#: templates/studentLife/campus-facilities.html:389
+msgid "Parking Areas"
+msgstr "Парковочные зоны"
+
+#: templates/studentLife/campus-facilities.html:392
+msgid "Download PDF Map"
+msgstr "Скачать карту в PDF"
+
+#: templates/studentLife/students-life.html:18
+msgid "Student life"
+msgstr "Студенческая жизнь"
+
+#: templates/studentLife/students-life.html:34
+msgid "Experience Campus Life"
+msgstr "Ощутите жизнь в кампусе"
+
+#: templates/studentLife/students-life.html:35
+msgid ""
+"Immerse yourself in vibrant campus life! Discover our dynamic community and "
+"create unforgettable memories, fostering growth and unforgettable "
+"experiences."
+msgstr ""
+"Погрузитесь в яркую жизнь кампуса! Откройте для себя наше динамичное сообщество и создайте незабываемые воспоминания, способствующие росту и уникальному опыту."
+
+#: templates/studentLife/students-life.html:49
+msgid "Clubs"
+msgstr "Клубы"
+
+#: templates/studentLife/students-life.html:50
+msgid "40+ Organizations"
+msgstr "40+ организаций"
+
+#: templates/studentLife/students-life.html:59
+#: templates/studentLife/students-life.html:100
+msgid "Athletics"
+msgstr "Спорт"
+
+#: templates/studentLife/students-life.html:60
+msgid "15+ Sports Teams"
+msgstr "15+ спортивных команд"
+
+#: templates/studentLife/students-life.html:69
+msgid "Events"
+msgstr "Мероприятия"
+
+#: templates/studentLife/students-life.html:70
+msgid "200+ Annual Events"
+msgstr "200+ ежегодных мероприятий"
+
+#: templates/studentLife/students-life.html:79
+msgid "Housing"
+msgstr "Жилье"
+
+#: templates/studentLife/students-life.html:80
+msgid "5 Residence Halls"
+msgstr "5 общежитий"
+
+#: templates/studentLife/students-life.html:93
+msgid "Clubs &amp; Organizations"
+msgstr "Клубы и организации"
+
+#: templates/studentLife/students-life.html:124
+msgid "Active Clubs"
+msgstr "Активные клубы"
+
+#: templates/studentLife/students-life.html:131
+msgid "Join a Community That Shares Your Interests"
+msgstr "Присоединяйтесь к сообществу, разделяющему ваши интересы"
+
+#: templates/studentLife/students-life.html:132
+msgid ""
+"At Tashkent University of Information Technologies, we believe innovation "
+"thrives when diverse minds collaborate. Beyond labs and lectures, our "
+"student organizations help you grow, network, and recharge."
+msgstr ""
+"В Ташкентском университете информационных технологий мы верим, что инновации процветают, когда разные умы сотрудничают. Помимо лабораторий и лекций, наши студенческие организации помогают вам расти, налаживать связи и перезаряжаться."
+
+#: templates/studentLife/students-life.html:141
+msgid "Tech & Innovation"
+msgstr "Технологии и инновации"
+
+#: templates/studentLife/students-life.html:142
+msgid "18 Clubs"
+msgstr "18 клубов"
+
+#: templates/studentLife/students-life.html:153
+msgid "Global Community"
+msgstr "Глобальное сообщество"
+
+#: templates/studentLife/students-life.html:154
+msgid "5 International Groups"
+msgstr "5 международных групп"
+
+#: templates/studentLife/students-life.html:165
+msgid "Academic Societies"
+msgstr "Академические общества"
+
+#: templates/studentLife/students-life.html:166
+msgid "12 Associations"
+msgstr "12 ассоциаций"
+
+#: templates/studentLife/students-life.html:177
+msgid "Arts & Recreation"
+msgstr "Искусство и отдых"
+
+#: templates/studentLife/students-life.html:178
+msgid "6 Creative Outlets"
+msgstr "6 творческих направлений"
+
+#: templates/studentLife/students-life.html:193
+msgid "Athletics & Recreation at TUIT"
+msgstr "Спорт и отдых в ТУИТ"
+
+#: templates/studentLife/students-life.html:194
+msgid ""
+"At TUIT University, we believe in building strong minds and bodies. Our "
+"athletics and recreation programs offer students the opportunity to stay "
+"active, compete, and grow through sports and teamwork."
+msgstr ""
+"В университете ТУИТ мы верим в развитие сильных умов и тел. Наши программы по спорту и отдыху предоставляют студентам возможность оставаться активными, соревноваться и расти через спорт и командную работу."
+
+#: templates/studentLife/students-life.html:201
+msgid "Sports Teams"
+msgstr "Спортивные команды"
+
+#: templates/studentLife/students-life.html:205
+msgid "Championships"
+msgstr "Чемпионаты"
+
+#: templates/studentLife/students-life.html:209
+msgid "Athletes"
+msgstr "Спортсмены"
+
+#: templates/studentLife/students-life.html:250
+msgid "Swimming"
+msgstr "Плавание"
+
+#: templates/studentLife/students-life.html:260
+msgid "Volleyball"
+msgstr "Волейбол"
+
+#: templates/studentLife/students-life.html:271
+msgid "Football"
+msgstr "Футбол"
+
+#: templates/studentLife/students-life.html:282
+msgid "Table Tennis"
+msgstr "Настольный теннис"
+
+#: templates/studentLife/students-life.html:292
+msgid "Chess"
+msgstr "Шахматы"
+
+#: templates/studentLife/students-life.html:333
+msgid "A Campus Designed for Tech Innovators"
+msgstr "Кампус, созданный для технологических новаторов"
+
+#: templates/studentLife/students-life.html:334
+msgid ""
+"Where cutting-edge learning meets student comfort – experience spaces built "
+"to inspire your next breakthrough."
+msgstr ""
+"Где передовое обучение сочетается с комфортом студентов – испытайте пространства, созданные для вдохновения на следующий прорыв."
+
+#: templates/studentLife/students-life.html:339
+msgid "Residence"
+msgstr "Общежития"
+
+#: templates/studentLife/students-life.html:340
+msgid "dormitories with high-speed WiFi, study lounges & 24/7 security."
+msgstr "общежития с высокоскоростным Wi-Fi, учебными зонами и круглосуточной охраной."
+
+#: templates/studentLife/students-life.html:345
+msgid "Dining:"
+msgstr "Питание:"
+
+#: templates/studentLife/students-life.html:346
+msgid ""
+"Cafés with coding-friendly zones + late-night snack bars for hackathon crews"
+msgstr ""
+"Кафе с зонами, удобными для программирования + ночные закусочные для команд хакатонов"
+
+#: templates/studentLife/students-life.html:351
+msgid "Libraries"
+msgstr "Библиотеки"
+
+#: templates/studentLife/students-life.html:352
+msgid "Hubs with VR learning stations, silent pods & 250K+ e-resources"
+msgstr "Центры с VR-станциями для обучения, тихими кабинками и более 250 тыс. электронных ресурсов"
+
+#: templates/studentLife/students-life.html:357
+msgid "Innovation Labs"
+msgstr "Инновационные лаборатории"
+
+#: templates/studentLife/students-life.html:358
+msgid ""
+"15 specialized labs (AI, IoT, cybersecurity) open 24/7during project seasons"
+msgstr ""
+"15 специализированных лабораторий (ИИ, Интернет вещей, кибербезопасность), открытых 24/7 в период проектных сезонов"
+
+#: templates/studentLife/students-life.html:362
+msgid "Next-Gen Recreation"
+msgstr "Отдых нового поколения"
+
+#: templates/studentLife/students-life.html:363
+msgid ""
+"Esports arena, drone racing track & wellness center with biometric tracking"
+msgstr ""
+"Арена для киберспорта, трасса для гонок дронов и оздоровительный центр с биометрическим отслеживанием"
+
+#: templates/studentLife/students-life.html:367
+msgid "Virtual Campus Tour"
+msgstr "Виртуальный тур по кампусу"
+
+#: templates/studentLife/students-life.html:380
+msgid "Life on Campus"
+msgstr "Жизнь в кампусе"
+
+#: templates/studentLife/students-life.html:381
+msgid "Take a glimpse into our vibrant student community"
+msgstr "Взгляните на наше яркое студенческое сообщество"
+
+#: templates/studentLife/students-life.html:391
+msgid "Campus Events"
+msgstr "Мероприятия кампуса"
+
+#: templates/studentLife/students-life.html:413
+msgid "Graduation Day"
+msgstr "День выпуска"
+
+#: templates/studentLife/students-life.html:424
+msgid "Study Trips"
+msgstr "Учебные поездки"
+
+#: templates/studentLife/students-life.html:447
+msgid "Your Journey Starts Here"
+msgstr "Ваше путешествие начинается здесь"
+
+#: templates/studentLife/students-life.html:448
+msgid ""
+"At Tashkent University of Information Technologies, we’re building the next "
+"generation of IT leaders. Whether you’re passionate about AI, cybersecurity, "
+"or software engineering, TUIT provides the tools, mentors, and opportunities "
+"to turn your potential into expertise."
+msgstr ""
+"В Ташкентском университете информационных технологий мы готовим следующее поколение ИТ-лидеров. Будь вы увлечены ИИ, кибербезопасностью или разработкой программного обеспечения, ТУИТ предоставляет инструменты, наставников и возможности, чтобы превратить ваш потенциал в экспертизу."
+
+#: templates/studentLife/students-life.html:454
+msgid "Apply Now"
+msgstr "Подать заявку сейчас"
+
+#: venv/lib/python3.13/site-packages/django/contrib/messages/apps.py:16
+msgid "Messages"
+msgstr "Сообщения"
+
+#: venv/lib/python3.13/site-packages/django/contrib/sitemaps/apps.py:8
+msgid "Site Maps"
+msgstr "Карты сайта"
+
+#: venv/lib/python3.13/site-packages/django/contrib/staticfiles/apps.py:9
+msgid "Static Files"
+msgstr "Статические файлы"
+
+#: venv/lib/python3.13/site-packages/django/contrib/syndication/apps.py:7
+msgid "Syndication"
+msgstr "Синдикация"
+
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
+#: venv/lib/python3.13/site-packages/django/core/paginator.py:30
+msgid "…"
+msgstr "…"
+
+#: venv/lib/python3.13/site-packages/django/core/paginator.py:32
+msgid "That page number is not an integer"
+msgstr "Этот номер страницы не является целым числом"
+
+#: venv/lib/python3.13/site-packages/django/core/paginator.py:33
+msgid "That page number is less than 1"
+msgstr "Этот номер страницы меньше 1"
+
+#: venv/lib/python3.13/site-packages/django/core/paginator.py:34
+msgid "That page contains no results"
+msgstr "Эта страница не содержит результатов"
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:22
+msgid "Enter a valid value."
+msgstr "Введите корректное значение."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:70
+msgid "Enter a valid domain name."
+msgstr "Введите корректное доменное имя."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:153
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:775
+msgid "Enter a valid URL."
+msgstr "Введите корректный URL."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:200
+msgid "Enter a valid integer."
+msgstr "Введите корректное целое число."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:211
+msgid "Enter a valid email address."
+msgstr "Введите корректный адрес электронной почты."
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: venv/lib/python3.13/site-packages/django/core/validators.py:289
+msgid ""
+"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+"Введите корректный «slug», состоящий из латинских букв, цифр, подчеркиваний или дефисов."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:297
+msgid ""
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr ""
+"Введите корректный «slug», состоящий из букв Unicode, цифр, подчеркиваний или дефисов."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:309
+#: venv/lib/python3.13/site-packages/django/core/validators.py:318
+#: venv/lib/python3.13/site-packages/django/core/validators.py:332
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2220
+#, python-format
+msgid "Enter a valid %(protocol)s address."
+msgstr "Введите корректный адрес %(protocol)s."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:311
+msgid "IPv4"
+msgstr "IPv4"
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:320
+#: venv/lib/python3.13/site-packages/django/utils/ipv6.py:43
+msgid "IPv6"
+msgstr "IPv6"
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:334
+msgid "IPv4 or IPv6"
+msgstr "IPv4 или IPv6"
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:375
+msgid "Enter only digits separated by commas."
+msgstr "Введите только цифры, разделенные запятыми."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:381
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr "Убедитесь, что это значение равно %(limit_value)s (сейчас оно %(show_value)s)."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:416
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr "Убедитесь, что это значение меньше или равно %(limit_value)s."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:425
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr "Убедитесь, что это значение больше или равно %(limit_value)s."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:434
+#, python-format
+msgid "Ensure this value is a multiple of step size %(limit_value)s."
+msgstr "Убедитесь, что это значение кратно шагу %(limit_value)s."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:441
+#, python-format
+msgid ""
+"Ensure this value is a multiple of step size %(limit_value)s, starting from "
+"%(offset)s, e.g. %(offset)s, %(valid_value1)s, %(valid_value2)s, and so on."
+msgstr ""
+"Убедитесь, что это значение кратно шагу %(limit_value)s, начиная с %(offset)s, например, %(offset)s, %(valid_value1)s, %(valid_value2)s и так далее."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:473
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] "Убедитесь, что это значение содержит не менее %(limit_value)d символа (сейчас %(show_value)d)."
+msgstr[1] "Убедитесь, что это значение содержит не менее %(limit_value)d символов (сейчас %(show_value)d)."
+msgstr[2] "Убедитесь, что это значение содержит не менее %(limit_value)d символов (сейчас %(show_value)d)."
+msgstr[3] "Убедитесь, что это значение содержит не менее %(limit_value)d символов (сейчас %(show_value)d)."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:491
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] "Убедитесь, что это значение содержит не более %(limit_value)d символа (сейчас %(show_value)d)."
+msgstr[1] "Убедитесь, что это значение содержит не более %(limit_value)d символов (сейчас %(show_value)d)."
+msgstr[2] "Убедитесь, что это значение содержит не более %(limit_value)d символов (сейчас %(show_value)d)."
+msgstr[3] "Убедитесь, что это значение содержит не более %(limit_value)d символов (сейчас %(show_value)d)."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:514
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:366
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:405
+msgid "Enter a number."
+msgstr "Введите число."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:516
+#, python-format
+#: venv/lib/python3.13/site-packages/django/core/validators.py:516
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] "Убедитесь, что общее количество цифр не превышает %(max)s."
+msgstr[1] "Убедитесь, что общее количество цифр не превышает %(max)s."
+msgstr[2] "Убедитесь, что общее количество цифр не превышает %(max)s."
+msgstr[3] "Убедитесь, что общее количество цифр не превышает %(max)s."

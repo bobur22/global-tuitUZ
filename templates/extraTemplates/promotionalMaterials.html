@@ -1,0 +1,117 @@
+{% extends 'layouts/base.html' %}
+{% load static %}
+
+{% block body %}
+
+    <main class="main">
+
+        <!-- Page Title -->
+        <div class="page-title dark-background"
+             style="background-image: url({% static 'main/img/tatu/tatu_bino_1.jpg' %});">
+            <div class="container position-relative">
+                <h1>Promotional Materials</h1>
+                <nav class="breadcrumbs">
+                    <ol>
+                        <li><a href="{% url 'index' %}">Home</a></li>
+                        <li><a href="{% url 'about' %}">About</a></li>
+                        <li><a href="{% url 'starter_page' %}" style="color: white">Promotional Materials</a></li>
+                    </ol>
+                </nav>
+            </div>
+        </div><!-- End Page Title -->
+
+        <!-- Starter Section -->
+        <section id="starter-section" class="starter-section section">
+
+            <!-- Section Title -->
+            {#            <div class="container section-title" data-aos="fade-up">#}
+            {#                <h2>Our Partner Universities</h2>#}
+            {#                <p>390 Universities in 62 Countries, as of August 16, 2019</p>#}
+            {#            </div>#}
+            <!-- End Section Title -->
+
+            <div class="container" data-aos="fade-up">
+
+                <div class="table-responsive mt-5">
+                    <table class="table table-hover align-middle text-center">
+                        <thead class="table-secondary">
+                        <tr class="fs-5 fw-semibold">
+                            <th scope="col" class="border-bottom-0">№</th>
+                            <th scope="col" class="border-bottom-0">Title</th>
+                            <th scope="col" class="border-bottom-0">Date</th>
+                            <th scope="col" class="border-bottom-0">File</th>
+                        </tr>
+                        </thead>
+                        <tbody class="fs-6">
+
+                        <tr>
+                            <td>1</td>
+                            <td class="text-center text-truncate">Soongsil University International Programs</td>
+                            <td>2020.06.04</td>
+                            <td>file</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td class="text-center text-truncate">Soongsil University International Programs</td>
+                            <td>2020.06.04</td>
+                            <td>file</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td class="text-center text-truncate">Soongsil University International Programs</td>
+                            <td>2020.06.04</td>
+                            <td>file</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td class="text-center text-truncate">Soongsil University International Programs</td>
+                            <td>2020.06.04</td>
+                            <td>file</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td class="text-center text-truncate">Soongsil University International Programs</td>
+                            <td>2020.06.04</td>
+                            <td>file</td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                    <div class="pagination-2">
+                        <nav class="d-flex justify-content-center" aria-label="Page navigation">
+                            <ul>
+                                <li>
+                                    <a href="#" aria-label="Previous page">
+                                        <i class="bi bi-arrow-left"></i>
+                                        <span class="d-none d-sm-inline">Previous</span>
+                                    </a>
+                                </li>
+
+                                <li><a href="#" class="active">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li class="ellipsis">...</li>
+                                <li><a href="#">8</a></li>
+                                <li><a href="#">9</a></li>
+                                <li><a href="#">10</a></li>
+
+                                <li>
+                                    <a href="#" aria-label="Next page">
+                                        <span class="d-none d-sm-inline">Next</span>
+                                        <i class="bi bi-arrow-right"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+        <!-- /Starter Section -->
+
+    </main>
+
+{% endblock body %}

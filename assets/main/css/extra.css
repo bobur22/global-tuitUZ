@@ -1,0 +1,7 @@
+#jazzy-logo > img {
+    border-radius: 0px;
+}
+
+.jazzmin-login-page > .login-box > .login-logo > h1 > picture > img {
+    width: 300px;
+}

@@ -1,0 +1,70 @@
+{% extends 'layouts/base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block body %}
+
+    <main class="main">
+
+        <!-- Page Title -->
+        <div class="page-title dark-background"
+             style="background-image: url({% static 'main/img/tatu/tatu_bino_1.jpg' %});">
+            <div class="container position-relative">
+                <h1>{% trans "Partners" %}</h1>
+                <nav class="breadcrumbs">
+                    <ol>
+                        <li><a href="{% url 'index' %}">{% trans "Home" %}</a></li>
+                        <li><a href="{% url 'about' %}">{% trans "About" %}</a></li>
+                        <li><a href="{% url 'starter_page' %}" style="color: white">{% trans "Partners" %}</a></li>
+                    </ol>
+                </nav>
+            </div>
+        </div><!-- End Page Title -->
+
+        <!-- Starter Section -->
+        <section id="starter-section" class="starter-section section">
+
+            <div class="container" data-aos="fade-up">
+
+                <div class="article-featured-image" data-aos="zoom-in">
+                    <img src="{% static 'main/img/tatu/home/partners.webp' %}" alt="UI Design Evolution"
+                         class="img-fluid col-12">
+                </div>
+
+                <div class="table-responsive mt-5">
+                    <table class="table table-hover align-middle text-center">
+                        <thead class="table-secondary">
+                        <tr class="fs-5 fw-semibold">
+                            <th scope="col" class="border-bottom-0">№</th>
+                            <th scope="col" class="border-bottom-0">{% trans "Nation" %}</th>
+                            <th scope="col" class="border-bottom-0">{% trans "Name" %}</th>
+                            <th scope="col" class="border-bottom-0">{% trans "Connection Date" %}</th>
+                        </tr>
+                        </thead>
+                        <tbody class="fs-6">
+
+                        {% for partner in page_obj %}
+                            <tr>
+                                <td>{{ forloop.counter }}</td>
+                                <td>{{ partner.nation }}</td>
+                                <td class="text-center text-truncate">
+                                    <a href="{{ partner.universityLink }}" target="_blank">
+                                        {{ partner.universityName }}
+                                    </a>
+                                </td>
+                                <td>{{ partner.universityDate|date:"M d, Y" }}</td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+
+
+            </div>
+
+        </section>
+        <!-- /Starter Section -->
+
+    </main>
+
+{% endblock body %}

@@ -1,0 +1,107 @@
+{% load static %}
+{% load i18n %}
+
+<header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+        {% url 'index' as index %}
+        <a href="{{ index }}" class="logo d-flex align-items-center" style="width: 300px; height: 70px;">
+            <img src="{% static 'main/img/logo/img.png' %}" alt="Logo"
+                 style="max-height: 100%; max-width: 100%; object-fit: contain;">
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+            <ul>
+                <li><a href="{{ index }}" class="{% if request.path == index %}active{% endif %}">Home</a></li>
+                {% url 'about' as about %}
+                {% url 'admissions' as admissions %}
+                {% url 'academics' as academics %}
+                {% url 'campus' as campus %}
+                {% url 'starter_page' as starter_page %}
+                {% url 'partner_page' as partner_page %}
+
+                <li class="dropdown"><a href="{{ about }}"
+                                        class="{% if request.path == about or request.path == admissions or request.path == starter_page or request.path == partner_page %}active{% endif %}"
+                ><span>{% trans "About" %}</span> <i
+                        class="bi bi-chevron-down toggle-dropdown{% if request.path == index %}active{% endif %}"></i></a>
+                    <ul>
+                        <li><a href="{{ about }}"
+                               class="{% if request.path == about %}active{% endif %}">{% trans "About Us" %}</a>
+                        </li>
+                        <li><a href="{{ starter_page }}"
+                               class="{% if request.path == starter_page %}active{% endif %}">{% trans "International Affairs" %}</a>
+                        </li>
+                        <li><a href="{{ admissions }}"
+                               class="{% if request.path == admissions %}active{% endif %}">{% trans "Admissions" %}</a>
+                        </li>
+                        <li><a href="{{ partner_page }}"
+                               class="{% if request.path == partner_page %}active{% endif %}">{% trans "Partners" %}</a>
+                        </li>
+                    </ul>
+                </li>
+
+                {% url 'student_life' as student_life %}
+                <li class="dropdown"><a href="{{ student_life }}"
+                                        class="{% if request.path == student_life or request.path == campus or request.path == academics %}active{% endif %}"
+                ><span>{% trans "Student Life" %}</span> <i
+                        class="bi bi-chevron-down toggle-dropdown"></i></a>
+                    <ul>
+                        <li><a href="{{ student_life }}"
+                               class="{% if request.path == student_life %}active{% endif %}">{% trans "Students Life" %}</a>
+                        </li>
+                        <li><a href="{{ academics }}"
+                               class="{% if request.path == academics %}active{% endif %}">{% trans "Academics" %}</a>
+                        </li>
+                        <li><a href="{{ campus }}"
+                               class="{% if request.path == campus %}active{% endif %}">{% trans "Campus &amp;Facilities" %}</a>
+                        </li>
+                    </ul>
+                </li>
+
+                {% url 'news' as news %}
+                <li><a href="{{ news }}" class="{% if request.path == news %}active{% endif %}">{% trans "News" %}</a>
+                </li>
+                {% url 'falco' as falco %}
+                <li class="dropdown"><a href="{{ falco }}"
+                                        class="{% if request.path == falco %}active{% endif %}"
+                ><span>{% trans "Community" %}</span> <i
+                        class="bi bi-chevron-down toggle-dropdown"></i></a>
+                    <ul>
+                        <li><a href="{{ falco }}"
+                               class="{% if request.path == falco %}active{% endif %}">{% trans "Falco Community" %}</a>
+                        </li>
+                    </ul>
+                </li>
+                {% url 'contact' as contact %}
+                <li><a href="https://lms.tuit.uz/auth/login" target="_blank">{% trans "Log In" %}</a></li>
+                <li><a href="{{ contact }}"
+                       class="{% if request.path == contact %}active{% endif %}">{% trans "Contact" %}</a></li>
+
+                {% get_current_language as Language_code %}
+                {% get_available_languages as LANGUAGES %}
+                {% get_language_info_list for LANGUAGES as languages %}
+                <li class="dropdown">
+                    <a href="" class=""><i class="bi bi-globe pe-2 fs-6"></i><span>
+                     {% if request.LANGUAGE_CODE == 'uz' %}
+                         O‘z
+                     {% elif request.LANGUAGE_CODE == 'ru' %}
+                         Ру
+                     {% elif request.LANGUAGE_CODE == 'en' %}
+                         Eng
+                     {% endif %}</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                    <ul>
+                        {% for lang in languages %}
+                            <li>
+                                <a class="{% if lang.code == Language_code %}active{% endif %}"
+                                   href="/{{ lang.code }}{{ request.get_full_path|slice:'3:' }}">
+                                    {{ lang.name_local|capfirst }}
+                                </a>
+                            </li>
+
+                        {% endfor %}
+                    </ul>
+                </li>
+            </ul>
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+    </div>
+</header>

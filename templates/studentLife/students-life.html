@@ -1,0 +1,469 @@
+{% extends 'layouts/base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block body %}
+
+    <main class="main">
+
+        <!-- Page Title -->
+        <div class="page-title dark-background position-relative"
+             style="background-image: url({% static 'main/img/tatu/tatu_bino_1.jpg' %});">
+            <div class="container position-relative">
+                <h1>{% trans "Student Life" %}</h1>
+                <nav class="breadcrumbs">
+                    <ol>
+                        <li><a href="{% url 'index' %}">{% trans "Home" %}</a></li>
+                        <li><a href="{% url 'student_life' %}">{% trans "Student Life" %}</a></li>
+                        <li class="current"><a href="{% url 'student_life' %}" style="color: white!important;">{% trans "Student life" %}</a>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <!-- End Page Title -->
+
+        <!-- Students Life Section -->
+        <section id="students-life" class="students-life section">
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <!-- Hero Banner -->
+                <div class="students-life-banner" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="banner-content" data-aos="fade-right" data-aos-delay="300">
+                        <h2>{% trans "Experience Campus Life" %}</h2>
+                        <p>{% trans "Immerse yourself in vibrant campus life! Discover our dynamic community and create unforgettable memories, fostering growth and unforgettable experiences." %}</p>
+                    </div>
+                    <img src="{% static 'main/img/tatu/studentLife/tatuLength.webp' %}" alt="Campus Life"
+                         class="img-fluid">
+                </div>
+
+                <!-- Life Categories -->
+                <div class="life-categories mt-5" data-aos="fade-up" data-aos-delay="200">
+                    <div class="row g-4">
+                        <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                            <div class="category-card">
+                                <div class="icon-container">
+                                    <i class="bi bi-people-fill"></i>
+                                </div>
+                                <h4>{% trans "Clubs" %}</h4>
+                                <p>{% trans "40+ Organizations" %}</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="200">
+                            <div class="category-card">
+                                <div class="icon-container">
+                                    <i class="bi bi-trophy-fill"></i>
+                                </div>
+                                <h4>{% trans "Athletics" %}</h4>
+                                <p>{% trans "15+ Sports Teams" %}</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="300">
+                            <div class="category-card">
+                                <div class="icon-container">
+                                    <i class="bi bi-calendar-event"></i>
+                                </div>
+                                <h4>{% trans "Events" %}</h4>
+                                <p>{% trans "200+ Annual Events" %}</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-delay="400">
+                            <div class="category-card">
+                                <div class="icon-container">
+                                    <i class="bi bi-house-door-fill"></i>
+                                </div>
+                                <h4>{% trans "Housing" %}</h4>
+                                <p>{% trans "5 Residence Halls" %}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tabs Section -->
+                <div class="students-life-tabs mt-5" data-aos="fade-up" data-aos-delay="200">
+                    <ul class="nav nav-pills mb-4 justify-content-center" id="studentLifeTabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="clubs-tab" data-bs-toggle="pill"
+                                    data-bs-target="#students-life-clubs" type="button" role="tab" aria-controls="clubs"
+                                    aria-selected="true">
+                                <i class="bi bi-people"></i> {% trans "Clubs &amp; Organizations" %}
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="athletics-tab" data-bs-toggle="pill"
+                                    data-bs-target="#students-life-athletics" type="button" role="tab"
+                                    aria-controls="athletics" aria-selected="false">
+                                <i class="bi bi-trophy"></i> {% trans "Athletics" %}
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="facilities-tab" data-bs-toggle="pill"
+                                    data-bs-target="#students-life-facilities" type="button" role="tab"
+                                    aria-controls="facilities" aria-selected="false">
+                                <i class="bi bi-building"></i> {% trans "Campus Facilities" %}
+                            </button>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content" id="studentLifeTabsContent">
+                        <!-- Clubs & Organizations Tab -->
+                        <div class="tab-pane fade show active" id="students-life-clubs" role="tabpanel"
+                             aria-labelledby="clubs-tab">
+                            <div class="row g-4">
+                                <div class="col-lg-5" data-aos="fade-right" data-aos-delay="200">
+                                    <div class="tab-content-image">
+                                        <img src="{% static 'main/img/tatu/studentLife/organizations.webp' %}"
+                                             alt="Student Clubs"
+                                             class="img-fluid rounded">
+                                        <div class="stat-badge">
+                                            <span class="number">40+</span>
+                                            <span class="text">{% trans "Active Clubs" %}</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-7" data-aos="fade-left" data-aos-delay="300">
+                                    <div class="tab-content-text">
+                                        <h3>{% trans "Join a Community That Shares Your Interests" %}</h3>
+                                        <p>{% trans "At Tashkent University of Information Technologies, we believe innovation thrives when diverse minds collaborate. Beyond labs and lectures, our student organizations help you grow, network, and recharge." %}</p>
+
+                                        <div class="row g-3 mt-4">
+                                            <div class="col-md-6">
+                                                <div class="club-category">
+                                                    <div class="icon-box">
+                                                        <i class="bi bi-laptop"></i>
+                                                    </div>
+                                                    <div class="content">
+                                                        <h5>{% trans "Tech & Innovation" %}</h5>
+                                                        <p>{% trans "18 Clubs" %}</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <div class="club-category">
+                                                    <div class="icon-box">
+                                                        <i class="bi bi-globe"></i>
+                                                    </div>
+                                                    <div class="content">
+                                                        <h5>{% trans "Global Community" %}</h5>
+                                                        <p>{% trans "5 International Groups" %}</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <div class="club-category">
+                                                    <div class="icon-box">
+                                                        <i class="bi bi-lightbulb"></i>
+                                                    </div>
+                                                    <div class="content">
+                                                        <h5>{% trans "Academic Societies" %}</h5>
+                                                        <p>{% trans "12 Associations" %}</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6">
+                                                <div class="club-category">
+                                                    <div class="icon-box">
+                                                        <i class="bi bi-palette"></i>
+                                                    </div>
+                                                    <div class="content">
+                                                        <h5>{% trans "Arts & Recreation" %}</h5>
+                                                        <p>{% trans "6 Creative Outlets" %}</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Athletics Tab -->
+                        <div class="tab-pane fade" id="students-life-athletics" role="tabpanel"
+                             aria-labelledby="athletics-tab">
+                            <div class="row g-4 mb-4 align-items-center">
+                                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+                                    <h3>{% trans "Athletics & Recreation at TUIT" %}</h3>
+                                    <p>{% trans "At TUIT University, we believe in building strong minds and bodies. Our athletics and recreation programs offer students the opportunity to stay active, compete, and grow through sports and teamwork. Whether you're aiming for a championship or just staying fit, there's a place for you here." %}</p>
+                                </div>
+
+                                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+                                    <div class="stats-container">
+                                        <div class="stat-item">
+                                            <span class="number">15+</span>
+                                            <span class="label">{% trans "Sports Teams" %}</span>
+                                        </div>
+                                        <div class="stat-item">
+                                            <span class="number">20+</span>
+                                            <span class="label">{% trans "Championships" %}</span>
+                                        </div>
+                                        <div class="stat-item">
+                                            <span class="number">300+</span>
+                                            <span class="label">{% trans "Athletes" %}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="athletic-programs-slider swiper init-swiper" data-aos="fade-up"
+                                 data-aos-delay="400">
+                                <script type="application/json" class="swiper-config">
+                                    {
+                                      "loop": true,
+                                      "speed": 600,
+                                      "autoplay": {
+                                        "delay": 5000
+                                      },
+                                      "slidesPerView": 1,
+                                      "spaceBetween": 30,
+                                      "pagination": {
+                                        "el": ".swiper-pagination",
+                                        "type": "bullets",
+                                        "clickable": true
+                                      },
+                                      "breakpoints": {
+                                        "576": {
+                                          "slidesPerView": 2
+                                        },
+                                        "992": {
+                                          "slidesPerView": 3
+                                        },
+                                        "1200": {
+                                          "slidesPerView": 4
+                                        }
+                                      }
+                                    }
+                                </script>
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="sport-card">
+                                            <img src="{% static 'main/img/tatu/studentLife/athletics/2025-05-27 19.46.21.jpg' %}"
+                                                 class="img-fluid" loading="lazy" alt="Swimming">
+                                            <div class="sport-info">
+                                                <h5>{% trans "Swimming" %}</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="sport-card">
+                                            <img src="{% static 'main/img/tatu/studentLife/athletics/photo_2025-05-27_19-40-04.jpg' %}"
+                                                 class="img-fluid" loading="lazy" alt="Basketball">
+                                            <div class="sport-info">
+                                                <h5>{% trans "Volleyball" %}</h5>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="sport-card">
+                                            <img src="{% static 'main/img/tatu/studentLife/athletics/photo_2025-05-27_19-40-32.jpg' %}"
+                                                 class="img-fluid" loading="lazy" alt="Soccer">
+                                            <div class="sport-info">
+                                                <h5>{% trans "Football" %}</h5>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="sport-card">
+                                            <img src="{% static 'main/img/tatu/studentLife/athletics/photo_2025-05-27_19-44-13.jpg' %}"
+                                                 class="img-fluid" loading="lazy" alt="Tennis">
+                                            <div class="sport-info">
+                                                <h5>{% trans "Table Tennis" %}</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="sport-card">
+                                            <img src="{% static 'main/img/tatu/studentLife/athletics/photo_2025-05-27_19-53-08.jpg' %}"
+                                                 class="img-fluid" loading="lazy" alt="Volleyball">
+                                            <div class="sport-info">
+                                                <h5>{% trans "Chess" %}</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+
+                        <!-- Facilities Tab -->
+                        <div class="tab-pane fade" id="students-life-facilities" role="tabpanel"
+                             aria-labelledby="facilities-tab">
+                            <div class="row g-4">
+                                <div class="col-lg-8" data-aos="fade-right" data-aos-delay="200">
+                                    <div class="facilities-gallery">
+                                        <div class="row g-3">
+                                            <div class="col-md-8">
+                                                <img src="{% static 'main/img/tatu/studentLife/campus/2025-05-27 19.52.54.jpg' %}"
+                                                     alt="Housing"
+                                                     class="img-fluid rounded">
+                                            </div>
+                                            <div class="col-md-4">
+                                                <img src="{% static 'main/img/tatu/studentLife/campus/2025-05-27 19.53.08.jpg' %}"
+                                                     alt="Dining"
+                                                     class="img-fluid rounded">
+                                            </div>
+                                            <div class="col-md-4">
+                                                <img src="{% static 'main/img/tatu/studentLife/campus/2025-05-27 19.53.32.jpg' %}"
+                                                     alt="Recreation" class="img-fluid rounded">
+                                            </div>
+                                            <div class="col-md-8">
+                                                <img src="{% static 'main/img/tatu/studentLife/campus/2025-05-27 19.53.18.jpg' %}"
+                                                     alt="Library"
+                                                     class="img-fluid rounded">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4" data-aos="fade-left" data-aos-delay="300">
+                                    <div class="facilities-info">
+                                        <h3>{% trans "A Campus Designed for Tech Innovators" %}</h3>
+                                        <p>{% trans "Where cutting-edge learning meets student comfort – experience spaces built to inspire your next breakthrough." %}</p>
+
+                                        <div class="facilities-list">
+                                            <div class="facility-item d-flex align-items-center">
+                                                <i class="bi bi-house-door"></i>
+                                                <h5>{% trans "Residence" %}</h5>
+                                                <p class="ps-3">{% trans "dormitories with high-speed WiFi, study lounges & 24/7 security." %}</p>
+                                            </div>
+
+                                            <div class="facility-item d-flex align-items-center">
+                                                <i class="bi bi-cup-hot"></i>
+                                                <h5>{% trans "Dining:" %}</h5>
+                                                <p class="ps-3">{% trans "Cafés with coding-friendly zones + late-night snack bars for hackathon crews" %}</p>
+                                            </div>
+
+                                            <div class="facility-item d-flex align-items-center">
+                                                <i class="bi bi-book"></i>
+                                                <h5>{% trans "Libraries" %}</h5>
+                                                <p class="ps-3">{% trans "Hubs with VR learning stations, silent pods & 250K+ e-resources" %}</p>
+                                            </div>
+
+                                            <div class="facility-item d-flex align-items-center">
+                                                <i class="bi bi-laptop"></i>
+                                                <h5>{% trans "Innovation Labs" %}</h5>
+                                                <p class="ps-3">{% trans "15 specialized labs (AI, IoT, cybersecurity) open 24/7during project seasons" %}</p>
+                                            </div>
+                                            <div class="facility-item d-flex align-items-center">
+                                                <i class="bi bi-box"></i>
+                                                <h5>{% trans "Next-Gen Recreation" %}</h5>
+                                                <p class="ps-3">{% trans "Esports arena, drone racing track & wellness center with biometric tracking" %}</p>
+                                            </div>
+                                        </div>
+
+                                        <a href="http://360.tuit.uz/" class="btn btn-explore mt-3">{% trans "Virtual Campus Tour" %}
+                                            <i
+                                                    class="bi bi-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Student Life Gallery -->
+                <div class="students-life-gallery mt-5" data-aos="fade-up" data-aos-delay="200">
+                    <div class="section-header text-center">
+                        <h3>{% trans "Life on Campus" %}</h3>
+                        <p>{% trans "Take a glimpse into our vibrant student community" %}</p>
+                    </div>
+
+                    <div class="row g-3">
+                        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+                            <a href="{% static 'main/img/tatu/studentLife/studentLifeP1.webp' %}"
+                               class="gallery-item glightbox">
+                                <img src="{% static 'main/img/tatu/studentLife/studentLifeP1.webp' %}" class="img-fluid"
+                                     loading="lazy" alt="Student Life">
+                                <div class="gallery-overlay">
+                                    <span>{% trans "Campus Events" %}</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+                            <a href="{% static 'main/img/tatu/studentLife/studentLifeP2.webp' %}"
+                               class="gallery-item glightbox">
+                                <img src="{% static 'main/img/tatu/studentLife/studentLifeP2.webp' %}" class="img-fluid"
+                                     loading="lazy" alt="Student Life">
+                                <div class="gallery-overlay">
+                                    <span>Sport Clubs</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+                            <a href="{% static 'main/img/tatu/studentLife/studentLifeP5.jpg' %}"
+                               class="gallery-item glightbox">
+                                <img src="{% static 'main/img/tatu/studentLife/studentLifeP5.jpg' %}" class="img-fluid"
+                                     loading="lazy" alt="Student Life">
+                                <div class="gallery-overlay">
+                                    <span>{% trans "Graduation Day" %}</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-6" data-aos="zoom-in" data-aos-delay="400">
+                            <a href="{% static 'main/img/tatu/studentLife/studentLifeP3.webp' %}"
+                               class="gallery-item glightbox">
+                                <img src="{% static 'main/img/tatu/studentLife/studentLifeP3.webp' %}" class="img-fluid"
+                                     loading="lazy" alt="Student Life">
+                                <div class="gallery-overlay">
+                                    <span>{% trans "Study Trips" %}</span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-md-6" data-aos="zoom-in" data-aos-delay="500">
+                            <a href="{% static 'main/img/tatu/studentLife/studentLifeP6.jpg' %}"
+                               class="gallery-item glightbox">
+                                <img src="{% static 'main/img/tatu/studentLife/studentLifeP6.jpg' %}" class="img-fluid"
+                                     loading="lazy" alt="Student Life">
+                                <div class="gallery-overlay">
+                                    <span>{% trans "Campus Facilities" %}</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CTA -->
+                <div class="cta-wrapper mt-5" data-aos="fade-up" data-aos-delay="200">
+                    <div class="cta-content">
+                        <div class="row align-items-center">
+                            <div class="col-lg-8" data-aos="fade-right" data-aos-delay="300">
+                                <h3>{% trans "Your Journey Starts Here" %}</h3>
+                                <p>{% trans "At Tashkent University of Information Technologies, we’re building the next generation of IT leaders. Whether you’re passionate about AI, cybersecurity, or software engineering, TUIT provides the tools, mentors, and opportunities to turn your potential into expertise." %}</p>
+                            </div>
+                            <div class="col-lg-4" data-aos="fade-left" data-aos-delay="400">
+                                <div class="cta-buttons">
+                                    <a href="{% url 'contact' %}" class="btn btn-primary">{% trans "Contact Us" %}</a>
+                                    <a href="https://inter-admission.tuit.uz/"
+                                       class="btn btn-outline">{% trans "Apply Now" %}</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section><!-- /Students Life Section -->
+
+    </main>
+
+{% endblock body %}
+
+</html>

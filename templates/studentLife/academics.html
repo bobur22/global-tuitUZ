@@ -1,0 +1,166 @@
+{% extends 'layouts/base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block body %}
+
+    <main class="main">
+
+        <!-- Page Title -->
+        <div class="page-title dark-background"
+             style="background-image: url({% static 'main/img/tatu/tatu_bino_1.jpg' %});">
+            <div class="container position-relative">
+                <h1>{% trans "Academics" %}</h1>
+                <nav class="breadcrumbs">
+                    <ol>
+                        <li><a href="{% url 'index' %}">{% trans "Home" %}</a></li>
+                        <li><a href="{% url 'student_life' %}">{% trans "Student Life" %}</a></li>
+                        <li class="current"><a href="{% url 'academics' %}"
+                                               style="color: white!important;">{% trans "Academics" %}</a>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div><!-- End Page Title -->
+
+        <!-- Academics Section -->
+        <section id="academics" class="academics section">
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="intro-wrapper">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right" data-aos-delay="200">
+                            <div class="intro-image">
+                                <img src="{% static 'main/img/education/education-1.webp' %}" alt="Academic Programs"
+                                     class="img-fluid rounded-lg shadow">
+                                <div class="accent-shape"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+                            <div class="intro-content">
+                                <span class="subtitle">{% trans "Excellence in IT Education" %}</span>
+                                <h2>{% trans "Shape Your Future with TUIT’s Premier Programs" %}</h2>
+                                <p class="intro-text">{% trans "At Tashkent University of Information Technologies, we blend theory with real-world practice to prepare leaders in tech. Our programs are designed to meet global standards, with a focus on innovation and industry relevance." %}</p>
+                                <div class="key-highlights">
+                                    <div class="highlight-item">
+                                        <i class="bi bi-check-circle-fill"></i>
+                                        <span>{% trans "Hands-on tech labs & internships" %}</span>
+                                    </div>
+                                    <div class="highlight-item">
+                                        <i class="bi bi-check-circle-fill"></i>
+                                        <span>{% trans "Award-winning professors & industry experts" %}</span>
+                                    </div>
+                                    <div class="highlight-item">
+                                        <i class="bi bi-check-circle-fill"></i>
+                                        <span>{% trans "Advanced research in AI, cybersecurity & more" %}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content programs-content" data-aos="fade-up" data-aos-delay="200">
+
+                    <!-- All Programs Tab -->
+                    <div class="tab-pane fade show active" id="academics-all" role="tabpanel">
+                        <div class="row g-4">
+                            {% for i in academicPrograms %}
+                                <div class="col-lg-4 col-md-6" data-aos="zoom-in"
+                                     data-aos-delay="{{ forloop.counter0|add:'1' }}00">
+                                    <div class="program-item {{ i.typeStudy }}">
+                                        <div class="program-header">
+                                            <div class="program-icon">
+                                                <i class="bi {{ i.iconType }}"></i>
+                                            </div>
+                                            <span class="program-type">{{ i.typeStudy|capfirst }}</span>
+                                        </div>
+                                        <div class="program-body">
+                                            <h3>{{ i.nameEducation }}</h3>
+                                            <p>{{ i.detailEducation }}</p>
+                                            <ul class="program-details">
+                                                <li><i class="bi bi-clock"></i>{{ i.duration }}</li>
+                                                <li><i class="bi bi-mortarboard-fill"></i>{{ i.certification }}</li>
+                                                <li><i class="bi bi-calendar-check"></i>{{ i.startPeriod }}</li>
+                                            </ul>
+                                        </div>
+                                        <div class="program-footer">
+                                            <a href="{{ i.link.url }}" class="program-link">Download Program Full Detail<i
+                                                    class="bi bi-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stats-wrapper" data-aos="fade-up">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5 mb-4 mb-lg-0" data-aos="fade-right" data-aos-delay="100">
+                            <div class="stats-content">
+                                <span class="subtitle">{% trans "TUIT in Numbers" %}</span>
+                                <h2>{% trans "Driving Innovation Through Education" %}</h2>
+                                <p>{% trans "At TUIT, we measure success by the impact of our graduates and the breakthroughs in our labs. Here’s what sets us apart:" %}</p>
+                                <a href="{% url 'about' %}" class="btn-about">{% trans "About Our Institution" %}</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-7" data-aos="fade-left" data-aos-delay="200">
+                            <div class="stats-grid">
+                                <div class="stat-card" data-aos="zoom-in" data-aos-delay="100">
+                                    <div class="stat-icon">
+                                        <i class="bi bi-people-fill"></i>
+                                    </div>
+                                    <div class="stat-number">
+                                        <span data-purecounter-start="0" data-purecounter-end="90"
+                                              data-purecounter-duration="1" class="purecounter"></span>%
+                                    </div>
+                                    <div class="stat-title">{% trans "Student Satisfaction" %}</div>
+                                </div>
+
+                                <div class="stat-card" data-aos="zoom-in" data-aos-delay="200">
+                                    <div class="stat-icon">
+                                        <i class="bi bi-journal-bookmark-fill"></i>
+                                    </div>
+                                    <div class="stat-number">
+                                        <span data-purecounter-start="0" data-purecounter-end="80"
+                                              data-purecounter-duration="1" class="purecounter"></span>+
+                                    </div>
+                                    <div class="stat-title">{% trans "Cutting-Edge Programs" %}</div>
+                                </div>
+
+                                <div class="stat-card" data-aos="zoom-in" data-aos-delay="300">
+                                    <div class="stat-icon">
+                                        <i class="bi bi-award-fill"></i>
+                                    </div>
+                                    <div class="stat-number">
+                                        <span data-purecounter-start="0" data-purecounter-end="15"
+                                              data-purecounter-duration="1" class="purecounter"></span>+
+                                    </div>
+                                    <div class="stat-title">{% trans "Specialized Research Centers" %}</div>
+                                </div>
+
+                                <div class="stat-card" data-aos="zoom-in" data-aos-delay="400">
+                                    <div class="stat-icon">
+                                        <i class="bi bi-mortarboard-fill"></i>
+                                    </div>
+                                    <div class="stat-number">
+                                        <span data-purecounter-start="0" data-purecounter-end="95"
+                                              data-purecounter-duration="1" class="purecounter"></span>%
+                                    </div>
+                                    <div class="stat-title">{% trans "Graduate Employability" %}</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- /Academics Section -->
+
+    </main>
+
+{% endblock body %}

@@ -1,0 +1,3009 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-28 06:17+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+msgid "Uzbek"
+msgstr "O‘zbek"
+
+#: gt_backend/models.py:11
+msgid "news header"
+msgstr "Yangiliklar sarlavhasi"
+
+#: gt_backend/models.py:12
+msgid "Please enter the header of the news !"
+msgstr "Iltimos, yangiliklar sarlavhasini kiriting!"
+
+#: gt_backend/models.py:13
+msgid "news paragraph"
+msgstr "Yangiliklar paragrafi"
+
+#: gt_backend/models.py:13
+msgid "Please enter the paragraph of the news !"
+msgstr "Iltimos, yangiliklar paragrafini kiriting!"
+
+#: gt_backend/models.py:14
+msgid "news date"
+msgstr "Yangiliklar sanasi"
+
+#: gt_backend/models.py:15
+msgid "Please enter the date of the news !."
+msgstr "Iltimos, yangiliklar sanasini kiriting!"
+
+#: gt_backend/models.py:17
+msgid "news view counter"
+msgstr "Yangiliklar ko‘rish hisoblagichi"
+
+#: gt_backend/models.py:17
+msgid "This is newses view counter don't change it!"
+msgstr "Bu yangiliklar ko‘rish hisoblagichi, uni o‘zgartirmang!"
+
+#: gt_backend/models.py:18
+msgid "news image"
+msgstr "Yangiliklar rasmi"
+
+#: gt_backend/models.py:19 gt_backend/models.py:60
+msgid "Please upload your image !"
+msgstr "Iltimos, rasmni yuklang!"
+
+#: gt_backend/models.py:32 gt_backend/models.py:33
+#: templates/layouts/footer.html:39 templates/layouts/navbar.html:53
+#: templates/news.html:17
+msgid "News"
+msgstr "Yangiliklar"
+
+#: gt_backend/models.py:38
+msgid "full name"
+msgstr "To‘liq ism"
+
+#: gt_backend/models.py:39
+msgid "Please, fill your full name."
+msgstr "Iltimos, to‘liq ismingizni to‘ldiring."
+
+#: gt_backend/models.py:40
+msgid "email"
+msgstr "Elektron pochta"
+
+#: gt_backend/models.py:41
+msgid "Please, fill your email."
+msgstr "Iltimos, elektron pochtangizni to‘ldiring."
+
+#: gt_backend/models.py:42
+msgid "subject"
+msgstr "Mavzu"
+
+#: gt_backend/models.py:43
+msgid "Please, fill the subject."
+msgstr "Iltimos, mavzuni to‘ldiring."
+
+#: gt_backend/models.py:44
+msgid "message"
+msgstr "Xabar"
+
+#: gt_backend/models.py:45
+msgid "Please, fill the message."
+msgstr "Iltimos, xabarni to‘ldiring."
+
+#: gt_backend/models.py:53 templates/contact.html:13 templates/contact.html:17
+#: templates/layouts/navbar.html:66
+msgid "Contact"
+msgstr "Aloqa"
+
+#: gt_backend/models.py:54
+msgid "Contacts"
+msgstr "Aloqalar"
+
+#: gt_backend/models.py:59
+msgid "infrostructure image"
+msgstr "Infratuzilma rasmi"
+
+#: gt_backend/models.py:61
+msgid "infrostructure header"
+msgstr "Infratuzilma sarlavhasi"
+
+#: gt_backend/models.py:62
+msgid "Please, enter the header."
+msgstr "Iltimos, sarlavhani kiriting."
+
+#: gt_backend/models.py:63
+msgid "infrostructure paragraph"
+msgstr "Infratuzilma paragrafi"
+
+#: gt_backend/models.py:64
+msgid "Please, enter the paragraph."
+msgstr "Iltimos, paragrafni kiriting."
+
+#: gt_backend/models.py:72
+msgid "Infrastructure"
+msgstr "Infratuzilma"
+
+#: gt_backend/models.py:73
+msgid "Infrastructures"
+msgstr "Infratuzilmalar"
+
+#: gt_backend/models.py:78
+msgid "nation"
+msgstr "Millat"
+
+#: gt_backend/models.py:79
+msgid "Please enter the nation of the university."
+msgstr "Iltimos, universitet millatini kiriting."
+
+#: gt_backend/models.py:80
+msgid "university name"
+msgstr "Universitet nomi"
+
+#: gt_backend/models.py:80
+msgid "Please enter the name of the university."
+msgstr "Iltimos, universitet nomini kiriting."
+
+#: gt_backend/models.py:81
+msgid "university link"
+msgstr "Universitet havolasi"
+
+#: gt_backend/models.py:81
+msgid "Please enter the link of the university."
+msgstr "Iltimos, universitet havolasini kiriting."
+
+#: gt_backend/models.py:82
+msgid "university date"
+msgstr "Universitet sanasi"
+
+#: gt_backend/models.py:82
+msgid "Please enter the date of the university."
+msgstr "Iltimos, universitet sanasini kiriting."
+
+#: gt_backend/models.py:90
+msgid "Partner University"
+msgstr "Hamkor universitet"
+
+#: gt_backend/models.py:91
+msgid "Partner Universities"
+msgstr "Hamkor universitetlar"
+
+#: gt_backend/models.py:96
+msgid "Telegram ID"
+msgstr "Telegram ID"
+
+#: gt_backend/models.py:96
+msgid "Please enter the Telegram ID."
+msgstr "Iltimos, Telegram ID ni kiriting."
+
+#: gt_backend/models.py:97
+msgid "Telegram Bot"
+msgstr "Telegram Bot"
+
+#: gt_backend/models.py:97
+msgid "Please enter the Telegram Bot token."
+msgstr "Iltimos, Telegram Bot tokenini kiriting."
+
+#: gt_backend/models.py:103 gt_backend/models.py:104
+msgid "TelegramData"
+msgstr "Telegram ma'lumotlari"
+
+#: gt_backend/models.py:109
+msgid "semester name"
+msgstr "Semestr nomi"
+
+#: gt_backend/models.py:110
+msgid "Please enter the semester name."
+msgstr "Iltimos, semestr nomini kiriting."
+
+#: gt_backend/models.py:111
+msgid "semester date"
+msgstr "Semestr sanasi"
+
+#: gt_backend/models.py:112
+msgid "Please enter the semester date."
+msgstr "Iltimos, semestr sanasini kiriting."
+
+#: gt_backend/models.py:120
+msgid "Admission Deadline"
+msgstr "Qabul muddati"
+
+#: gt_backend/models.py:121
+msgid "Admission Deadlines"
+msgstr "Qabul muddatlari"
+
+#: gt_backend/models.py:128
+msgid "Doctoral"
+msgstr "Doktorlik"
+
+#: gt_backend/models.py:129
+msgid "Undergraduate"
+msgstr "Bakalavriat"
+
+#: gt_backend/models.py:130
+msgid "Graduate"
+msgstr "Magistratura"
+
+#: gt_backend/models.py:131
+msgid "Program"
+msgstr "Dastur"
+
+#: gt_backend/models.py:132 gt_backend/models.py:145
+msgid "Certification"
+msgstr "Sertifikat"
+
+#: gt_backend/models.py:135
+msgid "doctoral"
+msgstr "doktorlik"
+
+#: gt_backend/models.py:136
+msgid "undergraduate"
+msgstr "bakalavriat"
+
+#: gt_backend/models.py:137
+msgid "graduate"
+msgstr "magistratura"
+
+#: gt_backend/models.py:138
+msgid "program"
+msgstr "dastur"
+
+#: gt_backend/models.py:139
+msgid "certification"
+msgstr "sertifikat"
+
+#: gt_backend/models.py:141
+msgid "Type of Study"
+msgstr "Ta'lim turi"
+
+#: gt_backend/models.py:141
+msgid "Please choose the type of study."
+msgstr "Iltimos, ta'lim turini tanlang."
+
+#: gt_backend/models.py:142
+msgid "Education Name"
+msgstr "Ta'lim nomi"
+
+#: gt_backend/models.py:142
+msgid "Please enter the name of the education."
+msgstr "Iltimos, ta'lim nomini kiriting."
+
+#: gt_backend/models.py:143
+msgid "Education Detail"
+msgstr "Ta'lim tafsilotlari"
+
+#: gt_backend/models.py:143
+msgid "Please enter the detail of the education."
+msgstr "Iltimos, ta'lim tafsilotlarini kiriting."
+
+#: gt_backend/models.py:144
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1868
+msgid "Duration"
+msgstr "Davomiyligi"
+
+#: gt_backend/models.py:144
+msgid "Please enter the duration of the education."
+msgstr "Iltimos, ta'lim davomiyligini kiriting."
+
+#: gt_backend/models.py:145
+msgid "Please enter the certification of the education."
+msgstr "Iltimos, ta'lim sertifikatini kiriting."
+
+#: gt_backend/models.py:146
+msgid "Start of Period"
+msgstr "Davning boshlanishi"
+
+#: gt_backend/models.py:146
+msgid "Please enter the start period of the education."
+msgstr "Iltimos, ta'lim davrining boshlanishini kiriting."
+
+#: gt_backend/models.py:147
+msgid "Academic Program's file"
+msgstr "Akademik dastur fayli"
+
+#: gt_backend/models.py:147
+msgid "Please enter the link of the academic program."
+msgstr "Iltimos, akademik dastur havolasini kiriting."
+
+#: gt_backend/models.py:149
+msgid "icon bi"
+msgstr "Icon bi"
+
+#: gt_backend/models.py:149
+msgid "Please choose the type of icon bi bi"
+msgstr "Iltimos, belgi bi bi turini tanlang."
+
+#: gt_backend/models.py:150
+msgid "Color Type"
+msgstr "Rang turi"
+
+#: gt_backend/models.py:150
+msgid "Please choose the type of color."
+msgstr "Iltimos, rang turini tanlang."
+
+#: gt_backend/models.py:159
+msgid "Academic Program"
+msgstr "Akademik dastur"
+
+#: gt_backend/models.py:160
+msgid "Academic Programs"
+msgstr "Akademik dasturlar"
+
+#: gt_backend/validators.py:13
+msgid "Enter a valid full name.(without numbers)"
+msgstr "To‘g‘ri to‘liq ism kiriting (raqamlarsiz)."
+
+#: gt_backend/validators.py:15
+msgid "Enter a valid full name that contains first name and last name"
+msgstr "Ism va familiyadan iborat to‘g‘ri to‘liq ism kiriting."
+
+#: templates/404/404.html:14
+msgid "Not Found"
+msgstr "Topilmadi"
+
+#: templates/404/404.html:17 templates/about/about.html:16
+#: templates/about/admissions.html:16
+#: templates/about/international_office.html:16
+#: templates/about/partnersCountry.html:16 templates/alumni.html:16
+#: templates/contact.html:16 templates/layouts/footer.html:37
+#: templates/news-details.html:16 templates/news.html:16
+#: templates/studentLife/academics.html:16
+#: templates/studentLife/campus-facilities.html:16
+#: templates/studentLife/students-life.html:16
+msgid "Home"
+msgstr "Bosh sahifa"
+
+#: templates/404/404.html:43
+msgid "Error"
+msgstr "Xato"
+
+#: templates/404/404.html:44
+msgid "404"
+msgstr "404"
+
+#: templates/404/404.html:46
+msgid "Page Not Found"
+msgstr "Sahifa topilmadi"
+
+#: templates/404/404.html:48
+msgid ""
+"The page you are looking for might have been removed, had its name changed, "
+"or is temporarily unavailable."
+msgstr "Siz izlayotgan sahifa o‘chirilgan, nomi o‘zgartirilgan yoki vaqtincha mavjud emas bo‘lishi mumkin."
+
+#: templates/404/404.html:53
+msgid "Back to Home"
+msgstr "Bosh sahifaga qaytish"
+
+#: templates/404/404.html:56
+msgid "Help Center"
+msgstr "Yordam markazi"
+
+#: templates/404/404.html:61
+msgid "You might want to:"
+msgstr "Siz xohlashingiz mumkin:"
+
+#: templates/404/404.html:64
+msgid "Check our sitemap"
+msgstr "Sayt xaritamizni tekshiring"
+
+#: templates/404/404.html:68
+msgid "Contact support"
+msgstr "Yordam bilan bog‘laning"
+
+#: templates/404/404.html:71
+msgid "Return to previous page"
+msgstr "Oldingi sahifaga qaytish"
+
+#: templates/about/about.html:13 templates/about/about.html:17
+#: templates/about/admissions.html:17
+#: templates/about/international_office.html:17
+#: templates/about/partnersCountry.html:17 templates/layouts/footer.html:46
+#: templates/layouts/navbar.html:24
+msgid "About"
+msgstr "Haqida"
+
+#: templates/about/about.html:31
+msgid "Our Story"
+msgstr "Bizning hikoyamiz"
+
+#: templates/about/about.html:32
+msgid "Educating Minds, Inspiring Hearts"
+msgstr "Aqlni tarbiyalash, yuraklarni ilhomlantirish"
+
+#: templates/about/about.html:34
+msgid ""
+"Founded in 1955, the Tashkent University of Information Technologies (TUIT) "
+"has evolved from a regional communication institute into Uzbekistan’s "
+"leading hub for IT education and research. With a strong focus on "
+"innovation, global cooperation, and academic excellence, TUIT empowers "
+"students to drive digital transformation across Central Asia and beyond."
+msgstr "1955-yilda tashkil etilgan Toshkent Axborot Texnologiyalari Universiteti (TUIT) mintaqaviy aloqa institutidan O‘zbekistonning axborot texnologiyalari sohasidagi yetakchi ta'lim va tadqiqot markaziga aylandi. Innovatsiyalar, global hamkorlik va akademik mukammallikka katta e'tibor qaratgan holda, TUIT talabalarga Markaziy Osiyo va undan tashqarida raqamli transformatsiyani boshqarish imkonini beradi."
+
+#: templates/about/about.html:42
+msgid "Tashkent Electrotechnical Institute of Communications (TEIC)."
+msgstr "Toshkent Elektrotexnika Aloqa Instituti (TEIC)."
+
+#: templates/about/about.html:50
+msgid ""
+"Correspondence faculty base stations of TEIC were opened in Frunze (now "
+"Bishkek), in Dushanbe, Almaty and the cities of Fergana."
+msgstr "TEICning sirtqi ta'lim fakulteti baza stansiyalari Frunze (hozirgi Bishkek), Dushanbe, Almaty va Farg‘ona shaharlarida ochildi."
+
+#: templates/about/about.html:58
+msgid ""
+"Formation of the Institute under the Central Asian Telecommunications "
+"Training Centre in order to train engineers and technical staff for networks "
+"in Central Asian Republics, Mongolia, India and Pakistan."
+msgstr "Markaziy Osiyo respublikalari, Mo‘g‘uliston, Hindiston va Pokistondagi tarmoqlar uchun muhandislar va texnik xodimlarni tayyorlash maqsadida institut Markaziy Osiyo Telekommunikatsiya O‘quv Markazi qoshida tashkil etildi."
+
+#: templates/about/about.html:66
+msgid ""
+"TEIC was renamed into Tashkent University of Information Technologies (TUIT) "
+"according to the Decree of the President of the Republic of Uzbekistan 2005 "
+"- Regional branches of TUIT were opened in Karshi, Nukus, Samarkand, Urgench "
+"and Fergana cities."
+msgstr "TEIC O‘zbekiston Respublikasi Prezidentining 2005-yildagi farmoniga ko‘ra Toshkent Axborot Texnologiyalari Universiteti (TUIT) deb nomlandi - TUITning Qarshi, Nukus, Samarqand, Urganch va Farg‘ona shaharlarida mintaqaviy filiallar ochildi."
+
+#: templates/about/about.html:79 templates/index.html:139
+msgid "Our Mission"
+msgstr "Bizning missiyamiz"
+
+#: templates/about/about.html:80 templates/index.html:140
+msgid ""
+"To educate and prepare highly skilled specialists in information and "
+"communication technologies, fostering scientific innovation, ethical "
+"leadership, and community-driven development in Uzbekistan and the global IT "
+"landscape."
+msgstr "O‘zbekiston va global axborot texnologiyalari sohasida ilmiy innovatsiyalar, axloqiy yetakchilik va jamiyatga yo‘naltirilgan rivojlanishni qo‘llab-quvvatlash orqali axborot va kommunikatsiya texnologiyalari sohasida yuqori malakali mutaxassislarni tarbiyalash va tayyorlash."
+
+#: templates/about/about.html:84 templates/index.html:148
+msgid "Our Vision"
+msgstr "Bizning vizyonimiz"
+
+#: templates/about/about.html:85 templates/index.html:149
+msgid ""
+"To become a regional leader in digital transformation and a global center "
+"for excellence in IT education, research, and innovation, shaping the future "
+"of information technology across borders."
+msgstr "Raqamli transformatsiyada mintaqaviy yetakchi va axborot texnologiyalari bo‘yicha ta'lim, tadqiqot va innovatsiyalarda global mukammallik markazi bo‘lish, chegaralar bo‘ylab axborot texnologiyalari kelajagini shakllantirish."
+
+#: templates/about/about.html:95
+msgid "Core Values"
+msgstr "Asosiy qadriyatlar"
+
+#: templates/about/about.html:102
+msgid "Academic Excellence"
+msgstr "Akademik mukammallik"
+
+#: templates/about/about.html:103
+msgid ""
+"We uphold the highest standards of teaching and research, empowering "
+"students and faculty to reach their full intellectual and professional "
+"potential."
+msgstr "Biz o‘qitish va tadqiqotning eng yuqori standartlarini qo‘llab-quvvatlaymiz, talabalar va professor-o‘qituvchilarga ularning to‘liq intellektual va professional salohiyatiga erishish imkonini beramiz."
+
+#: templates/about/about.html:112
+msgid "Community Engagement"
+msgstr "Jamiyat bilan hamkorlik"
+
+#: templates/about/about.html:113
+msgid ""
+"We actively collaborate with local and international partners to address "
+"real-world challenges and foster inclusive development."
+msgstr "Biz mahalliy va xalqaro hamkorlar bilan faol hamkorlik qilamiz, real dunyo muammolarini hal qilish va inklyuziv rivojlanishni qo‘llab-quvvatlash uchun."
+
+#: templates/about/about.html:122
+msgid "Innovation"
+msgstr "Innovatsiya"
+
+#: templates/about/about.html:123
+msgid ""
+"We champion forward-thinking solutions through advanced research, cutting-"
+"edge technology, and a strong entrepreneurial spirit."
+msgstr "Biz ilg‘or tadqiqotlar, eng zamonaviy texnologiyalar va kuchli tadbirkorlik ruhini qo‘llab-quvvatlaymiz."
+
+#: templates/about/about.html:132
+msgid "Global Perspective"
+msgstr "Global nuqtai nazar"
+
+#: templates/about/about.html:133
+msgid ""
+"With partnerships in over 26 countries, we prepare students to thrive in an "
+"interconnected world and lead global digital initiatives."
+msgstr "26 dan ortiq mamlakatlardagi hamkorliklar bilan biz talabalarni global dunyoda muvaffaqiyat qozonish va global raqamli tashabbuslarni boshqarish uchun tayyorlaymiz."
+
+#: templates/about/admissions.html:13 templates/about/admissions.html:19
+#: templates/layouts/navbar.html:31
+msgid "Admissions"
+msgstr "Qabul"
+
+#: templates/about/admissions.html:31
+msgid "Begin Your Academic Journey Today"
+msgstr "Bugun akademik sayohatingizni boshlang"
+
+#: templates/about/admissions.html:32
+msgid ""
+"Ready to embark on a transformative path? Begin your academic journey today "
+"with us and discover a world of knowledge, growth, and endless opportunities "
+"awaiting you."
+msgstr "O‘zgaruvchan yo‘lga kirishga tayyormisiz? Bugun biz bilan akademik sayohatingizni boshlang va bilim, o‘sish va cheksiz imkoniyatlar dunyosini kashf eting."
+
+#: templates/about/admissions.html:35
+msgid "How to Apply"
+msgstr "Qanday qilib ariza berish"
+
+#: templates/about/admissions.html:40
+msgid "Submit Application"
+msgstr "Ariza topshirish"
+
+#: templates/about/admissions.html:41
+msgid ""
+"Effortlessly submit your application online, beginning your journey with us "
+"with ease and convenience."
+msgstr "Onlayn arizangizni osongina topshiring, biz bilan sayohatingizni qulaylik bilan boshlang."
+
+#: templates/about/admissions.html:48
+msgid "Send Documents"
+msgstr "Hujjatlarni yuborish"
+
+#: templates/about/admissions.html:49
+msgid ""
+"Carefully prepare and send all required supporting documents to complete "
+"your comprehensive application file."
+msgstr "Barcha zarur hujjatlarni diqqat bilan tayyorlang va to‘liq ariza faylingizni yakunlash uchun yuboring."
+
+#: templates/about/admissions.html:56
+msgid "Interview Process"
+msgstr "Suhbat jarayoni"
+
+#: templates/about/admissions.html:57
+msgid ""
+"Participate in our interview process, a valuable opportunity for us to learn "
+"more about your aspirations."
+msgstr "Suhbat jarayonimizda ishtirok eting, bu bizga sizning orzu-niyatlaringiz haqida ko‘proq bilish uchun qimmatli imkoniyatdir."
+
+#: templates/about/admissions.html:64
+msgid "Receive Decision"
+msgstr "Qarorni qabul qilish"
+
+#: templates/about/admissions.html:65
+msgid ""
+"Anticipate receiving your admission decision, marking an exciting milestone "
+"in your academic pursuit."
+msgstr "Qabul qarorini kuting, bu sizning akademik yo‘lingizdagi muhim bosqichdir."
+
+#: templates/about/admissions.html:72
+msgid "Key Admission Deadlines"
+msgstr "Asosiy qabul muddatlari"
+
+#: templates/about/admissions.html:89
+msgid "Admission Requirements"
+msgstr "Qabul talablari"
+
+#: templates/about/admissions.html:96
+msgid "Academic Records"
+msgstr "Akademik yozuvlar"
+
+#: templates/about/admissions.html:97
+msgid ""
+"Scan your certificate or diploma with subjects and grades. Master’s "
+"applicants should include their bachelor’s diploma."
+msgstr "Sertifikat yoki diplomingizni fanlar va baholar bilan skanerlang. Magistratura uchun ariza beruvchilar bakalavr diplomini kiritishlari kerak."
+
+#: templates/about/admissions.html:106
+msgid "Passport"
+msgstr "Pasport"
+
+#: templates/about/admissions.html:107
+msgid "Scan the main page of your passport (PDF format)."
+msgstr "Pasportingizning asosiy sahifasini skanerlang (PDF formatida)."
+
+#: templates/about/admissions.html:116
+msgid "Photo"
+msgstr "Rasm"
+
+#: templates/about/admissions.html:117
+msgid "An electronic photo (3.5 cm x 4.5 cm) taken within the last 3 months."
+msgstr "Oxirgi 3 oy ichida olingan elektron rasm (3.5 sm x 4.5 sm)."
+
+#: templates/about/admissions.html:126
+msgid "English Proficiency"
+msgstr "Ingliz tili bilimi"
+
+#: templates/about/admissions.html:127
+msgid ""
+"Submit your IELTS (5.5 or higher) or TOEFL iBT (71 or higher) certificate."
+msgstr "IELTS (5.5 yoki undan yuqori) yoki TOEFL iBT (71 yoki undan yuqori) sertifikatingizni topshiring."
+
+#: templates/about/admissions.html:136
+msgid "Request Information"
+msgstr "Ma'lumot so‘rash"
+
+#: templates/about/admissions.html:137
+msgid ""
+"To request detailed information and apply, please visit our dedicated "
+"contact section. For a quicker response and immediate action, simply press "
+"the 'Submit Request' button below."
+msgstr "Batafsil ma'lumot so‘rash va ariza berish uchun iltimos, maxsus aloqa bo‘limimizga tashrif buyuring. Tezroq javob olish va darhol harakat qilish uchun quyidagi 'So‘rov yuborish' tugmasini bosing."
+
+#: templates/about/admissions.html:142
+msgid "Submit Request"
+msgstr "So‘rov yuborish"
+
+#: templates/about/admissions.html:156
+msgid "Visit Our Campus"
+msgstr "Kampusimizga tashrif buyuring"
+
+#: templates/about/admissions.html:157
+msgid "Visit our campus to discover your future and see where you'll thrive."
+msgstr "Kelajagingizni kashf qilish va muvaffaqiyat qozonadigan joyni ko‘rish uchun kampusimizga tashrif buyuring."
+
+#: templates/about/admissions.html:158
+msgid "View Campus"
+msgstr "Kampusni ko‘rish"
+
+#: templates/about/admissions.html:164
+msgid "Ready to Apply?"
+msgstr "Ariza berishga tayyormisiz?"
+
+#: templates/about/admissions.html:165
+msgid "Ready to apply? Start your application now and take the next step."
+msgstr "Ariza berishga tayyormisiz? Hozir arizangizni boshlang va keyingi qadamni qo‘ying."
+
+#: templates/about/admissions.html:167
+msgid "Start Application"
+msgstr "Arizani boshlash"
+
+#: templates/about/international_office.html:13
+msgid "International Affairs Office"
+msgstr "Xalqaro aloqalar bo‘limi"
+
+#: templates/about/international_office.html:18
+#: templates/layouts/footer.html:49 templates/layouts/navbar.html:29
+msgid "International Affairs"
+msgstr "Xalqaro aloqalar"
+
+#: templates/about/partnersCountry.html:13
+#: templates/about/partnersCountry.html:18 templates/layouts/footer.html:51
+#: templates/layouts/navbar.html:33
+msgid "Partners"
+msgstr "Hamkorlar"
+
+#: templates/about/partnersCountry.html:39
+msgid "Nation"
+msgstr "Millat"
+
+#: templates/about/partnersCountry.html:40
+msgid "Name"
+msgstr "Nomi"
+
+#: templates/about/partnersCountry.html:41
+msgid "Connection Date"
+msgstr "Ulanish sanasi"
+
+#: templates/alumni.html:13 templates/alumni.html:19 templates/alumni.html:36
+#: templates/layouts/navbar.html:60
+msgid "Falco Community"
+msgstr "Falco jamoasi"
+
+#: templates/alumni.html:17 templates/layouts/navbar.html:57
+#: templates/studentLife/campus-facilities.html:98
+msgid "Community"
+msgstr "Jamoa"
+
+#: templates/alumni.html:37
+msgid "About Falco"
+msgstr "Falco haqida"
+
+#: templates/alumni.html:38
+msgid ""
+"Falco — where Uzbekistan’s future leaders unite Real opportunities. Big "
+"impact. Serious work, Cool team, Endless growth."
+msgstr "Falco — O‘zbekistonning kelajakdagi yetakchilari birlashadigan joy. Haqiqiy imkoniyatlar. Katta ta'sir. Jiddiy ish, ajoyib jamoa, cheksiz o‘sish."
+
+#: templates/alumni.html:40
+msgid "Want in? Apply here."
+msgstr "Kirishni xohlaysizmi? Bu yerda ariza bering."
+
+#: templates/alumni.html:56
+msgid "Notable Spotlights"
+msgstr "E’tiborli yorqin lahzalar"
+
+#: templates/alumni.html:57
+msgid "Members of FALCO making an impact in their fields."
+msgstr "FALCO a'zolari o‘z sohalarda ta'sir ko‘rsatmoqda."
+
+#: templates/alumni.html:68
+msgid "May 16, 2025"
+msgstr "2025-yil 16-may"
+
+#: templates/alumni.html:71
+msgid "Game Festival 2025"
+msgstr "O‘yinlar festivali 2025"
+
+#: templates/alumni.html:76 templates/alumni.html:95 templates/alumni.html:114
+msgid "View Profile"
+msgstr "Profilni ko‘rish"
+
+#: templates/alumni.html:89
+msgid "April 30, 2025"
+msgstr "2025-yil 30-aprel"
+
+#: templates/alumni.html:92
+msgid "Rektor Cup"
+msgstr "Rektor kubogi"
+
+#: templates/alumni.html:93
+msgid ""
+"🏆 1st Place — Automated Drone Racing | Rector’s Cup From concept to "
+"execution — we soared. Falco claimed 1st place in the automated drone racing "
+"category at the Rector’s Cup, outpacing ... "
+msgstr "🏆 1-o‘rin — Avtomatlashtirilgan dron poygasi | Rektor kubogi Kontseptsiyadan ijroga — biz yuksaldik. Falco Rektor kubogida avtomatlashtirilgan dron poygasi toifasida 1-o‘rinni egalladi, boshqalarni ortda qoldirib ..."
+
+#: templates/alumni.html:108
+msgid "May 5, 2025"
+msgstr "2025-yil 5-may"
+
+#: templates/alumni.html:111
+msgid "CanSat Uzbekistan–2025"
+msgstr "CanSat O‘zbekiston–2025"
+
+#: templates/alumni.html:112
+msgid ""
+"Yusufov Otabek proudly receives his 2nd place certificate for the CanSat "
+"Uzbekistan 2025 competition. His dedication and skill in microsatellite "
+"development are a testament ..."
+msgstr "Yusufov Otabek CanSat O‘zbekiston 2025 tanlovida 2-o‘rin sertifikatini faxr bilan qabul qilmoqda. Uning mikrosun'iy yo‘ldoshlarni ishlab chiqishdagi fidoyiligi va mahorati bunga dalildir ..."
+
+#: templates/alumni.html:123
+msgid "Explore More Falco Stories"
+msgstr ""
+
+#: templates/alumni.html:129
+msgid "Lead, Connect, Impact"
+msgstr "Yetakchilik qiling, bog‘laning, ta'sir qiling"
+
+#: templates/alumni.html:130
+msgid ""
+"Explore how you can stay engaged with the Falco community and contribute to "
+"a global mission."
+msgstr "Falco jamoasi bilan qanday faol ishtirok etish va global missiyaga hissa qo‘shish mumkinligini kashf eting."
+
+#: templates/alumni.html:140
+msgid "Mentor the Next Wave"
+msgstr "Keyingi to‘lqin uchun murabbiy bo‘ling"
+
+#: templates/alumni.html:141
+msgid ""
+"Share your knowledge, guide rising talent, and shape future leaders from "
+"TUIT and beyond."
+msgstr "Bilimingizni baham ko‘ring, yosh iste’dodlarni yo‘l-yo‘riq ko‘rsating va TUIT va undan tashqarida kelajak yetakchilarini shakllantiring."
+
+#: templates/alumni.html:143
+msgid "Become a Mentor"
+msgstr "Murabbiy bo‘ling"
+
+#: templates/alumni.html:152
+msgid "Global Gatherings"
+msgstr "Global yig‘inlar"
+
+#: templates/alumni.html:153
+msgid "Reconnect, network, and collaborate with fellow changemakers through exclusive Falco and TUIT events."
+msgstr "Eksklyuziv Falco va TUIT tadbirlari orqali boshqa o‘zgarishlar keltiruvchilar bilan qayta bog‘laning, tarmoq quring va hamkorlik qiling."
+
+#: templates/alumni.html:155
+msgid "Upcoming Events"
+msgstr "Yaqinlashib kelayotgan tadbirlar"
+
+#: templates/alumni.html:164
+msgid "Fuel the Mission"
+msgstr "Missiyani qo‘llab-quvvatlang"
+
+#: templates/alumni.html:165
+msgid ""
+"Contribute time, resources, or expertise to accelerate high-impact projects "
+"and student-led initiatives."
+msgstr "Yuqori ta'sirli loyihalar va talabalar tashabbuskorligidagi loyihalarni tezlashtirish uchun vaqt, resurslar yoki tajriba bilan hissa qo‘shing."
+
+#: templates/alumni.html:167
+msgid "Support Our Mission"
+msgstr "Missiyamizni qo‘llab-quvvatlang"
+
+#: templates/alumni.html:176
+msgid "Career & Opportunity Hub"
+msgstr "Karyera va imkoniyatlar markazi"
+
+#: templates/alumni.html:177
+msgid "Access a global network of innovators, employers, and mission-driven professionals through Falco."
+msgstr "Falco orqali innovatorlar, ish beruvchilar va missiyaga yo‘naltirilgan mutaxassislarning global tarmog‘iga kiring."
+
+#: templates/alumni.html:179
+msgid "Join Network"
+msgstr "Tarmoqqa qo‘shiling"
+
+#: templates/contact.html:36
+msgid "Our Address"
+msgstr "Bizning manzilimiz"
+
+#: templates/contact.html:37
+msgid "Tashkent 100084, Amir Temur avenue 108, Uzbekistan"
+msgstr "Toshkent 100084, Amir Temur shohko‘chasi 108, O‘zbekiston"
+
+#: templates/contact.html:48
+msgid "Email Address"
+msgstr "Elektron pochta manzili"
+
+#: templates/contact.html:60
+msgid "Hours of Operation"
+msgstr "Ish soatlari"
+
+#: templates/contact.html:130
+msgid "SEND MESSAGE"
+msgstr "XABAR YUBORISH"
+
+#: templates/index.html:23
+msgid "Shaping ICT Innovators Through Education"
+msgstr "Ta'lim orqali AKT innovatorlarini shakllantirish"
+
+#: templates/index.html:24
+msgid "TUIT, founded in 1955, offers cutting-edge ICT education with 23 programs, 14,632 students, and partnerships with 26 countries."
+msgstr "1955-yilda tashkil etilgan TUIT 23 ta dastur, 14,632 talaba va 26 mamlakat bilan hamkorlik bilan eng zamonaviy AKT ta'limini taklif etadi."
+
+#: templates/index.html:26
+msgid "Start Your Journey"
+msgstr "Sayohatingizni boshlang"
+
+#: templates/index.html:27
+msgid "Discover Programs"
+msgstr "Dasturlarni kashf eting"
+
+#: templates/index.html:34
+msgid "Why Choose Us"
+msgstr "Nega bizni tanlaysiz"
+
+#: templates/index.html:44
+msgid "High ICT Employment Success"
+msgstr "Yuqori AKT bandlik muvaffaqiyati"
+
+#: templates/index.html:53
+msgid "International Partners"
+msgstr "Xalqaro hamkorlar"
+
+#: templates/index.html:62 templates/index.html:281
+msgid "Student-Faculty Ratio"
+msgstr "Talaba-o‘qituvchi nisbati"
+
+#: templates/index.html:71
+msgid "Degree Directions"
+msgstr "Daraja yo‘nalishlari"
+
+#: templates/index.html:95
+msgid "Innovating ICT, <span>Building Global Leaders</span>"
+msgstr "AKT innovatsiyasi, <span>Global yetakchilarni shakllantirish</span>"
+
+#: templates/index.html:96
+msgid "Founded in 1955, TUIT leads in ICT education with 10,242 students across 23 programs and 42 partnerships with universities in 26 countries, driving technological excellence."
+msgstr "1955-yilda tashkil etilgan TUIT 10,242 talaba, 23 ta dastur va 26 mamlakatdagi 42 ta universitet bilan hamkorlik orqali AKT ta'limida yetakchilik qiladi, texnologik mukammallikni rivojlantiradi."
+
+#: templates/index.html:102
+msgid "Years"
+msgstr "Yillar"
+
+#: templates/index.html:108 templates/studentLife/campus-facilities.html:48
+msgid "Students"
+msgstr "Talabalar"
+
+#: templates/index.html:114
+msgid "Teachers"
+msgstr "O‘qituvchilar"
+
+#: templates/index.html:157
+msgid "Our Values"
+msgstr "Bizning qadriyatlarimiz"
+
+#: templates/index.html:158
+msgid "Update to Excellence in academic pursuit, innovation in technology, integrity in research, and collaboration with 42 international partners to empower students and faculty."
+msgstr "Akademik intilishda mukammallikka yangilanish, texnologiyada innovatsiya, tadqiqotlarda halollik va talabalar va professor-o‘qituvchilarni kuchaytirish uchun 42 xalqaro hamkorlar bilan hamkorlik."
+
+#: templates/index.html:173
+msgid "Recent News"
+msgstr "So‘nggi yangiliklar"
+
+#: templates/index.html:246
+msgid "Excellence in Education for Over 70 Years"
+msgstr "70 yildan ortiq ta'limda mukammallik"
+
+#: templates/index.html:253
+msgid "Learn More"
+msgstr "Ko‘proq bilib oling"
+
+#: templates/index.html:254 templates/studentLife/campus-facilities.html:67
+msgid "Virtual Tour"
+msgstr "Virtual sayohat"
+
+#: templates/index.html:269
+msgid "Graduation Rate"
+msgstr "Bitiruv darajasi"
+
+#: templates/index.html:293
+msgid "Degree Programs"
+msgstr "Daraja dasturlari"
+
+#: templates/index.html:306
+msgid "Research Funding"
+msgstr "Tadqiqot moliyalashtirish"
+
+#: templates/index.html:322
+msgid "Top-Ranked Programs"
+msgstr "Eng yuqori darajali dasturlar"
+
+#: templates/index.html:323
+msgid "Award-winning programs built for innovation, leadership, and global impact."
+msgstr "Innovatsiya, yetakchilik va global ta'sir uchun mo‘ljallangan mukofotlangan dasturlar."
+
+#: templates/index.html:332
+msgid "State-of-the-Art Facilities"
+msgstr "Zamonaviy jihozlar"
+
+#: templates/index.html:333
+msgid "Modern labs and smart classrooms empower future-ready student learning."
+msgstr "Zamonaviy laboratoriyalar va aqlli sinf xonalari kelajakka tayyor talaba ta'limini kuchaytiradi."
+
+#: templates/index.html:342
+msgid "Global Alumni Network"
+msgstr "Global bitiruvchilar tarmog‘i"
+
+#: templates/index.html:343
+msgid "Worldwide alumni connections offering mentorship, opportunity, and lifelong support."
+msgstr "Butun dunyo bo‘ylab bitiruvchilar aloqalari murabbiylik, imkoniyat va umrbod qo‘llab-quvvatlashni taklif etadi."
+
+#: templates/index.html:374
+msgid "Discover Campus Life"
+msgstr "Kampus hayotini kashf eting"
+
+#: templates/index.html:375
+msgid "Explore More"
+msgstr "Ko‘proq kashf eting"
+
+#: templates/index.html:389
+msgid "Student Clubs"
+msgstr "Talaba klublari"
+
+#: templates/index.html:390
+msgid "Connect, lead, and grow through diverse interest-based student communities."
+msgstr "Turli xil qiziqishlarga asoslangan talaba jamoalari orqali bog‘laning, yetakchilik qiling va o‘sib boring."
+
+#: templates/index.html:399
+msgid "Sports Events"
+msgstr "Sport tadbirlari"
+
+#: templates/index.html:400
+msgid "Exciting competitions promote teamwork, fitness, and school spirit."
+msgstr "Qiziqarli musobaqalar jamoaviy ish, jismoniy tayyorgarlik va maktab ruhini rivojlantiradi."
+
+#: templates/index.html:409
+msgid "Arts &amp; Culture"
+msgstr "San'at va madaniyat"
+
+#: templates/index.html:410
+msgid "Celebrate creativity and diversity through music, theater, and expression."
+msgstr "Musiqa, teatr va ifoda orqali ijodkorlik va xilma-xillikni nishonlang."
+
+#: templates/index.html:419
+#: templates/index.html:420
+msgid "Global Experiences"
+msgstr "Xalqaro Tajriba"
+
+#: templates/index.html:426
+msgid "View All Student Activities"
+msgstr "Barcha talaba faoliyatlarini ko‘rish"
+
+#: templates/layouts/base.html:9 templates/layouts/footer.html:10
+msgid "TUIT International Affairs"
+msgstr "TUIT Xalqaro aloqalar"
+
+#: templates/layouts/footer.html:14
+msgid ""
+"\n"
+"                            <p>Amir Temur avenue 108</p>\n"
+"                            <p>Uzbekistan, Tashkent 100084</p>\n"
+"                        "
+msgstr ""
+"\n"
+"                            <p>Amir Temur shohko‘chasi 108</p>\n"
+"                            <p>O‘zbekiston, Toshkent 100084</p>\n"
+"                        "
+
+#: templates/layouts/footer.html:35
+msgid "Pages"
+msgstr "Sahifalar"
+
+#: templates/layouts/footer.html:38 templates/layouts/footer.html:48
+#: templates/layouts/navbar.html:27
+msgid "About Us"
+msgstr "Biz haqimizda"
+
+#: templates/layouts/footer.html:40 templates/layouts/footer.html:62
+#: templates/studentLife/students-life.html:452
+msgid "Contact Us"
+msgstr "Biz bilan bog‘laning"
+
+#: templates/layouts/footer.html:41
+msgid "Privacy policy"
+msgstr "Maxfiylik siyosati"
+
+#: templates/layouts/footer.html:50
+msgid "Admission"
+msgstr "Qabul"
+
+#: templates/layouts/footer.html:52
+msgid "Terms of Service"
+msgstr "Xizmat ko‘rsatish shartlari"
+
+#: templates/layouts/footer.html:57 templates/layouts/footer.html:59
+#: templates/layouts/navbar.html:41 templates/studentLife/academics.html:17
+#: templates/studentLife/campus-facilities.html:17
+#: templates/studentLife/students-life.html:13
+#: templates/studentLife/students-life.html:17
+msgid "Student Life"
+msgstr "Talabalar hayoti"
+
+#: templates/layouts/footer.html:60 templates/layouts/navbar.html:46
+#: templates/studentLife/academics.html:13
+#: templates/studentLife/academics.html:19
+msgid "Academics"
+msgstr "Akademiklar"
+
+#: templates/layouts/footer.html:61
+msgid "Campus & Facilities"
+msgstr "Kampus va jihozlar"
+
+#: templates/layouts/footer.html:63 templates/layouts/navbar.html:65
+msgid "Log In"
+msgstr "Kirish"
+
+#: templates/layouts/footer.html:70
+msgid "TUIT official website"
+msgstr "TUIT rasmiy veb-sayti"
+
+#: templates/layouts/footer.html:71
+msgid "Admission TUIT"
+msgstr "TUIT qabuli"
+
+#: templates/layouts/footer.html:72
+msgid "Community / Falco"
+msgstr "Jamoa / Falco"
+
+#: templates/layouts/footer.html:73
+msgid "Linked In TUIT"
+msgstr "LinkedIn TUIT"
+
+#: templates/layouts/footer.html:74
+msgid "useful link"
+msgstr "foydali havola"
+
+#: templates/layouts/footer.html:82
+msgid ""
+"\n"
+"        <p>© <span>Copyright</span> <strong class=\"px-1 sitename\">TUIT "
+"International Affairs</strong> <span>All Rights Reserved</span>\n"
+"        </p>\n"
+"        "
+msgstr ""
+"\n"
+"        <p>© <span>Mualliflik huquqi</span> <strong class=\"px-1 sitename\">TUIT "
+"Xalqaro aloqalar</strong> <span>Barcha huquqlar himoyalangan</span>\n"
+"        </p>\n"
+"        "
+
+#: templates/layouts/navbar.html:48
+msgid "Campus &amp;Facilities"
+msgstr "Kampus va jihozlar"
+
+#: templates/news-details.html:13
+msgid "News Details"
+msgstr "Yangiliklar tafsilotlari"
+
+#: templates/news-details.html:18
+msgid "News detail"
+msgstr "Yangilik tafsilotlari"
+
+#: templates/studentLife/academics.html:42
+msgid "Excellence in IT Education"
+msgstr "Axborot texnologiyalari ta'limida mukammallik"
+
+#: templates/studentLife/academics.html:43
+msgid "Shape Your Future with TUIT’s Premier Programs"
+msgstr "TUITning eng yaxshi dasturlari bilan kelajagingizni shakllantiring"
+
+#: templates/studentLife/academics.html:44
+msgid ""
+"At Tashkent University of Information Technologies, we blend theory with "
+"real-world practice to prepare leaders in tech. Our programs are designed to "
+"meet global standards, with a focus on innovation and industry relevance."
+msgstr "Toshkent Axborot Texnologiyalari Universitetida biz nazariyani real dunyo amaliyoti bilan uyg‘unlashtirib, texnologiya sohasida yetakchilarni tayyorlaymiz. Bizning dasturlarimiz global standartlarga javob berishga mo‘ljallangan bo‘lib, innovatsiya va sanoat ahamiyatiga e'tibor qaratadi."
+
+#: templates/studentLife/academics.html:48
+msgid "Hands-on tech labs & internships"
+msgstr "Amaliy texnologiya laboratoriyalari va amaliyotlar"
+
+#: templates/studentLife/academics.html:52
+msgid "Award-winning professors & industry experts"
+msgstr "Mukofotlangan professorlar va sanoat mutaxassislari"
+
+#: templates/studentLife/academics.html:56
+msgid "Advanced research in AI, cybersecurity & more"
+msgstr "Sun'iy intellekt, kiberxavfsizlik va boshqalarda ilg‘or tadqiqotlar"
+
+#: templates/studentLife/academics.html:103
+msgid "TUIT in Numbers"
+msgstr "TUIT raqamlarda"
+
+#: templates/studentLife/academics.html:104
+msgid "Driving Innovation Through Education"
+msgstr "Ta'lim orqali innovatsiyani rivojlantirish"
+
+#: templates/studentLife/academics.html:105
+msgid ""
+"At TUIT, we measure success by the impact of our graduates and the "
+"breakthroughs in our labs. Here’s what sets us apart:"
+msgstr "TUITda biz muvaffaqiyatni bitiruvchilarimizning ta'siri va laboratoriyalarimizdagi yutuqlar bilan o‘lchaymiz. Mana bizni ajratib turadigan narsalar:"
+
+#: templates/studentLife/academics.html:106
+msgid "About Our Institution"
+msgstr "Muassasamiz haqida"
+
+#: templates/studentLife/academics.html:119
+msgid "Student Satisfaction"
+msgstr "Talaba qoniqish darajasi"
+
+#: templates/studentLife/academics.html:130
+msgid "Cutting-Edge Programs"
+msgstr "Eng zamonaviy dasturlar"
+
+#: templates/studentLife/academics.html:141
+msgid "Specialized Research Centers"
+msgstr "Maxsus tadqiqot markazlari"
+
+#: templates/studentLife/academics.html:152
+msgid "Graduate Employability"
+msgstr "Bitiruvchilarning ishga joylashish darajasi"
+
+#: templates/studentLife/campus-facilities.html:13
+msgid "Campus &amp; Facilities"
+msgstr "Kampus va jihozlar"
+
+#: templates/studentLife/campus-facilities.html:18
+#: templates/studentLife/students-life.html:107
+#: templates/studentLife/students-life.html:435
+msgid "Campus Facilities"
+msgstr "Kampus jihozlari"
+
+#: templates/studentLife/campus-facilities.html:34
+msgid "Experience Our Campus"
+msgstr "Kampusimizni his qiling"
+
+#: templates/studentLife/campus-facilities.html:35
+msgid ""
+"Discover state-of-the-art facilities designed to inspire learning and growth"
+msgstr ""
+"O‘qish va o‘sishni ilhomlantirish uchun mo‘ljallangan zamonaviy jihozlarni kashf eting"
+
+#: templates/studentLife/campus-facilities.html:36
+msgid "Explore TUIT – Where Innovation Meets Opportunity!"
+msgstr "TUITni kashf eting – Innovatsiya imkoniyatlar bilan uchrashadigan joy!"
+
+#: templates/studentLife/campus-facilities.html:40
+msgid "Acres"
+msgstr "Gektar"
+
+#: templates/studentLife/campus-facilities.html:44
+msgid "Buildings"
+msgstr "Binolar"
+
+#: templates/studentLife/campus-facilities.html:80
+msgid "Academic"
+msgstr "Akademik"
+
+#: templates/studentLife/campus-facilities.html:86
+msgid "Athletic"
+msgstr "Sport"
+
+#: templates/studentLife/campus-facilities.html:92
+msgid "Residential"
+msgstr "Turar joy"
+
+#: templates/studentLife/campus-facilities.html:114
+msgid "Class Room"
+msgstr "Sinf xonasi"
+
+#: templates/studentLife/campus-facilities.html:118
+msgid "World-Class Learning Spaces"
+msgstr "Jahon darajasidagi o‘quv joylari"
+
+#: templates/studentLife/campus-facilities.html:119
+msgid ""
+"TUIT stands at the forefront of technological education, offering state-of-"
+"the-art facilities that foster academic excellence and research innovation..."
+msgstr ""
+"TUIT texnologik ta'limning oldingi safida turib, akademik mukammallik va tadqiqot innovatsiyasini rivojlantiruvchi zamonaviy jihozlarni taklif etadi..."
+
+#: templates/studentLife/campus-facilities.html:121
+msgid "Modern classrooms with smart technology"
+msgstr "Aqlli texnologiyali zamonaviy sinf xonalari"
+
+#: templates/studentLife/campus-facilities.html:123
+msgid "Specialized research laboratories"
+msgstr "Maxsus tadqiqot laboratoriyalari"
+
+#: templates/studentLife/campus-facilities.html:125
+msgid "Collaborative study spaces"
+msgstr "Hamkorlikdagi o‘quv joylari"
+
+#: templates/studentLife/campus-facilities.html:127
+msgid "Advanced technology centers"
+msgstr "Ilg‘or texnologiya markazlari"
+
+#: templates/studentLife/campus-facilities.html:139
+msgid "Technology Labs"
+msgstr "Texnologiya laboratoriyalari"
+
+#: templates/studentLife/campus-facilities.html:140
+msgid ""
+"Through international collaborations, TUIT has developed 16 educational "
+"laboratories and 9 computer classrooms. Notable centers include the Uzbek-"
+"Indian Center of Information Technologies and the Uzbek-Korean Center for "
+"Information Technologies, enhancing practical learning experiences."
+msgstr "Xalqaro hamkorliklar orqali TUIT 16 ta o‘quv laboratoriyasi va 9 ta kompyuter sinf xonasini ishlab chiqdi. E’tiborli markazlar orasida O‘zbek-Hind Axborot Texnologiyalari Markazi va O‘zbek-Koreya Axborot Texnologiyalari Markazi mavjud bo‘lib, ular amaliy o‘quv tajribalarini oshiradi."
+
+#: templates/studentLife/campus-facilities.html:141
+msgid " 16 Labs"
+msgstr "16 ta laboratoriya"
+
+#: templates/studentLife/campus-facilities.html:148
+msgid "Research Centers"
+msgstr "Tadqiqot markazlari"
+
+#: templates/studentLife/campus-facilities.html:149
+msgid ""
+"The TUIT Incubation Center, established in 2022, supports students in "
+"developing innovative startup projects, particularly in software "
+"development, robotics, and design. Additionally, the Center for Scientific "
+"Research and Technology Transfer facilitates advanced research initiatives."
+msgstr "2022-yilda tashkil etilgan TUIT Inkubatsiya Markazi talabalarni, ayniqsa, dasturiy ta'minot ishlab chiqish, robototexnika va dizayn bo‘yicha innovatsion startap loyihalarini ishlab chiqishda qo‘llab-quvvatlaydi. Bundan tashqari, Ilmiy Tadqiqotlar va Texnologiya Transfer Markazi ilg‘or tadqiqot tashabbuslarini qo‘llab-quvvatlaydi."
+
+#: templates/studentLife/campus-facilities.html:151
+msgid "Facilities"
+msgstr "Jihozlar"
+
+#: templates/studentLife/campus-facilities.html:168
+#: templates/studentLife/campus-facilities.html:357
+msgid "Sports Complex"
+msgstr "Sport majmuasi"
+
+#: templates/studentLife/campus-facilities.html:172
+msgid "State-of-the-Art Athletic Facilities"
+msgstr "Zamonaviy sport jihozlari"
+
+#: templates/studentLife/campus-facilities.html:173
+msgid ""
+"TUIT offers a dynamic and modern sports infrastructure designed to promote "
+"student wellness and athletic excellence. Whether you're a professional "
+"athlete or just keeping fit, our facilities support all your needs."
+msgstr ""
+"TUIT talabalar salomatligi va sport mukammalligini rivojlantirish uchun mo‘ljallangan dinamik va zamonaviy sport infratuzilmasini taklif etadi. Professional sportchi bo‘lasizmi yoki shunchaki sog‘lig‘ingizni saqlasangiz ham, bizning jihozlarimiz barcha ehtiyojlaringizni qo‘llab-quvvatlaydi."
+
+#: templates/studentLife/campus-facilities.html:175
+msgid "Olympic-sized football grounds"
+msgstr "Olimpiada o‘lchamidagi futbol maydonlari"
+
+#: templates/studentLife/campus-facilities.html:177
+msgid "Multi-purpose sports courts"
+msgstr "Ko‘p maqsadli sport maydonchalari"
+
+#: templates/studentLife/campus-facilities.html:179
+msgid "Professional running track"
+msgstr "Professional yugurish yo‘laklari"
+
+#: templates/studentLife/campus-facilities.html:181
+msgid "Fitness and training centers"
+msgstr "Fitnes va mashg‘ulot markazlari"
+
+#: templates/studentLife/campus-facilities.html:193
+msgid "Football Grounds"
+msgstr "Futbol maydonlari"
+
+#: templates/studentLife/campus-facilities.html:194
+msgid ""
+"TUIT features a newly renovated football field that meets international "
+"standards, enabling students to train and participate in university-level "
+"championships and tournaments."
+msgstr ""
+"TUIT xalqaro standartlarga javob beradigan yangi ta'mirlangan futbol maydoniga ega bo‘lib, talabalarga universitet darajasidagi chempionatlar va turnirlarda ishtirok etish va mashq qilish imkonini beradi."
+
+#: templates/studentLife/campus-facilities.html:195
+msgid "Olympic Standard"
+msgstr "Olimpiada standarti"
+
+#: templates/studentLife/campus-facilities.html:202
+msgid "Training Facilities"
+msgstr "Mashg‘ulot jihozlari"
+
+#: templates/studentLife/campus-facilities.html:203
+msgid ""
+"Our indoor training halls are equipped with advanced fitness gear and "
+"conditioning tools, supporting students' physical education and team sports "
+"training programs."
+msgstr ""
+"Bizning yopiq mashg‘ulot zallarimiz ilg‘or fitnes jihozlari va konditsioner asboblar bilan jihozlangan bo‘lib, talabalarning jismoniy tarbiya va jamoaviy sport mashg‘ulotlari dasturlarini qo‘llab-quvvatlaydi."
+
+#: templates/studentLife/campus-facilities.html:205
+msgid "Pro Equipment"
+msgstr "Professional jihozlar"
+
+#: templates/studentLife/campus-facilities.html:222
+#: templates/studentLife/campus-facilities.html:377
+msgid "Residence Halls"
+msgstr "Turar joy zallari"
+
+#: templates/studentLife/campus-facilities.html:226
+msgid "Comfortable Living Environments"
+msgstr "Qulay yashash muhitlari"
+
+#: templates/studentLife/campus-facilities.html:227
+msgid ""
+"Our campus housing offers students a perfect blend of comfort, convenience, "
+"and community. Whether you prefer quiet study spaces or lively common areas, "
+"our residence halls are designed to support your lifestyle. With fully "
+"furnished rooms, modern amenities, and a welcoming atmosphere, you’ll feel "
+"right at home from day one."
+msgstr ""
+"Bizning kampus turar joylarimiz talabalarga qulaylik, qulaylik va jamoa uyg‘unligini taklif etadi. Tinim bilmaydigan o‘quv joylarini yoki jonli umumiy joylarni afzal ko‘rasizmi, bizning turar joy zallarimiz sizning turmush tarzingizni qo‘llab-quvvatlash uchun mo‘ljallangan. To‘liq jihozlangan xonalar, zamonaviy qulayliklar va mehmondo‘st muhit bilan siz birinchi kundan o‘zingizni uyda his qilasiz."
+
+#: templates/studentLife/campus-facilities.html:229
+msgid "Modern residence halls"
+msgstr "Zamonaviy turar joy zallari"
+
+#: templates/studentLife/campus-facilities.html:230
+msgid "Suite-style accommodations"
+msgstr "Suite uslubidagi turar joylar"
+
+#: templates/studentLife/campus-facilities.html:232
+msgid "Community lounges and kitchens"
+msgstr "Jamoa dam olish xonalari va oshxonalar"
+
+#: templates/studentLife/campus-facilities.html:234
+msgid "24/7 security and support"
+msgstr "24/7 xavfsizlik va qo‘llab-quvvatlash"
+
+#: templates/studentLife/campus-facilities.html:246
+#: templates/studentLife/campus-facilities.html:385
+msgid "Dining Facilities"
+msgstr "Ovqatlanish jihozlari"
+
+#: templates/studentLife/campus-facilities.html:247
+msgid ""
+"Enjoy access to a variety of dining options across campus, catering to "
+"diverse tastes and dietary needs. Conveniently located and designed with "
+"student well-being in mind."
+msgstr ""
+"Kampus bo‘ylab turli xil ta'mlar va ovqatlanish ehtiyojlariga mos keladigan ovqatlanish variantlariga kirishdan bahramand bo‘ling. Qulay joylashgan va talabalar farovonligi hisobga olinagan holda ishlab chiqilgan."
+
+#: templates/studentLife/campus-facilities.html:249
+msgid "5 Locations"
+msgstr "5 ta joy"
+
+#: templates/studentLife/campus-facilities.html:256
+msgid "Security Services"
+msgstr "Xavfsizlik xizmatlari"
+
+#: templates/studentLife/campus-facilities.html:257
+msgid ""
+"Our campus is protected around the clock with professional security staff, "
+"surveillance systems, and rapid response protocols to ensure a safe living "
+"and learning environment."
+msgstr ""
+"Bizning kampusimiz professional xavfsizlik xodimlari, kuzatuv tizimlari va tezkor javob protokollari bilan kechayu kunduz himoyalangan bo‘lib, xavfsiz yashash va o‘quv muhitini ta'minlaydi."
+
+#: templates/studentLife/campus-facilities.html:259
+msgid "24/7 Support"
+msgstr "24/7 qo‘llab-quvvatlash"
+
+#: templates/studentLife/campus-facilities.html:276
+msgid "Main Building"
+msgstr "Asosiy bino"
+
+#: templates/studentLife/campus-facilities.html:280
+msgid "Explore the TUIT Campus"
+msgstr "TUIT kampusini kashf eting"
+
+#: templates/studentLife/campus-facilities.html:281
+msgid ""
+"At TUIT University, campus life goes beyond the classroom. Our campus is "
+"designed to inspire innovation, collaboration, and a vibrant student "
+"experience. From quiet study areas to lively event spaces, you'll find "
+"everything you need to thrive."
+msgstr ""
+"TUIT Universitetida kampus hayoti sinf xonasidan tashqariga chiqadi. Bizning kampusimiz innovatsiya, hamkorlik va jonli talaba tajribasini ilhomlantirish uchun mo‘ljallangan. Tinim bilmaydigan o‘quv joylaridan jonli tadbir joylarigacha, muvaffaqiyat qozonish uchun kerak bo‘lgan hamma narsani topasiz."
+
+#: templates/studentLife/campus-facilities.html:283
+msgid "Student Life & Community Spaces"
+msgstr "Talabalar hayoti va jamoa joylari"
+
+#: templates/studentLife/campus-facilities.html:284
+msgid "Student Activity Center"
+msgstr "Talaba faoliyati markazi"
+
+#: templates/studentLife/campus-facilities.html:286
+msgid "Green spaces and gardens"
+msgstr "Yashil maydonlar va bog‘lar"
+
+#: templates/studentLife/campus-facilities.html:288
+msgid "Meeting and event venues"
+msgstr "Uchrashuv va tadbir joylari"
+
+#: templates/studentLife/campus-facilities.html:300
+msgid "Performance Spaces"
+msgstr "Spektakl joylari"
+
+#: templates/studentLife/campus-facilities.html:301
+msgid ""
+"Enjoy a range of cultural and creative events at our state-of-the-art "
+"performance venues. From student concerts to theater productions, these "
+"spaces showcase talent and build community."
+msgstr ""
+"Zamonaviy spektakl joylarimizda turli xil madaniy va ijodiy tadbirlardan bahramand bo‘ling. Talaba kontsertlaridan teatr spektakllarigacha, bu joylar iste’dodni namoyish etadi va jamoani mustahkamlaydi."
+
+#: templates/studentLife/campus-facilities.html:308
+msgid "Campus Stores"
+msgstr "Kampus do‘konlari"
+
+#: templates/studentLife/campus-facilities.html:309
+msgid ""
+"Find everything you need right on campus—from textbooks and school supplies "
+"to snacks, tech accessories, and university merchandise. Convenient "
+"locations to keep your day running smoothly."
+msgstr ""
+"Kampusda kerak bo‘lgan hamma narsani toping — darsliklar va maktab jihozlaridan tortib, gazaklar, texnologik aksessuarlar va universitet mahsulotlarigacha. Kunni muammosiz o‘tkazish uchun qulay joylar."
+
+#: templates/studentLife/campus-facilities.html:326
+msgid "Central Library"
+msgstr "Markaziy kutubxona"
+
+#: templates/studentLife/campus-facilities.html:334
+msgid "Student Center"
+msgstr "Talaba markazi"
+
+#: templates/studentLife/campus-facilities.html:341
+msgid "Dormitories"
+msgstr "Yotoqxonalar"
+
+#: templates/studentLife/campus-facilities.html:349
+msgid "Study Areas"
+msgstr "O‘quv joylari"
+
+#: templates/studentLife/campus-facilities.html:368
+msgid "Campus Map"
+msgstr "Kampus xaritasi"
+
+#: templates/studentLife/campus-facilities.html:369
+msgid ""
+"Navigate our expansive campus with ease using our interactive map. Locate "
+"buildings, facilities, and services to find your way around."
+msgstr ""
+"Interaktiv xaritamiz yordamida keng kampusimizda osongina harakatlaning. Binolar, jihozlar va xizmatlarni topish uchun yo‘lingizni toping."
+
+#: templates/studentLife/campus-facilities.html:373
+msgid "Academic Buildings"
+msgstr "Akademik binolar"
+
+#: templates/studentLife/campus-facilities.html:381
+msgid "Athletic Facilities"
+msgstr "Sport jihozlari"
+
+#: templates/studentLife/campus-facilities.html:389
+msgid "Parking Areas"
+msgstr "Avtoturargohlar"
+
+#: templates/studentLife/campus-facilities.html:392
+msgid "Download PDF Map"
+msgstr "PDF xaritani yuklab oling"
+
+#: templates/studentLife/students-life.html:18
+msgid "Student life"
+msgstr "Talabalar hayoti"
+
+#: templates/studentLife/students-life.html:34
+msgid "Experience Campus Life"
+msgstr "Kampus hayotini his qiling"
+
+#: templates/studentLife/students-life.html:35
+msgid ""
+"Immerse yourself in vibrant campus life! Discover our dynamic community and "
+"create unforgettable memories, fostering growth and unforgettable "
+"experiences."
+msgstr ""
+"Jonli kampus hayotiga sho‘ng‘ing! Dinamik jamoamizni kashf eting va unutilmas xotiralar yarating, o‘sish va unutilmas tajribalarni rivojlantiring!"
+
+#: templates/studentLife/students-life.html:49
+msgid "Clubs"
+msgstr "Klublar"
+
+#: templates/studentLife/students-life.html:50
+msgid "40+ Organizations"
+msgstr "40+ tashkilot"
+
+#: templates/studentLife/students-life.html:59
+#: templates/studentLife/students-life.html:100
+msgid "Athletics"
+msgstr "Sport"
+
+#: templates/studentLife/students-life.html:60
+msgid "15+ Sports Teams"
+msgstr "15+ sport jamoalari"
+
+#: templates/studentLife/students-life.html:69
+msgid "Events"
+msgstr "Tadbirlar"
+
+#: templates/studentLife/students-life.html:70
+msgid "200+ Annual Events"
+msgstr "200+ yillik tadbirlar"
+
+#: templates/studentLife/students-life.html:79
+msgid "Housing"
+msgstr "Turar joy"
+
+#: templates/studentLife/students-life.html:80
+msgid "5 Residence Halls"
+msgstr "5 ta turar joy zallari"
+
+#: templates/studentLife/students-life.html:93
+msgid "Clubs &amp; Organizations"
+msgstr "Klublar va tashkilotlar"
+
+#: templates/studentLife/students-life.html:124
+msgid "Active Clubs"
+msgstr "Faol klublar"
+
+#: templates/studentLife/students-life.html:131
+msgid "Join a Community That Shares Your Interests"
+msgstr "Qiziqishlaringizni baham ko‘radigan jamoaga qo‘shiling"
+
+#: templates/studentLife/students-life.html:132
+msgid ""
+"At Tashkent University of Information Technologies, we believe innovation "
+"thrives when diverse minds collaborate. Beyond labs and lectures, our "
+"student organizations help you grow, network, and recharge."
+msgstr ""
+"Toshkent Axborot Texnologiyalari Universitetida biz turli xil aql-idroklar hamkorligida innovatsiya rivojlanadi deb hisoblaymiz. Laboratoriyalar va ma'ruzalardan tashqari, bizning talaba tashkilotlarimiz sizga o‘sish, tarmoq qurish va qayta zaryad qilishda yordam beradi."
+
+#: templates/studentLife/students-life.html:141
+msgid "Tech & Innovation"
+msgstr "Texnologiya va innovatsiya"
+
+#: templates/studentLife/students-life.html:142
+msgid "18 Clubs"
+msgstr "18 ta klub"
+
+#: templates/studentLife/students-life.html:153
+msgid "Global Community"
+msgstr "Global jamoa"
+
+#: templates/studentLife/students-life.html:154
+msgid "5 International Groups"
+msgstr "5 ta xalqaro guruh"
+
+#: templates/studentLife/students-life.html:165
+msgid "Academic Societies"
+msgstr "Akademik jamiyatlar"
+
+#: templates/studentLife/students-life.html:166
+msgid "12 Associations"
+msgstr "12 ta assotsiatsiya"
+
+#: templates/studentLife/students-life.html:177
+msgid "Arts & Recreation"
+msgstr "San'at va dam olish"
+
+#: templates/studentLife/students-life.html:178
+msgid "6 Creative Outlets"
+msgstr "6 ta ijodiy yo‘nalish"
+
+#: templates/studentLife/students-life.html:193
+msgid "Athletics & Recreation at TUIT"
+msgstr "TUITda sport va dam olish"
+
+#: templates/studentLife/students-life.html:194
+msgid ""
+"At TUIT University, we believe in building strong minds and bodies. Our "
+"athletics and recreation programs offer students the opportunity to stay "
+"active, compete, and grow through sports and teamwork. Whether you're aiming "
+"for a championship or just staying fit, there's a place for you here."
+msgstr ""
+"TUIT Universitetida biz kuchli aql va tanalarni shakllantirishga ishonamiz. Bizning sport va dam olish dasturlarimiz talabalarga faol bo‘lish, musobaqalashish va sport va jamoaviy ish orqali o‘sish imkoniyatini beradi."
+
+#: templates/studentLife/students-life.html:201
+msgid "Sports Teams"
+msgstr "Sport jamoalari"
+
+#: templates/studentLife/students-life.html:205
+msgid "Championships"
+msgstr "Chempionatlar"
+
+#: templates/studentLife/students-life.html:209
+msgid "Athletes"
+msgstr "Sportchilar"
+
+#: templates/studentLife/students-life.html:250
+msgid "Swimming"
+msgstr "Suzish"
+
+#: templates/studentLife/students-life.html:260
+msgid "Volleyball"
+msgstr "Voleybol"
+
+#: templates/studentLife/students-life.html:271
+msgid "Football"
+msgstr "Futbol"
+
+#: templates/studentLife/students-life.html:282
+msgid "Table Tennis"
+msgstr "Stol tennisi"
+
+#: templates/studentLife/students-life.html:292
+msgid "Chess"
+msgstr "Shaxmat"
+
+#: templates/studentLife/students-life.html:333
+msgid "A Campus Designed for Tech Innovators"
+msgstr "Texnologiya innovatorlari uchun mo‘ljallangan kampus"
+
+#: templates/studentLife/students-life.html:334
+msgid ""
+"Where cutting-edge learning meets student comfort – experience spaces built "
+"to inspire your next breakthrough."
+msgstr ""
+"Eng zamonaviy o‘quv va talaba qulayligi uchrashadigan joy – keyingi yutuqni ilhomlantirish uchun qurilgan joylarni his qiling."
+
+#: templates/studentLife/students-life.html:339
+msgid "Residence"
+msgstr "Turar joy"
+
+#: templates/studentLife/students-life.html:340
+msgid "dormitories with high-speed WiFi, study lounges & 24/7 security."
+msgstr "tezkor WiFi, o‘quv dam olish xonalari va 24/7 xavfsizlik bilan yotoqxonalar."
+
+#: templates/studentLife/students-life.html:345
+msgid "Dining:"
+msgstr "Ovqatlanish:"
+
+#: templates/studentLife/students-life.html:346
+msgid ""
+"Cafés with coding-friendly zones + late-night snack bars for hackathon crews"
+msgstr ""
+"Kodlash uchun qulay zonali kafelar + xakaton jamoalari uchun kechki gazak barlari"
+
+#: templates/studentLife/students-life.html:351
+msgid "Libraries"
+msgstr "Kutubxonalar"
+
+#: templates/studentLife/students-life.html:352
+msgid "Hubs with VR learning stations, silent pods & 250K+ e-resources"
+msgstr "VR o‘quv stansiyalari, jimjit podlar va 250 mingdan ortiq elektron resurslar bilan markazlar"
+
+#: templates/studentLife/students-life.html:357
+msgid "Innovation Labs"
+msgstr "Innovatsiya laboratoriyalari"
+
+#: templates/studentLife/students-life.html:358
+msgid ""
+"15 specialized labs (AI, IoT, cybersecurity) open 24/7during project seasons"
+msgstr ""
+"15 ta maxsus laboratoriya (AI, IoT, kiberxavfsizlik) loyiha mavsumlarida 24/7 ochiq"
+
+#: templates/studentLife/students-life.html:362
+msgid "Next-Gen Recreation"
+msgstr "Keyingi avlod dam olish"
+
+#: templates/studentLife/students-life.html:363
+msgid ""
+"Esports arena, drone racing track & wellness center with biometric tracking"
+msgstr ""
+"E-sport arenasi, dron poygasi yo‘lagi va biometrik kuzatuvli salomatlik markazi"
+
+#: templates/studentLife/students-life.html:367
+msgid "Virtual Campus Tour"
+msgstr "Virtual kampus sayohati"
+
+#: templates/studentLife/students-life.html:380
+msgid "Life on Campus"
+msgstr "Kampusdagi hayot"
+
+#: templates/studentLife/students-life.html:381
+msgid "Take a glimpse into our vibrant student community"
+msgstr "Jonli talaba jamoamizga bir nazar tashlang"
+
+#: templates/studentLife/students-life.html:391
+msgid "Campus Events"
+msgstr "Kampus tadbirlari"
+
+#: templates/studentLife/students-life.html:413
+msgid "Graduation Day"
+msgstr "Bitiruv kuni"
+
+#: templates/studentLife/students-life.html:424
+msgid "Study Trips"
+msgstr "O‘quv sayohatlar"
+
+#: templates/studentLife/students-life.html:447
+msgid "Your Journey Starts Here"
+msgstr "Sizning sayohatingiz shu yerdan boshlanadi"
+
+#: templates/studentLife/students-life.html:448
+msgid ""
+"At Tashkent University of Information Technologies, we’re building the next "
+"generation of IT leaders. Whether you’re passionate about AI, cybersecurity, "
+"or software engineering, TUIT provides the tools, mentors, and opportunities "
+"to turn your potential into expertise."
+msgstr ""
+"Toshkent Axborot Texnologiyalari Universitetida biz keyingi avlod AKT yetakchilarini shakllantirmoqdamiz. Sun'iy intellekt, kiberxavfsizlik yoki dasturiy ta'minot muhandisligiga ishtiyoqmand bo‘lsangiz, TUIT sizning salohiyatingizni tajribaga aylantirish uchun vositalar, murabbiylar va imkoniyatlarni taqdim etadi."
+
+#: templates/studentLife/students-life.html:454
+msgid "Apply Now"
+msgstr "Hozir ariza bering"
+
+#: venv/lib/python3.13/site-packages/django/contrib/messages/apps.py:16
+msgid "Messages"
+msgstr "Xabarlar"
+
+#: venv/lib/python3.13/site-packages/django/contrib/sitemaps/apps.py:8
+msgid "Site Maps"
+msgstr "Sayt xaritalari"
+
+#: venv/lib/python3.13/site-packages/django/contrib/staticfiles/apps.py:9
+msgid "Static Files"
+msgstr "Statik fayllar"
+
+#: venv/lib/python3.13/site-packages/django/contrib/syndication/apps.py:7
+msgid "Syndication"
+msgstr "Sindikatsiya"
+
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
+#: venv/lib/python3.13/site-packages/django/core/paginator.py:30
+msgid "…"
+msgstr "…"
+
+#: venv/lib/python3.13/site-packages/django/core/paginator.py:32
+msgid "That page number is not an integer"
+msgstr "Bu sahifa raqami butun son emas"
+
+#: venv/lib/python3.13/site-packages/django/core/paginator.py:33
+msgid "That page number is less than 1"
+msgstr "Bu sahifa raqami 1 dan kichik"
+
+#: venv/lib/python3.13/site-packages/django/core/paginator.py:34
+msgid "That page contains no results"
+msgstr "Bu sahifada hech qanday natija yo‘q"
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:22
+msgid "Enter a valid value."
+msgstr "To‘g‘ri qiymatni kiriting."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:70
+msgid "Enter a valid domain name."
+msgstr "To‘g‘ri domen nomini kiriting."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:153
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:775
+msgid "Enter a valid URL."
+msgstr "To‘g‘ri URL manzilini kiriting."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:200
+msgid "Enter a valid integer."
+msgstr "To‘g‘ri butun sonni kiriting."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:211
+msgid "Enter a valid email address."
+msgstr "To‘g‘ri elektron pochta manzilini kiriting."
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: venv/lib/python3.13/site-packages/django/core/validators.py:289
+msgid ""
+"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+"Harflar, raqamlar, pastki chiziqlar yoki defislerden iborat to‘g‘ri “slug” kiriting."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:297
+msgid ""
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr ""
+"Unicode harflari, raqamlar, pastki chiziqlar yoki defislerden iborat to‘g‘ri “slug” kiriting."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:309
+#: venv/lib/python3.13/site-packages/django/core/validators.py:318
+#: venv/lib/python3.13/site-packages/django/core/validators.py:332
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2220
+#, python-format
+msgid "Enter a valid %(protocol)s address."
+msgstr "To‘g‘ri %(protocol)s manzilini kiriting."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:311
+msgid "IPv4"
+msgstr "IPv4"
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:320
+#: venv/lib/python3.13/site-packages/django/utils/ipv6.py:43
+msgid "IPv6"
+msgstr "IPv6"
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:334
+msgid "IPv4 or IPv6"
+msgstr "IPv4 yoki IPv6"
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:375
+msgid "Enter only digits separated by commas."
+msgstr "Faqat vergul bilan ajratilgan raqamlarni kiriting."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:381
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr "Bu qiymat %(limit_value)s bo‘lishini ta'minlang (hozir %(show_value)s)."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:416
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr "Bu qiymat %(limit_value)s dan kichik yoki teng bo‘lishini ta'minlang."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:425
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr "Bu qiymat %(limit_value)s dan katta yoki teng bo‘lishini ta'minlang."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:434
+#, python-format
+msgid "Ensure this value is a multiple of step size %(limit_value)s."
+msgstr "Bu qiymat %(limit_value)s qadam hajmining ko‘paytmasi bo‘lishini ta'minlang."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:441
+#, python-format
+msgid ""
+"Ensure this value is a multiple of step size %(limit_value)s, starting from "
+"%(offset)s, e.g. %(offset)s, %(valid_value1)s, %(valid_value2)s, and so on."
+msgstr ""
+"Bu qiymat %(offset)s dan boshlab %(limit_value)s qadam hajmining ko‘paytmasi bo‘lishini ta'minlang, masalan, %(offset)s, %(valid_value1)s, %(valid_value2)s va hokazo."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:473
+#, python-format
+msgid "Ensure this value has at least %(limit_value)d character (it has %(show_value)d)."
+msgid_plural "Ensure this value has at least %(limit_value)d characters (it has %(show_value)d)."
+msgstr[0] "Bu qiymat kamida %(limit_value)d ta belgidan iborat bo‘lishini ta'minlang (hozir %(show_value)d ta)."
+msgstr[1] "Bu qiymat kamida %(limit_value)d ta belgidan iborat bo‘lishini ta'minlang (hozir %(show_value)d ta)."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:491
+#, python-format
+msgid "Ensure this value has at most %(limit_value)d character (it has %(show_value)d)."
+msgid_plural "Ensure this value has at most %(limit_value)d characters (it has %(show_value)d)."
+msgstr[0] "Bu qiymat ko‘pi bilan %(limit_value)d ta belgidan iborat bo‘lishini ta'minlang (hozir %(show_value)d ta)."
+msgstr[1] "Bu qiymat ko‘pi bilan %(limit_value)d ta belgidan iborat bo‘lishini ta'minlang (hozir %(show_value)d ta)."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:514
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:366
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:405
+msgid "Enter a number."
+msgstr "Raqam kiriting."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:516
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] "Jami %(max)s ta raqamdan ko‘p bo‘lmasligini ta'minlang."
+msgstr[1] "Jami %(max)s ta raqamdan ko‘p bo‘lmasligini ta'minlang."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:521
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] "Ko‘pi bilan %(max)s ta kasr joy bo‘lmasligini ta'minlang."
+msgstr[1] "Ko‘pi bilan %(max)s ta kasr joy bo‘lmasligini ta'minlang."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:526
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural "Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] "Kasrdan oldin ko‘pi bilan %(max)s ta raqam bo‘lmasligini ta'minlang."
+msgstr[1] "Kasrdan oldin ko‘pi bilan %(max)s ta raqam bo‘lmasligini ta'minlang."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:597
+#, python-format
+msgid ""
+"File extension “%(extension)s” is not allowed. Allowed extensions are: "
+"%(allowed_extensions)s."
+msgstr ""
+"Fayl kengaytmasi “%(extension)s” ruxsat etilmagan. Ruxsat etilgan kengaytmalar: %(allowed_extensions)s."
+
+#: venv/lib/python3.13/site-packages/django/core/validators.py:659
+msgid "Null characters are not allowed."
+msgstr "Null belgilari ruxsat etilmaydi."
+
+#: venv/lib/python3.13/site-packages/django/db/models/base.py:1600
+#: venv/lib/python3.13/site-packages/django/forms/models.py:908
+msgid "and"
+msgstr "va"
+
+#: venv/lib/python3.13/site-packages/django/db/models/base.py:1602
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr "Bu %(field_labels)s bilan %(model_name)s allaqachon mavjud."
+
+#: venv/lib/python3.13/site-packages/django/db/models/constraints.py:22
+#, python-format
+msgid "Constraint “%(name)s” is violated."
+msgstr "“%(name)s” cheklovi buzilgan."
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:134
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr "%(value)r qiymati to‘g‘ri tanlov emas."
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:135
+msgid "This field cannot be null."
+msgstr "Bu maydon null bo‘lishi mumkin emas."
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:136
+msgid "This field cannot be blank."
+msgstr "Bu maydon bo‘sh bo‘lishi mumkin emas."
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:137
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr "Bu %(field_label)s bilan %(model_name)s allaqachon mavjud."
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or
+#. 'month'. Eg: "Title must be unique for pub_date year"
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:141
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+"%(field_label)s %(date_field_label)s %(lookup_type)s uchun yagona bo‘lishi kerak."
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:180
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr "Maydon turi: %(field_type)s"
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1162
+#, python-format
+msgid "“%(value)s” value must be either True or False."
+msgstr "“%(value)s” qiymati faqat True yoki False bo‘lishi kerak."
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1163
+#, python-format
+msgid "“%(value)s” value must be either True, False, or None."
+msgstr "“%(value)s” qiymati faqat True, False yoki None bo‘lishi kerak."
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1165
+msgid "Boolean (Either True or False)"
+msgstr "Mantiqiy (Yo True, yo False)"
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1215
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr "Satr (ko‘pi bilan %(max_length)s)"
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1217
+msgid "String (unlimited)"
+msgstr "Satr (cheklanmagan)"
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1326
+msgid "Comma-separated integers"
+msgstr "Vergul bilan ajratilgan butun sonlar"
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1427
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+"“%(value)s” qiymati noto‘g‘ri sana formatiga ega. U YYYY-MM-DD formatida bo‘lishi kerak."
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1431
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1566
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+"“%(value)s” qiymati to‘g‘ri formatga ega (YYYY-MM-DD), lekin bu noto‘g‘ri sana."
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1435
+msgid "Date (without time)"
+msgstr "Sana (vaqtsiz)"
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1562
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD "
+"HH:MM[:ss[.uuuuuu]][TZ] format."
+msgstr ""
+"“%(value)s” qiymati noto‘g‘ri formatga ega. U YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ] formatida bo‘lishi kerak."
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1570
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+"“%(value)s” qiymati to‘g‘ri formatga ega (YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ]), lekin bu noto‘g‘ri sana/vaqt."
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1575
+msgid "Date (with time)"
+msgstr "Sana (vaqt bilan)"
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1702
+#, python-format
+msgid "“%(value)s” value must be a decimal number."
+msgstr "“%(value)s” qiymati o‘nlik son bo‘lishi kerak."
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1704
+msgid "Decimal number"
+msgstr "O‘nlik son"
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1864
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in [DD] "
+"[[HH:]MM:]ss[.uuuuuu] format."
+msgstr ""
+"“%(value)s” qiymati noto‘g‘ri formatga ega. U [DD] [[HH:]MM:]ss[.uuuuuu] formatida bo‘lishi kerak."
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1920
+msgid "Email address"
+msgstr "Elektron pochta manzili"
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:1945
+msgid "File path"
+msgstr "Fayl yo‘li"
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2023
+#, python-format
+msgid "“%(value)s” value must be a float."
+msgstr "“%(value)s” qiymati suzuvchi nuqta soni bo‘lishi kerak."
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2025
+msgid "Floating point number"
+msgstr "Suzuvchi nuqta soni"
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2065
+#, python-format
+msgid "“%(value)s” value must be an integer."
+msgstr "“%(value)s” qiymati butun son bo‘lishi kerak."
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2067
+msgid "Integer"
+msgstr "Butun son"
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2163
+msgid "Big (8 byte) integer"
+msgstr "Katta (8 bayt) butun son"
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2180
+msgid "Small integer"
+msgstr "Kichik butun son"
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2188
+msgid "IPv4 address"
+msgstr "IPv4 manzili"
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2219
+msgid "IP address"
+msgstr "IP manzili"
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2310
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2311
+#, python-format
+msgid "“%(value)s” value must be either None, True or False."
+msgstr "“%(value)s” qiymati faqat None, True yoki False bo‘lishi kerak."
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2313
+msgid "Boolean (Either True, False or None)"
+msgstr "Mantiqiy (Yo True, yo False, yo None)"
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2364
+msgid "Positive big integer"
+msgstr "Musbat katta butun son"
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2379
+msgid "Positive integer"
+msgstr "Musbat butun son"
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2394
+msgid "Positive small integer"
+msgstr "Musbat kichik butun son"
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2410
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr "Slug (ko‘pi bilan %(max_length)s)"
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2446
+msgid "Text"
+msgstr "Matn"
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2526
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+"“%(value)s” qiymati noto‘g‘ri formatga ega. U HH:MM[:ss[.uuuuuu]] formatida bo‘lishi kerak."
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2530
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+"“%(value)s” qiymati to‘g‘ri formatga ega (HH:MM[:ss[.uuuuuu]]), lekin bu noto‘g‘ri vaqt."
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2534
+msgid "Time"
+msgstr "Vaqt"
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2642
+msgid "URL"
+msgstr "URL"
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2666
+msgid "Raw binary data"
+msgstr "Xom ikkilik ma'lumotlar"
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2731
+#, python-format
+msgid "“%(value)s” is not a valid UUID."
+msgstr "“%(value)s” to‘g‘ri UUID emas."
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/__init__.py:2733
+msgid "Universally unique identifier"
+msgstr "Umumjahon yagona identifikator"
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/files.py:244
+msgid "File"
+msgstr "Fayl"
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/files.py:420
+msgid "Image"
+msgstr "Rasm"
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/json.py:24
+msgid "A JSON object"
+msgstr "JSON obyekti"
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/json.py:26
+msgid "Value must be valid JSON."
+msgstr "Qiymat to‘g‘ri JSON bo‘lishi kerak."
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/related.py:978
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r is not a valid choice."
+msgstr "%(field)s %(value)r bilan %(model)s namunasi to‘g‘ri tanlov emas."
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/related.py:981
+msgid "Foreign Key (type determined by related field)"
+msgstr "Tashqi kalit (tegishli maydon tomonidan aniqlangan tur)"
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/related.py:1275
+msgid "One-to-one relationship"
+msgstr "Birga-bir munosabat"
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/related.py:1332
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr "%(from)s-%(to)s munosabati"
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/related.py:1334
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr "%(from)s-%(to)s munosabatlari"
+
+#: venv/lib/python3.13/site-packages/django/db/models/fields/related.py:1382
+msgid "Many-to-many relationship"
+msgstr "Ko‘pga-ko‘p munosabat"
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the label
+#: venv/lib/python3.13/site-packages/django/forms/boundfield.py:185
+msgid ":?.!"
+msgstr ":?.!"
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:95
+msgid "This field is required."
+msgstr "Bu maydon talab qilinadi."
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:315
+msgid "Enter a whole number."
+msgstr "Butun sonni kiriting."
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:486
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:1267
+msgid "Enter a valid date."
+msgstr "To‘g‘ri sanani kiriting."
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:509
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:1268
+msgid "Enter a valid time."
+msgstr "To‘g‘ri vaqtni kiriting."
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:536
+msgid "Enter a valid date/time."
+msgstr "To‘g‘ri sana/vaqtni kiriting."
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:570
+msgid "Enter a valid duration."
+msgstr "To‘g‘ri davomiylikni kiriting."
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:571
+#, python-brace-format
+msgid "The number of days must be between {min_days} and {max_days}."
+msgstr "Kunlar soni {min_days} va {max_days} orasida bo‘lishi kerak."
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:640
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr "Hech qanday fayl topshirilmadi. Shakldagi kodlash turini tekshiring."
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:641
+msgid "No file was submitted."
+msgstr "Hech qanday fayl topshirilmadi."
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:642
+msgid "The submitted file is empty."
+msgstr "Topshirilgan fayl bo‘sh."
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:644
+#, python-format
+msgid ""
+"Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural "Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] "Bu fayl nomi ko‘pi bilan %(max)d ta belgidan iborat bo‘lishini ta'minlang (hozir %(length)d ta)."
+msgstr[1] "Bu fayl nomi ko‘pi bilan %(max)d ta belgidan iborat bo‘lishini ta'minlang (hozir %(length)d ta)."
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:649
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr "Iltimos, faylni topshiring yoki tozalash katakchasini belgilang, ikkalasini ham emas."
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:717
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+"To‘g‘ri rasmni yuklang. Siz yuklagan fayl rasm emas yoki buzilgan rasm."
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:889
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:975
+#: venv/lib/python3.13/site-packages/django/forms/models.py:1592
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr "To‘g‘ri tanlovni tanlang. %(value)s mavjud tanlovlardan biri emas."
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:977
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:1096
+#: venv/lib/python3.13/site-packages/django/forms/models.py:1590
+msgid "Enter a list of values."
+msgstr "Qiymatlar ro‘yxatini kiriting."
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:1097
+msgid "Enter a complete value."
+msgstr "To‘liq qiymatni kiriting."
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:1339
+msgid "Enter a valid UUID."
+msgstr "To‘g‘ri UUID ni kiriting."
+
+#: venv/lib/python3.13/site-packages/django/forms/fields.py:1369
+msgid "Enter a valid JSON."
+msgstr "To‘g‘ri JSON ni kiriting."
+
+#. Translators: This is the default suffix added to form field labels
+#: venv/lib/python3.13/site-packages/django/forms/forms.py:97
+msgid ":"
+msgstr ":"
+
+#: venv/lib/python3.13/site-packages/django/forms/forms.py:239
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr "(Yashirin maydon %(name)s) %(error)s"
+
+#: venv/lib/python3.13/site-packages/django/forms/formsets.py:61
+#, python-format
+msgid ""
+"ManagementForm data is missing or has been tampered with. Missing fields: "
+"%(field_names)s. You may need to file a bug report if the issue persists."
+msgstr "ManagementForm ma'lumotlari yo‘q yoki o‘zgartirilgan. Yo‘qolgan maydonlar: %(field_names)s. Agar muammo davom etsa, xato haqida hisobot yuborishingiz kerak bo‘lishi mumkin."
+
+#: venv/lib/python3.13/site-packages/django/forms/formsets.py:65
+#, python-format
+msgid "Please submit at most %(num)d form."
+msgid_plural "Please submit at most %(num)d forms."
+msgstr[0] "Iltimos, ko‘pi bilan %(num)d ta shakl topshiring."
+msgstr[1] "Iltimos, ko‘pi bilan %(num)d ta shakl topshiring."
+
+#: venv/lib/python3.13/site-packages/django/forms/formsets.py:70
+#, python-format
+msgid "Please submit at least %(num)d form."
+msgid_plural "Please submit at least %(num)d forms."
+msgstr[0] "Iltimos, kamida %(num)d ta shakl topshiring."
+msgstr[1] "Iltimos, kamida %(num)d ta shakl topshiring."
+
+#: venv/lib/python3.13/site-packages/django/forms/formsets.py:484
+#: venv/lib/python3.13/site-packages/django/forms/formsets.py:491
+msgid "Order"
+msgstr "Tartib"
+
+#: venv/lib/python3.13/site-packages/django/forms/formsets.py:499
+msgid "Delete"
+msgstr "O‘chirish"
+
+#: venv/lib/python3.13/site-packages/django/forms/models.py:901
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr "Iltimos, %(field)s uchun takroriy ma'lumotlarni tuzating."
+
+#: venv/lib/python3.13/site-packages/django/forms/models.py:906
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr "Iltimos, yagona bo‘lishi kerak bo‘lgan %(field)s uchun takroriy ma'lumotlarni tuzating."
+
+#: venv/lib/python3.13/site-packages/django/forms/models.py:913
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+"Iltimos, %(date_field)s da %(lookup)s uchun yagona bo‘lishi kerak bo‘lgan %(field_name)s uchun takroriy ma'lumotlarni tuzating."
+
+#: venv/lib/python3.13/site-packages/django/forms/models.py:922
+msgid "Please correct the duplicate values below."
+msgstr "Iltimos, quyidagi takroriy qiymatlarni tuzating."
+
+
+#: venv/lib/python3.13/site-packages/django/forms/models.py:1359
+msgid "The inline value did not match the parent instance."
+msgstr "Ichki qiymat ota instansiyaga mos kelmadi."
+
+#: venv/lib/python3.13/site-packages/django/forms/models.py:1450
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr "To‘g‘ri tanlovni tanlang. Bu tanlov mavjud tanlovlardan biri emas."
+
+#: venv/lib/python3.13/site-packages/django/forms/models.py:1594
+#, python-format
+msgid "“%(pk)s” is not a valid value."
+msgstr "“%(pk)s” to‘g‘ri qiymat emas."
+
+#: venv/lib/python3.13/site-packages/django/forms/utils.py:229
+#, python-format
+msgid ""
+"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+"%(datetime)s vaqt mintaqasida %(current_timezone)s talqin qilinmadi; bu noaniq yoki mavjud emas bo‘lishi mumkin."
+
+#: venv/lib/python3.13/site-packages/django/forms/widgets.py:527
+msgid "Clear"
+msgstr "Tozalash"
+
+#: venv/lib/python3.13/site-packages/django/forms/widgets.py:528
+msgid "Currently"
+msgstr "Hozirda"
+
+#: venv/lib/python3.13/site-packages/django/forms/widgets.py:529
+msgid "Change"
+msgstr "O‘zgartirish"
+
+#: venv/lib/python3.13/site-packages/django/forms/widgets.py:866
+msgid "Unknown"
+msgstr "Noma'lum"
+
+#: venv/lib/python3.13/site-packages/django/forms/widgets.py:867
+msgid "Yes"
+msgstr "Ha"
+
+#: venv/lib/python3.13/site-packages/django/forms/widgets.py:868
+msgid "No"
+msgstr "Yo‘q"
+
+#. Translators: Please do not add spaces around commas.
+#: venv/lib/python3.13/site-packages/django/template/defaultfilters.py:873
+msgid "yes,no,maybe"
+msgstr "ha,yo‘q,ehtimol"
+
+#: venv/lib/python3.13/site-packages/django/template/defaultfilters.py:903
+#: venv/lib/python3.13/site-packages/django/template/defaultfilters.py:920
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] "%(size)d bayt"
+msgstr[1] "%(size)d bayt"
+
+#: venv/lib/python3.13/site-packages/django/template/defaultfilters.py:922
+#, python-format
+msgid "%s KB"
+msgstr "%s KB"
+
+#: venv/lib/python3.13/site-packages/django/template/defaultfilters.py:924
+#, python-format
+msgid "%s MB"
+msgstr "%s MB"
+#: venv/lib/python3.13/site-packages/django/template/defaultfilters.py:926
+#, python-format
+msgid "%s GB"
+msgstr "%s GB"
+
+#: venv/lib/python3.13/site-packages/django/template/defaultfilters.py:928
+#, python-format
+msgid "%s TB"
+msgstr "%s TB"
+
+#: venv/lib/python3.13/site-packages/django/template/defaultfilters.py:930
+#, python-format
+msgid "%s PB"
+msgstr "%s PB"
+
+#: venv/lib/python3.13/site-packages/django/utils/dateformat.py:74
+msgid "p.m."
+msgstr "tushdan keyin"
+
+#: venv/lib/python3.13/site-packages/django/utils/dateformat.py:75
+msgid "a.m."
+msgstr "tushdan oldin"
+
+#: venv/lib/python3.13/site-packages/django/utils/dateformat.py:80
+msgid "PM"
+msgstr "TK"
+
+#: venv/lib/python3.13/site-packages/django/utils/dateformat.py:81
+msgid "AM"
+msgstr "TO"
+
+#: venv/lib/python3.13/site-packages/django/utils/dateformat.py:153
+msgid "midnight"
+msgstr "yarim tun"
+
+#: venv/lib/python3.13/site-packages/django/utils/dateformat.py:155
+msgid "noon"
+msgstr "tush"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:7
+msgid "Monday"
+msgstr "Dushanba"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:8
+msgid "Tuesday"
+msgstr "Seshanba"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:9
+msgid "Wednesday"
+msgstr "Chorshanba"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:10
+msgid "Thursday"
+msgstr "Payshanba"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:11
+msgid "Friday"
+msgstr "Juma"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:12
+msgid "Saturday"
+msgstr "Shanba"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:13
+msgid "Sunday"
+msgstr "Yakshanba"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:16
+msgid "Mon"
+msgstr "Dush"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:17
+msgid "Tue"
+msgstr "Sesh"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:18
+msgid "Wed"
+msgstr "Chor"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:19
+msgid "Thu"
+msgstr "Pay"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:20
+msgid "Fri"
+msgstr "Jum"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:21
+msgid "Sat"
+msgstr "Sh"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:22
+msgid "Sun"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:25
+msgid "January"
+msgstr "Yanvar"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:26
+msgid "February"
+msgstr "Fevral"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:27
+msgid "March"
+msgstr "Mart"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:28
+msgid "April"
+msgstr "Aprel"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:29
+msgid "May"
+msgstr "May"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:30
+msgid "June"
+msgstr "Iyun"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:31
+msgid "July"
+msgstr "Iyul"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:32
+msgid "August"
+msgstr "Avgust"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:33
+msgid "September"
+msgstr "Sentyabir"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:34
+msgid "October"
+msgstr "Oktabir"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:35
+msgid "November"
+msgstr "Noyabir"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:36
+msgid "December"
+msgstr "Dekabir"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:39
+msgid "jan"
+msgstr "yam"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:40
+msgid "feb"
+msgstr "fev"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:41
+msgid "mar"
+msgstr "mar"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:42
+msgid "apr"
+msgstr "apr"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:43
+msgid "may"
+msgstr "may"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:44
+msgid "jun"
+msgstr "iyun"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:45
+msgid "jul"
+msgstr "iyul"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:46
+msgid "aug"
+msgstr "avg"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:47
+msgid "sep"
+msgstr "sen"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:48
+msgid "oct"
+msgstr "okt"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:49
+msgid "nov"
+msgstr "noy"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:50
+msgid "dec"
+msgstr "dek"
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:53
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:54
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:55
+msgctxt "abbrev. month"
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:56
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:57
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:58
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:59
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:60
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:61
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:62
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:63
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:64
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:67
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:68
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:69
+msgctxt "alt. month"
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:70
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:71
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:72
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:73
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:74
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:75
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:76
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:77
+msgctxt "alt. month"
+msgid "November"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/dates.py:78
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/ipv6.py:20
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/text.py:76
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s…"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/text.py:287
+msgid "or"
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#: venv/lib/python3.13/site-packages/django/utils/text.py:306
+#: venv/lib/python3.13/site-packages/django/utils/timesince.py:135
+msgid ", "
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/utils/timesince.py:8
+#, python-format
+msgid "%(num)d year"
+msgid_plural "%(num)d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.13/site-packages/django/utils/timesince.py:9
+#, python-format
+msgid "%(num)d month"
+msgid_plural "%(num)d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.13/site-packages/django/utils/timesince.py:10
+#, python-format
+msgid "%(num)d week"
+msgid_plural "%(num)d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.13/site-packages/django/utils/timesince.py:11
+#, python-format
+msgid "%(num)d day"
+msgid_plural "%(num)d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.13/site-packages/django/utils/timesince.py:12
+#, python-format
+msgid "%(num)d hour"
+msgid_plural "%(num)d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.13/site-packages/django/utils/timesince.py:13
+#, python-format
+msgid "%(num)d minute"
+msgid_plural "%(num)d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.13/site-packages/django/views/csrf.py:29
+msgid "Forbidden"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/csrf.py:30
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/csrf.py:34
+msgid ""
+"You are seeing this message because this HTTPS site requires a “Referer "
+"header” to be sent by your web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/csrf.py:40
+msgid ""
+"If you have configured your browser to disable “Referer” headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for “same-"
+"origin” requests."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/csrf.py:45
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the “Referrer-Policy: no-referrer” header, please remove them. The "
+"CSRF protection requires the “Referer” header to do strict referer checking. "
+"If you’re concerned about privacy, use alternatives like <a "
+"rel=\"noreferrer\" …> for links to third-party sites."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/csrf.py:54
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/csrf.py:60
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for “same-origin” requests."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/csrf.py:66
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/generic/dates.py:44
+msgid "No year specified"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/generic/dates.py:64
+#: venv/lib/python3.13/site-packages/django/views/generic/dates.py:115
+#: venv/lib/python3.13/site-packages/django/views/generic/dates.py:214
+msgid "Date out of range"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/generic/dates.py:94
+msgid "No month specified"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/generic/dates.py:147
+msgid "No day specified"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/generic/dates.py:194
+msgid "No week specified"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/generic/dates.py:353
+#: venv/lib/python3.13/site-packages/django/views/generic/dates.py:384
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/generic/dates.py:680
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because "
+"%(class_name)s.allow_future is False."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/generic/dates.py:720
+#, python-format
+msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/generic/detail.py:56
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/generic/list.py:70
+msgid "Page is not “last”, nor can it be converted to an int."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/generic/list.py:77
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/generic/list.py:173
+#, python-format
+msgid "Empty list and “%(class_name)s.allow_empty” is False."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/static.py:49
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/static.py:51
+#, python-format
+msgid "“%(path)s” does not exist"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/static.py:68
+#: venv/lib/python3.13/site-packages/django/views/templates/directory_index.html:8
+#: venv/lib/python3.13/site-packages/django/views/templates/directory_index.html:11
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/templates/default_urlconf.html:7
+#: venv/lib/python3.13/site-packages/django/views/templates/default_urlconf.html:204
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/templates/default_urlconf.html:206
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/templates/default_urlconf.html:208
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" "
+"rel=\"noopener\">DEBUG=True</a> is in your settings file and you have not "
+"configured any URLs."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/templates/default_urlconf.html:217
+msgid "Django Documentation"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/templates/default_urlconf.html:218
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/templates/default_urlconf.html:226
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/templates/default_urlconf.html:227
+msgid "Get started with Django"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/templates/default_urlconf.html:235
+msgid "Django Community"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django/views/templates/default_urlconf.html:236
+msgid "Connect, get help, or contribute"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django_ckeditor_5/permissions.py:18
+msgid "You do not have permission to upload files."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django_ckeditor_5/permissions.py:25
+msgid "You must be logged in to upload files."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django_ckeditor_5/validators.py:17
+#, python-format
+msgid "File should be at most %(max_size)s MB."
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django_ckeditor_5/views.py:41
+msgid "Invalid form data"
+msgstr ""
+
+#: venv/lib/python3.13/site-packages/django_ckeditor_5/widgets.py:43
+msgid "Check the correct settings.CKEDITOR_5_CONFIGS "
+msgstr ""

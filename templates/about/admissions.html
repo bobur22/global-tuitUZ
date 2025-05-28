@@ -1,0 +1,177 @@
+{% extends 'layouts/base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block body %}
+
+    <main class="main">
+
+        <!-- Page Title -->
+        <div class="page-title dark-background"
+             style="background-image: url({% static 'main/img/tatu/tatu_bino_1.jpg' %});">
+            <div class="container position-relative">
+                <h1>{% trans "Admissions" %}</h1>
+                <nav class="breadcrumbs">
+                    <ol>
+                        <li><a href="{% url 'index' %}">{% trans "Home" %}</a></li>
+                        <li><a href="{% url 'about' %}">{% trans "About" %}</a></li>
+                        <li class="current"><a href="{% url 'admissions' %}"
+                                               style="color: white!important;">{% trans "Admissions" %}</a></li>
+                    </ol>
+                </nav>
+            </div>
+        </div><!-- End Page Title -->
+
+        <!-- Admissions Section -->
+        <section id="admissions" class="admissions section">
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row gy-5 g-lg-5">
+                    <div class="col-lg-6">
+                        <div class="admissions-info" data-aos="fade-up">
+                            <h2>{% trans "Begin Your Academic Journey Today" %}</h2>
+                            <p>{% trans "Ready to embark on a transformative path? Begin your academic journey today with us and discover a world of knowledge, growth, and endless opportunities awaiting you." %}</p>
+
+                            <div class="admissions-steps mt-5">
+                                <h3>{% trans "How to Apply" %}</h3>
+                                <div class="steps-wrapper mt-4">
+                                    <div class="step-item" data-aos="fade-up" data-aos-delay="100">
+                                        <div class="step-number">1</div>
+                                        <div class="step-content">
+                                            <h4>{% trans "Submit Application" %}</h4>
+                                            <p>{% trans "Effortlessly submit your application online, beginning your journey with us with ease and convenience." %}</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="step-item" data-aos="fade-up" data-aos-delay="200">
+                                        <div class="step-number">2</div>
+                                        <div class="step-content">
+                                            <h4>{% trans "Send Documents" %}</h4>
+                                            <p>{% trans "Carefully prepare and send all required supporting documents to complete your comprehensive application file." %}</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="step-item" data-aos="fade-up" data-aos-delay="300">
+                                        <div class="step-number">3</div>
+                                        <div class="step-content">
+                                            <h4>{% trans "Interview Process" %}</h4>
+                                            <p>{% trans "Participate in our interview process, a valuable opportunity for us to learn more about your aspirations." %}</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="step-item" data-aos="fade-up" data-aos-delay="400">
+                                        <div class="step-number">4</div>
+                                        <div class="step-content">
+                                            <h4>{% trans "Receive Decision" %}</h4>
+                                            <p>{% trans "Anticipate receiving your admission decision, marking an exciting milestone in your academic pursuit." %}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="deadlines mt-5" data-aos="fade-up">
+                                <h3>{% trans "Key Admission Deadlines" %}</h3>
+                                <div class="deadline-grid mt-4">
+                                    {% for admission in admissions %}
+
+                                        <div class="deadline-item">
+                                            <h4>{{ admission.semesterName }}</h4>
+                                            <div class="date">{{ admission.semesterDate|date:"F d, Y" }}</div>
+                                        </div>
+
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="admissions-requirements" data-aos="fade-up">
+                            <h3>{% trans "Admission Requirements" %}</h3>
+                            <div class="requirements-list mt-4">
+                                <div class="requirement-item" data-aos="fade-up" data-aos-delay="100">
+                                    <div class="icon-box">
+                                        <i class="bi bi-mortarboard-fill"></i>
+                                    </div>
+                                    <div>
+                                        <h4>{% trans "Academic Records" %}</h4>
+                                        <p>{% trans "Scan your certificate or diploma with subjects and grades. Master’s applicants should include their bachelor’s diploma." %}</p>
+                                    </div>
+                                </div>
+
+                                <div class="requirement-item" data-aos="fade-up" data-aos-delay="200">
+                                    <div class="icon-box">
+                                        <i class="bi bi-file-earmark-text"></i>
+                                    </div>
+                                    <div>
+                                        <h4>{% trans "Passport" %}</h4>
+                                        <p>{% trans "Scan the main page of your passport (PDF format)." %}</p>
+                                    </div>
+                                </div>
+
+                                <div class="requirement-item" data-aos="fade-up" data-aos-delay="300">
+                                    <div class="icon-box">
+                                        <i class="bi bi-image"></i>
+                                    </div>
+                                    <div>
+                                        <h4>{% trans "Photo" %}</h4>
+                                        <p>{% trans "An electronic photo (3.5 cm x 4.5 cm) taken within the last 3 months." %}</p>
+                                    </div>
+                                </div>
+
+                                <div class="requirement-item" data-aos="fade-up" data-aos-delay="400">
+                                    <div class="icon-box">
+                                        <i class="bi bi-translate"></i>
+                                    </div>
+                                    <div>
+                                        <h4>{% trans "English Proficiency" %}</h4>
+                                        <p>{% trans "Submit your IELTS (5.5 or higher) or TOEFL iBT (71 or higher) certificate." %}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="request-info mt-5" data-aos="fade-up">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h3 class="card-title">{% trans "Request Information" %}</h3>
+                                    <p>{% trans "To request detailed information and apply, please visit our dedicated contact section. For a quicker response and immediate action, simply press the 'Submit Request' button below." %}</p>
+
+                                    <form class="php-email-form mt-4">
+                                        <div class="text-center">
+                                            <a href="{% url 'contact' %}"
+                                               class="btn btn-primary">{% trans "Submit Request" %}</a>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cta-wrapper mt-5" data-aos="fade-up">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <div class="cta-item tour">
+                                <i class="bi bi-building"></i>
+                                <h3>{% trans "Visit Our Campus" %}</h3>
+                                <p>{% trans "Visit our campus to discover your future and see where you'll thrive." %}</p>
+                                <a href="{% url 'campus' %}" class="btn btn-secondary">{% trans "View Campus" %}</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="cta-item apply">
+                                <i class="bi bi-file-earmark-check"></i>
+                                <h3>{% trans "Ready to Apply?" %}</h3>
+                                <p>{% trans "Ready to apply? Start your application now and take the next step." %}</p>
+                                <a href="https://inter-admission.tuit.uz/"
+                                   class="btn btn-primary">{% trans "Start Application" %}</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- /Admissions Section -->
+
+    </main>
+
+{% endblock body %}

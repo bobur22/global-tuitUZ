@@ -1,0 +1,193 @@
+{% extends 'layouts/base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block body %}
+
+    <main class="main">
+
+        <!-- Page Title -->
+        <div class="page-title dark-background position-relative"
+             style="background-image: url({% static 'main/img/tatu/tatu_bino_1.jpg' %});">
+            <div class="container position-relative">
+                <h1>{% trans "Falco Community" %}</h1>
+                <nav class="breadcrumbs">
+                    <ol>
+                        <li><a href="{% url 'index' %}">{% trans "Home" %}</a></li>
+                        <li><a href="{% url 'falco' %}">{% trans "Community" %}</a></li>
+                        <li class="current"><a href="{% url 'falco' %}"
+                                               style="color: white!important;">{% trans "Falco Community" %}</a>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <!-- End Page Title -->
+
+        <!-- Alumni Section -->
+        <section id="alumni" class="alumni section">
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="alumni-hero">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
+                            <div class="hero-content">
+                                <span class="alumni-badge">{% trans "Falco Community" %}</span>
+                                <h2>{% trans "About Falco" %}</h2>
+                                <p>{% trans "Falco — where Uzbekistan’s future leaders unite Real opportunities. Big impact. Serious work, Cool team, Endless growth." %}</p>
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfRHguEMypnJXz_YQJhj-PKg7wUf5W4FdAKwn_DCOLWXzpcFA/viewform"
+                                   target="_blank" class="btn btn-discover">{% trans "Want in? Apply here." %}</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-5" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="hero-image-wrapper">
+                                <div class="hero-image">
+                                    <img src="{% static 'main/img/logo/communityLogo/falocCommunity.webp' %}"
+                                         alt="Alumni Network" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="notable-alumni">
+                    <div class="section-header text-center" data-aos="fade-up" data-aos-delay="200">
+                        <h3>{% trans "Notable Spotlights" %}</h3>
+                        <p>{% trans "Members of FALCO making an impact in their fields." %}</p>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                            <div class="alumni-profile">
+                                <div class="profile-header">
+                                    <div class="profile-img">
+                                        <img src="{% static 'main/img/logo/communityLogo/gamefest.webp' %}" alt="Alumni"
+                                             class="img-fluid">
+                                    </div>
+                                    <div class="profile-year">{% trans "May 16, 2025" %}</div>
+                                </div>
+                                <div class="profile-body">
+                                    <h4>{% trans "Game Festival 2025" %}</h4>
+                                    <p>{% trans "On May 16th, our team dove into the world of cutting-edge gaming at GameFest
+                                        2025. We experienced top startup pitches that blew our minds with
+                                        innovation." %}</p>
+                                    <a href="https://www.instagram.com/p/DJt0fL8ifBr/?img_index=1"
+                                       class="btn-view-profile">{% trans "View Profile" %}<i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                            <div class="alumni-profile">
+                                <div class="profile-header">
+                                    <div class="profile-img">
+                                        <img src="{% static 'main/img/logo/communityLogo/rektorCub.webp' %}"
+                                             alt="Alumni"
+                                             class="img-fluid">
+                                    </div>
+                                    <div class="profile-year">{% trans "April 30, 2025" %}</div>
+                                </div>
+                                <div class="profile-body">
+                                    <h4>{% trans "Rektor Cup" %}</h4>
+                                    <p>{% trans "🏆 1st Place — Automated Drone Racing | Rector’s Cup From concept to execution — we soared. Falco claimed 1st place in the automated drone racing category at the Rector’s Cup, outpacing ... " %}</p>
+                                    <a href="https://www.instagram.com/p/DJZCc67sClM/?img_index=1"
+                                       class="btn-view-profile">{% trans "View Profile" %}<i
+                                            class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                            <div class="alumni-profile">
+                                <div class="profile-header">
+                                    <div class="profile-img">
+                                        <img src="{% static 'main/img/logo/communityLogo/dron.webp' %}" alt="Alumni"
+                                             class="img-fluid">
+                                    </div>
+                                    <div class="profile-year">{% trans "May 5, 2025" %}</div>
+                                </div>
+                                <div class="profile-body">
+                                    <h4>{% trans "CanSat Uzbekistan–2025" %}</h4>
+                                    <p>{% trans "Yusufov Otabek proudly receives his 2nd place certificate for the CanSat Uzbekistan 2025 competition. His dedication and skill in microsatellite development are a testament ..." %}</p>
+                                    <a href="https://www.instagram.com/p/DJpeVLzsGT2/?img_index=1"
+                                       class="btn-view-profile">{% trans "View Profile" %}<i
+                                            class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="600">
+                        <a href="https://www.instagram.com/falco_uz"
+                           class="btn-explore">{% trans "Explore More Falco Stories" %}</a>
+                    </div>
+                </div>
+
+                <div class="alumni-engagement">
+                    <div class="section-header text-center" data-aos="fade-up" data-aos-delay="200">
+                        <h3>{% trans "Lead, Connect, Impact" %}</h3>
+                        <p>{% trans "Explore how you can stay engaged with the Falco community and contribute to a global mission." %}</p>
+                    </div>
+
+                    <div class="engagement-cards">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                                <div class="engagement-card">
+                                    <div class="card-icon">
+                                        <i class="bi bi-people-fill"></i>
+                                    </div>
+                                    <h4>{% trans "Mentor the Next Wave" %}</h4>
+                                    <p>{% trans "Share your knowledge, guide rising talent, and shape future leaders from TUIT and beyond." %}</p>
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfRHguEMypnJXz_YQJhj-PKg7wUf5W4FdAKwn_DCOLWXzpcFA/viewform"
+                                       class="card-link">{% trans "Become a Mentor" %}</a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                                <div class="engagement-card">
+                                    <div class="card-icon">
+                                        <i class="bi bi-globe"></i>
+                                    </div>
+                                    <h4>{% trans "Global Gatherings" %}</h4>
+                                    <p>{% trans "Reconnect, network, and collaborate with fellow changemakers through exclusive Falco and TUIT events." %}</p>
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfRHguEMypnJXz_YQJhj-PKg7wUf5W4FdAKwn_DCOLWXzpcFA/viewform"
+                                       class="card-link">{% trans "Upcoming Events" %}</a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                                <div class="engagement-card">
+                                    <div class="card-icon">
+                                        <i class="bi bi-bullseye"></i>
+                                    </div>
+                                    <h4>{% trans "Fuel the Mission" %}</h4>
+                                    <p>{% trans "Contribute time, resources, or expertise to accelerate high-impact projects and student-led initiatives." %}</p>
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfRHguEMypnJXz_YQJhj-PKg7wUf5W4FdAKwn_DCOLWXzpcFA/viewform"
+                                       class="card-link">{% trans "Support Our Mission" %}</a>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                                <div class="engagement-card">
+                                    <div class="card-icon">
+                                        <i class="bi bi-briefcase"></i>
+                                    </div>
+                                    <h4>{% trans "Career & Opportunity Hub" %}</h4>
+                                    <p>{% trans "Access a global network of innovators, employers, and mission-driven professionals through Falco." %}</p>
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfRHguEMypnJXz_YQJhj-PKg7wUf5W4FdAKwn_DCOLWXzpcFA/viewform"
+                                       class="card-link">{% trans "Join Network" %}</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- /Alumni Section -->
+
+    </main>
+
+{% endblock body %}

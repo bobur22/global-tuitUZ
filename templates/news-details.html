@@ -1,0 +1,67 @@
+{% extends 'layouts/base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block body %}
+
+    <main class="main">
+
+        <!-- Page Title -->
+        <div class="page-title dark-background"
+             style="background-image: url({% static 'main/img/tatu/tatu_bino_1.jpg' %});">
+            <div class="container position-relative">
+                <h1>{% trans "News Details" %}</h1>
+                <nav class="breadcrumbs">
+                    <ol>
+                        <li><a href="{% url 'index' %}">{% trans "Home" %}</a></li>
+                        <li><a href="{% url 'news' %}">News</a></li>
+                        <li class="current"><a href="{% url 'news_detail' slug=news.slug %}" style="color: white!important;">{% trans "News detail" %}</a></li>
+                    </ol>
+                </nav>
+            </div>
+        </div><!-- End Page Title -->
+
+        <!-- Blog Details Section -->
+        <section id="blog-details" class="blog-details section">
+            <div class="container" data-aos="fade-up">
+
+                <article class="article">
+                    <div class="article-header">
+
+                        <h1 class="title" data-aos="fade-up" data-aos-delay="100">{{ news.n_header }}</h1>
+
+                        <div class="article-meta" data-aos="fade-up" data-aos-delay="200">
+                            <div class="author"></div>
+                            <div class="post-info">
+                                <span><i class="bi bi-calendar4-week"></i>{{ news.n_date|date:"F d, Y" }}</span>
+                                <span><i class="bi bi-clock"></i> {{ news.n_view_counter }} views</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="article-featured-image" data-aos="zoom-in">
+                        <img src="{{ news.n_news_img.url }}" alt="UI Design Evolution"
+                             class="img-fluid">
+                    </div>
+
+                    <div class="article-content">
+                        <div class="content-section" id="introduction" data-aos="fade-up">
+                            <p class="lead">
+                                {{ news.n_header }}
+                            </p>
+
+                            <p>
+                                {{ news.n_paragraph|safe }}
+                            </p>
+                        </div>
+                    </div>
+
+                </article>
+
+            </div>
+        </section>
+        <!-- /Blog Details Section -->
+
+    </main>
+
+{% endblock body %}

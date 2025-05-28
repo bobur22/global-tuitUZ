@@ -1,0 +1,95 @@
+{% load static %}
+{% load i18n %}
+
+<footer id="footer" class="footer position-relative dark-background">
+
+    <div class="container footer-top">
+        <div class="row gy-4">
+            <div class="col-lg-4 col-md-6 footer-about">
+                <a href="{% url 'index' %}" class="logo d-flex align-items-center">
+                    <span class="sitename">{% trans "TUIT International Affairs" %}</span>
+                </a>
+                <div class="footer-contact pt-3">
+                    <a href="https://maps.app.goo.gl/uWMwkSMMZnvdKLsX7" style="color: white;">
+                        {% blocktrans %}
+                            <p>Amir Temur avenue 108</p>
+                            <p>Uzbekistan, Tashkent 100084</p>
+                        {% endblocktrans %}
+                    </a>
+                    <p class="mt-3"><a href="tel:+99871250900" style="color: white"><strong>Phone:</strong> <span>+998 71 235 09 00</span></a>
+                    </p>
+                    <p><a href="mailto:interdep@tuit.uz" style="color: white"><strong>Email:</strong> <span>interdep@tuit.uz</span></a>
+                    </p>
+                </div>
+                <div class="social-links d-flex mt-4">
+                    <a href="https://t.me/ON_Affairs_bot" target="_blank"><i class="bi bi-telegram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100086189907357" target="_blank"><i
+                            class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/tuit.official/" target="_blank"><i
+                            class="bi bi-instagram"></i></a>
+                    <a href="https://tuit.uz/" target="_blank"><i class="bi bi-browser-chrome"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 footer-links">
+                <h4>{% trans "Pages" %}</h4>
+                <ul>
+                    <li><a href="{% url 'index' %}">{% trans "Home" %}</a></li>
+                    <li><a href="{% url 'about' %}">{% trans "About Us" %}</a></li>
+                    <li><a href="{% url 'news' %}">{% trans "News" %}</a></li>
+                    <li><a href="{% url 'contact' %}">{% trans "Contact Us" %}</a></li>
+                    <li><a href="{% url 'privacy' %}">{% trans "Privacy policy" %}</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-2 col-md-3 footer-links">
+                <h4>{% trans "About" %}</h4>
+                <ul>
+                    <li><a href="{% url 'about' %}">{% trans "About Us" %}</a></li>
+                    <li><a href="{% url 'starter_page' %}">{% trans "International Affairs" %}</a></li>
+                    <li><a href="{% url 'admissions' %}">{% trans "Admission" %}</a></li>
+                    <li><a href="{% url 'partner_page' %}">{% trans "Partners" %}</a></li>
+                    <li><a href="{% url 'terms_services' %}">{% trans "Terms of Service" %}</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-2 col-md-3 footer-links">
+                <h4>{% trans "Student Life" %}</h4>
+                <ul>
+                    <li><a href="{% url 'student_life' %}">{% trans "Student Life" %}</a></li>
+                    <li><a href="{% url 'academics' %}">{% trans "Academics" %}</a></li>
+                    <li><a href="{% url 'campus' %}">{% trans "Campus & Facilities" %}</a></li>
+                    <li><a href="{% url 'contact' %}">{% trans "Contact Us" %}</a></li>
+                    <li><a href="https://lms.tuit.uz/auth/login">{% trans "Log In" %}</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-2 col-md-3 footer-links">
+                <h4>Useful Links</h4>
+                <ul>
+                    <li><a href="https://tuit.uz">{% trans "TUIT official website" %}</a></li>
+                    <li><a href="https://admission.tuit.uz/">{% trans "Admission TUIT" %}</a></li>
+                    <li><a href="{% url 'falco' %}">{% trans "Community / Falco" %}</a></li>
+                    <li><a href="https://www.linkedin.com/school/tuit-uzbekistan/">{% trans "Linked In TUIT" %}</a></li>
+                    <li><a href="#">{% trans "useful link" %}</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+        {% blocktrans %}
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">TUIT International Affairs</strong> <span>All Rights Reserved</span>
+        </p>
+        {% endblocktrans %}
+    </div>
+
+</footer>
+
+<!-- Scroll Top -->
+<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+
+<!-- Preloader -->
+{#<div id="preloader"></div>#}

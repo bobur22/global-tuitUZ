@@ -1,0 +1,48 @@
+{% extends 'layouts/base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block body %}
+
+    <main class="main">
+
+        <!-- Page Title -->
+        <div class="page-title dark-background"
+             style="background-image: url({% static 'main/img/tatu/tatu_bino_1.jpg' %});">
+            <div class="container position-relative">
+                <h1>{% trans "International Affairs Office" %}</h1>
+                <nav class="breadcrumbs">
+                    <ol>
+                        <li><a href="{% url 'index' %}">{% trans "Home" %}</a></li>
+                        <li><a href="{% url 'about' %}">{% trans "About" %}</a></li>
+                        <li><a href="{% url 'starter_page' %}" style="color: white">{% trans "International Affairs" %}</a></li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <!-- End Page Title -->
+
+        <!-- Starter Section -->
+        <section id="starter-section" class="starter-section section">
+
+            <!-- Section Title -->
+            <div class="container section-title" data-aos="fade-up">
+                <h2>{{ inf.inf_header }}</h2>
+            </div>
+            <!-- End Section Title -->
+
+            <div class="container" data-aos="fade-up">
+
+                <div class="article-featured-image" data-aos="zoom-in">
+                    <img src="{{ inf.inf_img.url }}" alt="UI Design Evolution"
+                         class="img-fluid">
+                </div>
+
+                <p class="pt-5">{{ inf.inf_paragraph|safe }}</p>
+            </div>
+
+        </section><!-- /Starter Section -->
+
+    </main>
+
+{% endblock body %}

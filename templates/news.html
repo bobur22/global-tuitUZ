@@ -1,0 +1,222 @@
+{% extends 'layouts/base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block body %}
+
+    <main class="main">
+
+        <!-- Page Title -->
+        <div class="page-title dark-background"
+             style="background-image: url({% static 'main/img/tatu/tatu_bino_1.jpg' %});">
+            <div class="container position-relative">
+                <h1>News</h1>
+                <nav class="breadcrumbs">
+                    <ol>
+                        <li><a href="{% url 'index' %}">{% trans "Home" %}</a></li>
+                        <li class="current"><a href="{% url 'news' %}" style="color: white!important;">{% trans "News" %}</a></li>
+                    </ol>
+                </nav>
+            </div>
+        </div><!-- End Page Title -->
+
+        <!-- News Hero Section -->
+        <section id="news-hero" class="news-hero section">
+
+            <div class="container" data-aos="fade-up">
+
+                <div class="row g-4">
+                    <!-- Left Side Posts -->
+                    <div class="col-lg-3">
+                        <div class="side-posts">
+                            <!-- Side Post 1 -->
+                            {% for imn in important_news|slice:"1:2" %}
+                                <article class="post-item side-post" data-aos="fade-right" data-aos-delay="100">
+                                    <div class="post-img">
+                                        <img src="{{ imn.n_news_img.url }}" alt="Post Image"
+                                             class="img-fluid" loading="lazy">
+                                        {#                  <span class="category entertainment">Entertainment</span>#}
+                                    </div>
+                                    <div class="post-content">
+                                        <h3 class="post-title">
+                                            <a href="{% url 'news_detail' slug=imn.slug %}">{{ imn.n_header }}</a>
+                                        </h3>
+                                        <div class="post-meta">
+                                            <span>{{ imn.n_date|date:"F d, Y" }}</span>
+                                            <span class="dot">•</span>
+                                            <span>{{ imn.n_view_counter }} views</span>
+                                        </div>
+                                    </div>
+                                </article>
+                            {% endfor %}
+
+                            {% for imn in important_news|slice:"2:3" %}
+                                <!-- Side Post 2 -->
+                                <article class="post-item side-post" data-aos="fade-right" data-aos-delay="200">
+                                    <div class="post-img">
+                                        <img src="{{ imn.n_news_img.url }}" alt="Post Image"
+                                             class="img-fluid" loading="lazy">
+                                    </div>
+                                    <div class="post-content">
+                                        <h3 class="post-title">
+                                            <a href="{% url 'news_detail' slug=imn.slug %}">{{ imn.n_header }}</a>
+                                        </h3>
+                                        <div class="post-meta">
+                                            <span>{{ imn.n_date|date:"F d, Y" }}</span>
+                                            <span class="dot">•</span>
+                                            <span>{{ imn.n_view_counter }} views</span>
+                                        </div>
+                                    </div>
+                                </article>
+                            {% endfor %}
+                        </div>
+                    </div>
+
+                    <!-- Main Post -->
+                    <div class="col-lg-6">
+                        {% for imn in important_news|slice:":1" %}
+                            <article class="post-item main-post" data-aos="fade-up">
+                                <div class="post-img">
+                                    <img src="{{ imn.n_news_img.url }}" alt="Post Image"
+                                         class="img-fluid">
+                                </div>
+                                <div class="post-content">
+                                    <h2 class="post-title">
+                                        <a href="{% url 'news_detail' slug=imn.slug %}">{{ imn.n_header }}</a>
+                                    </h2>
+                                    <p class="post-excerpt">{{ imn.n_paragraph|truncatewords_html:"40"|safe }}</p>
+                                    <div class="post-meta">
+                                        <span>{{ imn.n_date|date:"F d, Y" }}</span>
+                                        <span class="dot">•</span>
+                                        <span>{{ imn.n_view_counter }} views</span>
+                                    </div>
+                                </div>
+                            </article>
+                        {% endfor %}
+                    </div>
+
+                    <!-- Right Side Posts -->
+                    <div class="col-lg-3">
+                        <div class="side-posts">
+                            <!-- Side Post 3 -->
+                            {% for imn in important_news|slice:"3:4" %}
+                                <article class="post-item side-post" data-aos="fade-left" data-aos-delay="100">
+                                    <div class="post-img">
+                                        <img src="{{ imn.n_news_img.url }}" alt="Post Image"
+                                             class="img-fluid" loading="lazy">
+                                    </div>
+                                    <div class="post-content">
+                                        <h3 class="post-title">
+                                            <a href="{% url 'news_detail' slug=imn.slug %}">{{ imn.n_header }}</a>
+                                        </h3>
+                                        <div class="post-meta">
+                                            <span>{{ imn.n_date|date:"F d, Y" }}</span>
+                                            <span class="dot">•</span>
+                                            <span>{{ imn.n_view_counter }} views</span>
+                                        </div>
+                                    </div>
+                                </article>
+                            {% endfor %}
+
+                            <!-- Side Post 4 -->
+                            {% for imn in important_news|slice:"4:5" %}
+                                <article class="post-item side-post" data-aos="fade-left" data-aos-delay="200">
+                                    <div class="post-img">
+                                        <img src="{{ imn.n_news_img.url }}" alt="Post Image"
+                                             class="img-fluid" loading="lazy">
+                                    </div>
+                                    <div class="post-content">
+                                        <h3 class="post-title">
+                                            <a href="{% url 'news_detail' slug=imn.slug %}">{{ imn.n_header }}</a>
+                                        </h3>
+                                        <div class="post-meta">
+                                            <span>{{ imn.n_date|date:"F d, Y" }}</span>
+                                            <span class="dot">•</span>
+                                            <span>{{ imn.n_view_counter }} views</span>
+                                        </div>
+                                    </div>
+                                </article>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section><!-- /News Hero Section -->
+
+        <!-- News Posts Section -->
+        <section id="news-posts" class="news-posts section">
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row gy-4">
+
+                    {% for e_news in page_obj %}
+                        <div class="col-lg-4">
+                            <article>
+
+                                <div class="post-img position-relative">
+                                    <img src="{{ e_news.n_news_img.url }}" alt="" class="img-fluid"
+                                         loading="lazy">
+                                    <div class="post-content">
+                                        <h2 class="title">
+                                            <a href="{% url 'news_detail' slug=e_news.slug %}">{{ e_news.n_header|truncatechars_html:60 }}</a>
+                                        </h2>
+                                        <div class="post-meta">
+                                            <time datetime="2025-01-01">{{ e_news.n_date|date:"F d, Y" }}</time>
+                                            <span class="px-2">•</span>
+                                            <span>{{ e_news.n_view_counter }} views</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+        </section><!-- /News Posts Section -->
+
+        <!-- Pagination 2 Section -->
+        <section id="pagination-2" class="pagination-2 section">
+
+            <div class="container">
+                <nav class="d-flex justify-content-center" aria-label="Page navigation">
+                    <ul>
+
+                        {% if page_obj.has_previous %}
+                            <li>
+                                <a href="?page={{ page_obj.previous_page_number }}" aria-label="Previous page">
+                                    <i class="bi bi-arrow-left"></i>
+                                    <span class="d-none d-sm-inline">Previous</span>
+                                </a>
+                            </li>
+                        {% endif %}
+
+                        {% for i in page_obj.paginator.page_range %}
+                            {% if page_obj.number == i %}
+                                <li><a href="#" class="active">{{ i }}</a></li>
+                            {% elif i > page_obj.number|add:'-8' and i < page_obj.number|add:'8' %}
+                                <li><a href="?page={{ forloop.counter }}">{{ forloop.counter }}</a></li>
+                            {% elif i == page_obj.number|add:'-8' or i == page_obj.number|add:'8' %}
+                                <li class="ellipsis">...</li>
+                            {% endif %}
+                        {% endfor %}
+
+                        {% if page_obj.has_next %}
+                            <li>
+                                <a href="?page={{ page_obj.next_page_number }}" aria-label="Next page">
+                                    <span class="d-none d-sm-inline">Next</span>
+                                    <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </li>
+                        {% endif %}
+                    </ul>
+                </nav>
+            </div>
+
+        </section><!-- /Pagination 2 Section -->
+
+    </main>
+
+{% endblock body %}
