@@ -135,8 +135,6 @@ def TermsServices(request):
     return render(request, 'terms-of-service.html')
 
 
-from django.shortcuts import render
-
 # Custom 404 handler
 def NF404(request, exception):
     return render(request, '404/404.html', status=404)

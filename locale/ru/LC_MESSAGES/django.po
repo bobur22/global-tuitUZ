@@ -773,6 +773,10 @@ msgstr "16 мая 2025"
 msgid "Game Festival 2025"
 msgstr "Игровой фестиваль 2025"
 
+#: templates/alumni.html:72
+msgid "On May 16th, our team dove into the world of cutting-edge gaming at GameFest 2025. We experienced top startup pitches that blew our minds with innovation."
+msgstr "16 мая наша команда погрузилась в мир передовых игр на GameFest 2025. Мы стали свидетелями потрясающих стартап-презентаций, поражающих своим инновационным подходом."
+
 #: templates/alumni.html:76 templates/alumni.html:95 templates/alumni.html:114
 msgid "View Profile"
 msgstr "Посмотреть профиль"
@@ -896,12 +900,29 @@ msgid "Tashkent 100084, Amir Temur avenue 108, Uzbekistan"
 msgstr "Ташкент 100084, проспект Амира Темура 108, Узбекистан"
 
 #: templates/contact.html:48
+#: templates/contact.html:103
 msgid "Email Address"
 msgstr "Адрес электронной почты"
 
 #: templates/contact.html:60
-msgid "Hours of Operation"
-msgstr "Часы работы"
+msgid "Contact by Phone"
+msgstr "Связаться по телефону"
+
+#: templates/contact.html:82
+msgid "Get in Touch"
+msgstr "Связаться с нами"
+
+#: templates/contact.html:93
+msgid "Full Name"
+msgstr "Полное имя"
+
+#: templates/contact.html:113
+msgid "Subject"
+msgstr "Тема"
+
+#: templates/contact.html:123
+msgid "Write Message..."
+msgstr "Напишите сообщение..."
 
 #: templates/contact.html:130
 msgid "SEND MESSAGE"
@@ -994,6 +1015,12 @@ msgstr "Последние новости"
 #: templates/index.html:246
 msgid "Excellence in Education for Over 70 Years"
 msgstr "Превосходство в образовании более 70 лет"
+
+#: templates/index.html:250
+msgid ""
+"Since 1955, TUIT has been at the forefront of technological education in Central Asia. Named after the legendary scholar Al-Khwarizmi, our university blends tradition with innovation to train future leaders in IT, cybersecurity, and telecommunications. With branches across Uzbekistan and a global vision, TUIT continues to lead in digital transformation."
+msgstr ""
+"С 1955 года ТУИТ находится в авангарде технологического образования в Центральной Азии. Названный в честь великого учёного Аль-Хорезми, наш университет сочетает традиции и инновации, чтобы готовить будущих лидеров в области ИТ, кибербезопасности и телекоммуникаций. С филиалами по всему Узбекистану и глобальным видением, ТУИТ продолжает лидировать в цифровой трансформации."
 
 #: templates/index.html:253
 msgid "Learn More"
@@ -1115,6 +1142,14 @@ msgstr ""
 "                            <p>Узбекистан, Ташкент 100084</p>\n"
 "                        "
 
+#: templates/layouts/footer.html:19
+msgid "Phone:"
+msgstr "Телефон:"
+
+#: templates/layouts/footer.html:21
+msgid "Email:"
+msgstr "Эл. почта:"
+
 #: templates/layouts/footer.html:35
 msgid "Pages"
 msgstr "Страницы"
@@ -1160,8 +1195,12 @@ msgid "Campus & Facilities"
 msgstr "Кампус и инфраструктура"
 
 #: templates/layouts/footer.html:63 templates/layouts/navbar.html:65
-msgid "Log In"
-msgstr "Войти"
+msgid "LMS TUIT"
+msgstr "LMS ТУИТ"
+
+#: templates/layouts/footer.html:68
+msgid "Useful Links:"
+msgstr "Полезные ссылки:"
 
 #: templates/layouts/footer.html:70
 msgid "TUIT official website"
@@ -1237,6 +1276,10 @@ msgstr "Отмеченные наградами профессора и эксп
 #: templates/studentLife/academics.html:56
 msgid "Advanced research in AI, cybersecurity & more"
 msgstr "Передовые исследования в области ИИ, кибербезопасности и других направлениях"
+
+#: templates/studentLife/academics.html:89
+msgid "Download Program Full Detail"
+msgstr "Скачать информацию о программе"
 
 #: templates/studentLife/academics.html:103
 msgid "TUIT in Numbers"
@@ -1726,13 +1769,18 @@ msgstr "6 творческих направлений"
 msgid "Athletics & Recreation at TUIT"
 msgstr "Спорт и отдых в ТУИТ"
 
-#: templates/studentLife/students-life.html:194
+#: templates/studentLife/students-life.html:188
 msgid ""
 "At TUIT University, we believe in building strong minds and bodies. Our "
 "athletics and recreation programs offer students the opportunity to stay "
-"active, compete, and grow through sports and teamwork."
+"active, compete, and grow through sports and teamwork. Whether you're aiming "
+"for a championship or just staying fit, there's a place for you here."
 msgstr ""
-"В университете ТУИТ мы верим в развитие сильных умов и тел. Наши программы по спорту и отдыху предоставляют студентам возможность оставаться активными, соревноваться и расти через спорт и командную работу."
+"В университете ТУИТ мы верим в развитие сильных умов и тел. "
+"Наши программы по спорту и отдыху предоставляют студентам возможность "
+"оставаться активными, соревноваться и расти через спорт и командную работу. "
+"Независимо от того, стремитесь ли вы к чемпионству или просто хотите поддерживать форму — здесь вы найдете свое место."
+
 
 #: templates/studentLife/students-life.html:201
 msgid "Sports Teams"
@@ -1838,6 +1886,10 @@ msgstr "Взгляните на наше яркое студенческое с�
 #: templates/studentLife/students-life.html:391
 msgid "Campus Events"
 msgstr "Мероприятия кампуса"
+
+#: templates/studentLife/students-life.html:402
+msgid "Sport Clubs"
+msgstr "Спортивные клубы"
 
 #: templates/studentLife/students-life.html:413
 msgid "Graduation Day"

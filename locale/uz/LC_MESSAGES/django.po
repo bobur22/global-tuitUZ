@@ -729,6 +729,10 @@ msgstr "2025-yil 16-may"
 msgid "Game Festival 2025"
 msgstr "O‘yinlar festivali 2025"
 
+#: templates/alumni.html:72
+msgid "On May 16th, our team dove into the world of cutting-edge gaming at GameFest 2025. We experienced top startup pitches that blew our minds with innovation."
+msgstr "16-may kuni jamoamiz GameFest 2025 tadbirida zamonaviy o‘yinlar dunyosiga sho‘ng‘idi. Bizni hayratda qoldirgan innovatsion startap taqdimotlarini boshdan kechirdik."
+
 #: templates/alumni.html:76 templates/alumni.html:95 templates/alumni.html:114
 msgid "View Profile"
 msgstr "Profilni ko‘rish"
@@ -838,12 +842,29 @@ msgid "Tashkent 100084, Amir Temur avenue 108, Uzbekistan"
 msgstr "Toshkent 100084, Amir Temur shohko‘chasi 108, O‘zbekiston"
 
 #: templates/contact.html:48
+#: templates/contact.html:103
 msgid "Email Address"
 msgstr "Elektron pochta manzili"
 
 #: templates/contact.html:60
-msgid "Hours of Operation"
-msgstr "Ish soatlari"
+msgid "Contact by Phone"
+msgstr "Telefon orqali bog‘laning"
+
+#: templates/contact.html:82
+msgid "Get in Touch"
+msgstr "Bog‘lanish"
+
+#: templates/contact.html:93
+msgid "Full Name"
+msgstr "To‘liq ism"
+
+#: templates/contact.html:113
+msgid "Subject"
+msgstr "Mavzu"
+
+#: templates/contact.html:123
+msgid "Write Message..."
+msgstr "Xabaringizni yozing..."
 
 #: templates/contact.html:130
 msgid "SEND MESSAGE"
@@ -920,6 +941,12 @@ msgstr "So‘nggi yangiliklar"
 #: templates/index.html:246
 msgid "Excellence in Education for Over 70 Years"
 msgstr "70 yildan ortiq ta'limda mukammallik"
+
+#: templates/index.html:250
+msgid ""
+"Since 1955, TUIT has been at the forefront of technological education in Central Asia. Named after the legendary scholar Al-Khwarizmi, our university blends tradition with innovation to train future leaders in IT, cybersecurity, and telecommunications. With branches across Uzbekistan and a global vision, TUIT continues to lead in digital transformation."
+msgstr ""
+"1955-yildan beri TATU Markaziy Osiyoda texnologik taʼlimning yetakchisidir. Buyuk olim Al-Xorazmiy nomi bilan atalgan universitetimiz an’ana va innovatsiyalarni uygʻunlashtirib, IT, kiberxavfsizlik va telekommunikatsiya sohalarida kelajak yetakchilarini tayyorlaydi. Oʻzbekiston boʻylab filiallarga ega va global qarashlarga ega TATU raqamli transformatsiyada yetakchilikni davom ettirmoqda."
 
 #: templates/index.html:253
 msgid "Learn More"
@@ -1022,6 +1049,14 @@ msgstr ""
 "                            <p>O‘zbekiston, Toshkent 100084</p>\n"
 "                        "
 
+#: templates/layouts/footer.html:19
+msgid "Phone:"
+msgstr "Telefon:"
+
+#: templates/layouts/footer.html:21
+msgid "Email:"
+msgstr "Elektr pochta:"
+
 #: templates/layouts/footer.html:35
 msgid "Pages"
 msgstr "Sahifalar"
@@ -1067,8 +1102,12 @@ msgid "Campus & Facilities"
 msgstr "Kampus va jihozlar"
 
 #: templates/layouts/footer.html:63 templates/layouts/navbar.html:65
-msgid "Log In"
-msgstr "Kirish"
+msgid "LMS TUIT"
+msgstr "LMS TUIT"
+
+#: templates/layouts/footer.html:68
+msgid "Useful Links:"
+msgstr "Foydali havolalar:"
 
 #: templates/layouts/footer.html:70
 msgid "TUIT official website"
@@ -1142,6 +1181,10 @@ msgstr "Mukofotlangan professorlar va sanoat mutaxassislari"
 #: templates/studentLife/academics.html:56
 msgid "Advanced research in AI, cybersecurity & more"
 msgstr "Sun'iy intellekt, kiberxavfsizlik va boshqalarda ilg‘or tadqiqotlar"
+
+#: templates/studentLife/academics.html:89
+msgid "Download Program Full Detail"
+msgstr "Dastur tafsilotlarini yuklab oling"
 
 #: templates/studentLife/academics.html:103
 msgid "TUIT in Numbers"
@@ -1622,14 +1665,17 @@ msgstr "6 ta ijodiy yo‘nalish"
 msgid "Athletics & Recreation at TUIT"
 msgstr "TUITda sport va dam olish"
 
-#: templates/studentLife/students-life.html:194
+#: templates/studentLife/students-life.html:188
 msgid ""
 "At TUIT University, we believe in building strong minds and bodies. Our "
 "athletics and recreation programs offer students the opportunity to stay "
 "active, compete, and grow through sports and teamwork. Whether you're aiming "
 "for a championship or just staying fit, there's a place for you here."
 msgstr ""
-"TUIT Universitetida biz kuchli aql va tanalarni shakllantirishga ishonamiz. Bizning sport va dam olish dasturlarimiz talabalarga faol bo‘lish, musobaqalashish va sport va jamoaviy ish orqali o‘sish imkoniyatini beradi."
+"TUIT universitetida biz kuchli aql va jismni tarbiyalashga ishonamiz. "
+"Sport va dam olish dasturlarimiz talabalar uchun faol bo‘lish, musobaqalashish "
+"va jamoaviy sport orqali rivojlanish imkoniyatini taqdim etadi."
+
 
 #: templates/studentLife/students-life.html:201
 msgid "Sports Teams"
@@ -1735,6 +1781,10 @@ msgstr "Jonli talaba jamoamizga bir nazar tashlang"
 #: templates/studentLife/students-life.html:391
 msgid "Campus Events"
 msgstr "Kampus tadbirlari"
+
+#: templates/studentLife/students-life.html:402
+msgid "Sport Clubs"
+msgstr "Sport klublari"
 
 #: templates/studentLife/students-life.html:413
 msgid "Graduation Day"

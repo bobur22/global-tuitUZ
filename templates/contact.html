@@ -8,7 +8,7 @@
 
         <!-- Page Title -->
         <div class="page-title dark-background"
-             style="background-image: url({% static 'main/img/tatu/tatu_bino_1.jpg' %});">
+             style="background-image: url({% static 'main/img/tatu/tatu_bino_1.webp' %});">
             <div class="container position-relative">
                 <h1>{% trans "Contact" %}</h1>
                 <nav class="breadcrumbs">
@@ -57,8 +57,8 @@
                                 <i class="bi bi-headset"></i>
                             </div>
                             <div class="info-content">
-                                <h4>{% trans "Hours of Operation" %}</h4>
-                                <p style="color: #212529!important;">Wed: 2 PM - 4 PM</p>
+                                <h4>{% trans "Contact by Phone" %}</h4>
+                                <p style="color: #212529!important;"><a href="tel:+99871250900" style="color: black">+998 71 235 09 00</a></p>
 {#                                <p>Saturday: 9 AM - 4 PM</p>#}
                             </div>
                         </div>
@@ -79,7 +79,7 @@
                 <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="300">
                     <div class="col-lg-10">
                         <div class="contact-form-wrapper">
-                            <h2 class="text-center mb-4">Get in Touch</h2>
+                            <h2 class="text-center mb-4">{% trans "Get in Touch" %}</h2>
 
                             <form action="{% url 'contact' %}" method="post" class="php-email-form">
                                 <div class="row g-3">
@@ -90,7 +90,7 @@
                                             <div class="input-with-icon">
                                                 <i class="bi bi-person"></i>
                                                 <input type="text" class="form-control" name="name"
-                                                       placeholder="Full Name" required="">
+                                                       placeholder="{% trans "Full Name" %}" required="">
                                             </div>
                                         </div>
                                     </div>
@@ -100,7 +100,7 @@
                                             <div class="input-with-icon">
                                                 <i class="bi bi-envelope"></i>
                                                 <input type="email" class="form-control" name="email"
-                                                       placeholder="Email Address" required="">
+                                                       placeholder="{% trans "Email Address" %}" required="">
                                             </div>
                                         </div>
                                     </div>
@@ -110,7 +110,7 @@
                                             <div class="input-with-icon">
                                                 <i class="bi bi-text-left"></i>
                                                 <input type="text" class="form-control" name="subject"
-                                                       placeholder="Subject" required="">
+                                                       placeholder="{% trans "Subject" %}" required="">
                                             </div>
                                         </div>
                                     </div>
@@ -120,7 +120,7 @@
                                             <div class="input-with-icon">
                                                 <i class="bi bi-chat-dots message-icon"></i>
                                                 <textarea class="form-control" name="message"
-                                                          placeholder="Write Message..." style="height: 180px"
+                                                          placeholder="{% trans "Write Message..." %}" style="height: 180px"
                                                           required=""></textarea>
                                             </div>
                                         </div>

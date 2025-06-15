@@ -15,7 +15,7 @@
 
     <!-- Favicons -->
     <link href="{% static 'main/img/logo/tatu_official_logo_2.png' %}" rel="icon">
-    <link href="{% static 'main/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+    <link href="{% static 'main/img/logo/tatu_official_logo_2.png' %}" rel="apple-touch-icon">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -26,12 +26,13 @@
     <!-- Vendor CSS Files -->
     <link href="{% static 'main/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
     <link href="{% static 'main/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
-    <link href="{% static 'main/vendor/aos/aos.css' %}" rel="stylesheet">
+{#    <link href="{% static 'main/vendor/aos/aos.css' %}" rel="stylesheet">#}
     <link href="{% static 'main/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
     <link href="{% static 'main/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
 
     <!-- Main CSS File -->
     <link href="{% static 'main/css/main.css' %}" rel="stylesheet">
+
 </head>
 
 <body class="index-page">
@@ -47,14 +48,18 @@
 <!-- Vendor JS Files -->
 <script src="{% static 'main/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
 <script src="{% static 'main/vendor/aos/aos.js' %}"></script>
-<script src="{% static 'main/vendor/purecounter/purecounter_vanilla.js' %}"></script>
-<script src="{% static 'main/vendor/imagesloaded/imagesloaded.pkgd.min.js' %}"></script>
-<script src="{% static 'main/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+{#<script src="{% static 'main/vendor/imagesloaded/imagesloaded.pkgd.min.js' %}"></script>#}
+{#<script src="{% static 'main/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>#}
 <script src="{% static 'main/vendor/swiper/swiper-bundle.min.js' %}"></script>
 <script src="{% static 'main/vendor/glightbox/js/glightbox.min.js' %}"></script>
+<script src="{% static 'main/vendor/purecounter/purecounter_vanilla.js' %}"></script>
+<script src="{% static 'main/js/main.js' %}"></script>
+
+{% block script %}
+
+{% endblock script %}
 
 <!-- Main JS File -->
-<script src="{% static 'main/js/main.js' %}"></script>
 
 </body>
 

@@ -12,7 +12,8 @@
             <div class="hero-container">
                 <picture>
                     <source srcset="{% static 'main/img/tatu/tatu_bino_main_1.webp' %}" type="image/webp">
-                    <img src="{% static 'main/img/tatu/tatu_bino_main_1.jpg' %}" alt="" class="video-background">
+                    <img src="{% static 'main/img/tatu/tatu_bino_main_1.jpg' %}" alt="TUIT Building"
+                         class="video-background" loading="lazy" width="1280" height="445">
                 </picture>
 
                 <div class="overlay"></div>
@@ -23,8 +24,10 @@
                                 <h1>{% trans "Shaping ICT Innovators Through Education" %}</h1>
                                 <p>{% trans "TUIT, founded in 1955, offers cutting-edge ICT education with 23 programs, 14,632 students, and partnerships with 26 countries." %}</p>
                                 <div class="cta-buttons">
-                                    <a href="{% url 'admissions' %}" class="btn-primary">{% trans "Start Your Journey" %}</a>
-                                    <a href="{% url 'academics' %}" class="btn-secondary">{% trans "Discover Programs" %}</a>
+                                    <a href="{% url 'admissions' %}"
+                                       class="btn-primary">{% trans "Start Your Journey" %}</a>
+                                    <a href="{% url 'academics' %}"
+                                       class="btn-secondary">{% trans "Discover Programs" %}</a>
                                 </div>
                             </div>
                         </div>
@@ -92,7 +95,8 @@
 
                 <div class="row mb-5">
                     <div class="col-lg-6 pe-lg-5" data-aos="fade-right" data-aos-delay="200">
-                        <h2 class="display-6 fw-bold mb-4">{% blocktrans %}Innovating ICT, <span>Building Global Leaders</span>{% endblocktrans %}</h2>
+                        <h2 class="display-6 fw-bold mb-4">{% blocktrans %}Innovating ICT,
+                            <span>Building Global Leaders</span>{% endblocktrans %}</h2>
                         <p class="lead mb-4">{% trans "Founded in 1955, TUIT leads in ICT education with 10,242 students across 23 programs and 42 partnerships with universities in 26 countries, driving technological  excellence." %}</p>
                         <div class="d-flex flex-wrap gap-4 mb-4">
                             <div class="stat-box">
@@ -118,12 +122,12 @@
                     <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
                         <div class="image-stack">
                             <div class="image-stack-item image-stack-item-top" data-aos="zoom-in" data-aos-delay="400">
-                                <img src="{% static 'main/img/tatu/img12.jpg' %}" alt="Campus Life"
+                                <img src="{% static 'main/img/tatu/img12.jpg' %}" alt="Campus Life" loading="lazy"
                                      class="img-fluid rounded-4 shadow-lg">
                             </div>
                             <div class="image-stack-item image-stack-item-bottom" data-aos="zoom-in"
                                  data-aos-delay="500">
-                                <img src="{% static 'main/img/tatu/tatu_graduation.jpg' %}" alt="Students"
+                                <img src="{% static 'main/img/tatu/tatu_graduation.webp' %}" alt="Students" loading="lazy"
                                      class="img-fluid rounded-4 shadow-lg">
                             </div>
                         </div>
@@ -182,7 +186,7 @@
                             <article>
 
                                 <div class="post-img">
-                                    <img src="{{ i.n_news_img.url }}" alt="" class="img-fluid">
+                                    <img src="{{ i.n_news_img.url }}" alt="" class="img-fluid"> loading="lazy"
                                 </div>
 
                                 <h2 class="title mb-0">
@@ -199,7 +203,7 @@
                             <article>
 
                                 <div class="post-img">
-                                    <img src="{{ i.n_news_img.url }}" alt="" class="img-fluid">
+                                    <img src="{{ i.n_news_img.url }}" alt="" class="img-fluid"> loading="lazy"
                                 </div>
 
                                 <h2 class="title mb-0">
@@ -216,7 +220,7 @@
                             <article>
 
                                 <div class="post-img">
-                                    <img src="{{ i.n_news_img.url }}" alt="" class="img-fluid">
+                                    <img src="{{ i.n_news_img.url }}" alt="" class="img-fluid"> loading="lazy"
                                 </div>
 
                                 <h2 class="title  mb-0">
@@ -244,11 +248,14 @@
                     <div class="col-lg-6">
                         <div class="stats-overview" data-aos="fade-right" data-aos-delay="200">
                             <h2 class="stats-title">{% trans "Excellence in Education for Over 70 Years" %}</h2>
-                            <p class="stats-description">Since 1955, TUIT has been at the forefront of technological
-                                education in Central Asia. Named after the legendary scholar Al-Khwarizmi, our
-                                university blends tradition with innovation to train future leaders in IT,
+                            <p class="stats-description">{% blocktrans trimmed %}
+                                Since 1955, TUIT has been at the forefront of
+                                technological education in Central Asia. Named after the legendary scholar Al-Khwarizmi,
+                                our university blends tradition with innovation to train future leaders in IT,
                                 cybersecurity, and telecommunications. With branches across Uzbekistan and a global
-                                vision, TUIT continues to lead in digital transformation.</p>
+                                vision, TUIT continues to lead in digital transformation.
+                            {% endblocktrans %}
+                            </p>
                             <div class="stats-cta">
                                 <a href="{% url 'about' %}" class="btn btn-primary">{% trans "Learn More" %}</a>
                                 <a href="http://360.tuit.uz/" class="btn btn-outline">{% trans "Virtual Tour" %}</a>
@@ -317,7 +324,7 @@
                                 <div class="col-md-4">
                                     <div class="achievement-item">
                                         <img src="{% static 'main/img/tatu/home/topRanking.webp' %}" alt="Achievement"
-                                             class="img-fluid">
+                                             class="img-fluid" loading="lazy">
                                         <div class="achievement-content">
                                             <h4>{% trans "Top-Ranked Programs" %}</h4>
                                             <p>{% trans "Award-winning programs built for innovation, leadership, and global impact." %}</p>
@@ -327,7 +334,7 @@
                                 <div class="col-md-4">
                                     <div class="achievement-item">
                                         <img src="{% static 'main/img/tatu/home/stateOfArt.webp' %}" alt="Achievement"
-                                             class="img-fluid">
+                                             class="img-fluid" loading="lazy">
                                         <div class="achievement-content">
                                             <h4>{% trans "State-of-the-Art Facilities" %}</h4>
                                             <p>{% trans "Modern labs and smart classrooms empower future-ready student learning." %}</p>
@@ -337,7 +344,7 @@
                                 <div class="col-md-4">
                                     <div class="achievement-item">
                                         <img src="{% static 'main/img/tatu/home/globalAlumni.webp' %}" alt="Achievement"
-                                             class="img-fluid">
+                                             class="img-fluid" loading="lazy">
                                         <div class="achievement-content">
                                             <h4>{% trans "Global Alumni Network" %}</h4>
                                             <p>{% trans "Worldwide alumni connections offering mentorship, opportunity, and lifelong support." %}</p>
@@ -368,11 +375,12 @@
                     <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
                         <div class="students-life-img position-relative">
                             <img src="{% static 'main/img/tatu/home/studentGallery.webp' %}"
-                                 class="img-fluid rounded-4 shadow-sm"
+                                 class="img-fluid rounded-4 shadow-sm" loading="lazy"
                                  alt="Students Life">
                             <div class="img-overlay">
                                 <h3>{% trans "Discover Campus Life" %}</h3>
-                                <a href="{% url 'campus' %}" class="explore-btn">{% trans "Explore More" %}<i class="bi bi-arrow-right"></i></a>
+                                <a href="{% url 'campus' %}" class="explore-btn">{% trans "Explore More" %}<i
+                                        class="bi bi-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -423,7 +431,8 @@
                             </div>
 
                             <div class="students-life-cta text-center" data-aos="fade-up" data-aos-delay="600">
-                                <a href="{% url 'student_life' %}" class="btn btn-primary">{% trans "View All Student Activities" %}</a>
+                                <a href="{% url 'student_life' %}"
+                                   class="btn btn-primary">{% trans "View All Student Activities" %}</a>
                             </div>
                         </div>
                     </div>

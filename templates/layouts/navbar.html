@@ -11,7 +11,7 @@
 
         <nav id="navmenu" class="navmenu">
             <ul>
-                <li><a href="{{ index }}" class="{% if request.path == index %}active{% endif %}">Home</a></li>
+                <li><a href="{{ index }}" class="{% if request.path == index %}active{% endif %}">{% trans "Home" %}</a></li>
                 {% url 'about' as about %}
                 {% url 'admissions' as admissions %}
                 {% url 'academics' as academics %}
@@ -72,7 +72,7 @@
                     </ul>
                 </li>
                 {% url 'contact' as contact %}
-                <li><a href="https://lms.tuit.uz/auth/login" target="_blank">{% trans "Log In" %}</a></li>
+                <li><a href="https://lms.tuit.uz/auth/login" target="_blank">{% trans "LMS TUIT" %}</a></li>
                 <li><a href="{{ contact }}"
                        class="{% if request.path == contact %}active{% endif %}">{% trans "Contact" %}</a></li>
 
